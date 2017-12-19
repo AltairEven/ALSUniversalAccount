@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ALSUniversalAccount_Example' do
+  pod 'ALSUniversalAccount', :path => '../'
+
+  target 'ALSUniversalAccount_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

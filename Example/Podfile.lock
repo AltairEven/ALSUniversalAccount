@@ -1,0 +1,16 @@
+PODS:
+  - ALSUniversalAccount (0.1.0)
+
+DEPENDENCIES:
+  - ALSUniversalAccount (from `../`)
+
+EXTERNAL SOURCES:
+  ALSUniversalAccount:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ALSUniversalAccount: 35191c39ce20d68344717734830ca88cd2b82220
+
+PODFILE CHECKSUM: b6da5865aa2b99afdef04c0d7eca778ec75447b7
+
+COCOAPODS: 1.3.1
