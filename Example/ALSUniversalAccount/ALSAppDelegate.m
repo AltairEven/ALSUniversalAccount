@@ -7,6 +7,7 @@
 //
 
 #import "ALSAppDelegate.h"
+#import "AlisportsUniversalAccount.h"
 
 @implementation ALSAppDelegate
 

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="NO">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <development version="7000" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ALBBOpenAccountCountryCodeViewController">
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="title" value="选择国家和地区"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="countryCodeTableView" destination="0wI-F9-Kar" id="SbU-Xq-UP6"/>
+                <outlet property="searchBar" destination="Xv6-U5-Wq9" id="x7U-L4-bLu"/>
+                <outlet property="searchDisplayController" destination="mn2-n4-e77" id="dS4-rD-Wf0"/>
+                <outlet property="view" destination="Jra-8U-3XH" id="eXP-fT-Pt8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Jra-8U-3XH">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="30" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="0wI-F9-Kar">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="p74-8s-7FW"/>
+                        <outlet property="delegate" destination="-1" id="sEp-zc-qWr"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="0wI-F9-Kar" firstAttribute="top" secondItem="Jra-8U-3XH" secondAttribute="top" id="82I-a4-po7"/>
+                <constraint firstItem="0wI-F9-Kar" firstAttribute="leading" secondItem="Jra-8U-3XH" secondAttribute="leading" id="KGW-Yu-2BT"/>
+                <constraint firstAttribute="trailing" secondItem="0wI-F9-Kar" secondAttribute="trailing" id="Pcq-xW-dQf"/>
+                <constraint firstAttribute="bottom" secondItem="0wI-F9-Kar" secondAttribute="bottom" id="jee-YY-2S0"/>
+            </constraints>
+            <point key="canvasLocation" x="-101" y="162"/>
+        </view>
+        <searchBar clipsSubviews="YES" contentMode="redraw" placeholder="搜索" id="Xv6-U5-Wq9">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" red="0.91664922240000002" green="0.91662180419999995" blue="0.91663730139999999" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="barTintColor" red="0.91664922240000002" green="0.91662180419999995" blue="0.91663730139999999" alpha="1" colorSpace="calibratedRGB"/>
+            <textInputTraits key="textInputTraits"/>
+            <connections>
+                <outlet property="delegate" destination="-1" id="MCl-yX-94R"/>
+            </connections>
+            <point key="canvasLocation" x="-129" y="-252"/>
+        </searchBar>
+        <searchDisplayController id="mn2-n4-e77">
+            <connections>
+                <outlet property="delegate" destination="-1" id="s7B-Kp-hQB"/>
+                <outlet property="searchBar" destination="Xv6-U5-Wq9" id="CPW-h9-tjY"/>
+                <outlet property="searchContentsController" destination="-1" id="U6r-67-CKx"/>
+                <outlet property="searchResultsDataSource" destination="-1" id="rEU-fJ-cFl"/>
+                <outlet property="searchResultsDelegate" destination="-1" id="CBa-8J-bFd"/>
+            </connections>
+        </searchDisplayController>
+    </objects>
+</document>

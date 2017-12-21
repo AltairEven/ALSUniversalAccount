@@ -1,0 +1,12 @@
+CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR/ALSUniversalAccount-ThirdParty
+ENABLE_BITCODE = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../ALSUniversalAccount/Classes/Interface/ThirdParty" "${PODS_ROOT}/../../ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/ALBBOpenAccountSDK" "${PODS_ROOT}/../../ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/AlibabaAuthSDK" "${PODS_ROOT}/../../ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/BCUserTrack" "${PODS_ROOT}/../../ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/mtop" "${PODS_ROOT}/../../ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/SecurityGuardSDK" "${PODS_ROOT}/../../ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/SGMain" "${PODS_ROOT}/../../ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/SGNoCaptcha" "${PODS_ROOT}/../../ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/SGSecurityBody" "${PODS_ROOT}/../../ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/UTDID" "$PODS_CONFIGURATION_BUILD_DIR/AEAssistant" "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking" "$PODS_CONFIGURATION_BUILD_DIR/GTMBase64" "$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD" "$PODS_CONFIGURATION_BUILD_DIR/MJExtension" "$PODS_CONFIGURATION_BUILD_DIR/RegexKitLite" "$PODS_CONFIGURATION_BUILD_DIR/SFHFKeychainUtils" "$PODS_CONFIGURATION_BUILD_DIR/TTTAttributedLabel"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Public"
+MACH_O_TYPE = staticlib
+OTHER_LDFLAGS = -framework "ALBBOpenAccountSDK" -framework "ALBBOpenAccountSSO" -framework "ALBBOpenAccountUI" -framework "AlibabaAuthExt" -framework "AlibabaAuthSDK" -framework "AlisportsUniversalAccount" -framework "OpenMtopExt" -framework "OpenMtopSDK" -framework "SGMain" -framework "SGNoCaptcha" -framework "SGSecurityBody" -framework "SecurityGuardSDK" -framework "UTDID" -framework "UTMini"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES

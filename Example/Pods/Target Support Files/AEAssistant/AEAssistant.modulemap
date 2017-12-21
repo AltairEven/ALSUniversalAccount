@@ -1,0 +1,6 @@
+framework module AEAssistant {
+  umbrella header "AEAssistant-umbrella.h"
+
+  export *
+  module * { export * }
+}

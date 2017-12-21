@@ -1,7 +1,15 @@
 use_frameworks!
 
 target 'ALSUniversalAccount_Example' do
-  pod 'ALSUniversalAccount', :path => '../'
+
+  #pre_install do |installer|
+    # workaround for https://github.com/CocoaPods/CocoaPods/issues/3289
+   # def installer.verify_no_static_framework_transitive_dependencies; end 
+  #end
+
+  #pod 'ALSUniversalAccount-SecondParty', :path => '../'
+  pod 'ALSUniversalAccount-ThirdParty', :path => '../'
+
 
   target 'ALSUniversalAccount_Tests' do
     inherit! :search_paths

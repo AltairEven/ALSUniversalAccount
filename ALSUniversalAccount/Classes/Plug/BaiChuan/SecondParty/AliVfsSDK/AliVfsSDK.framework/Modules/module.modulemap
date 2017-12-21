@@ -1,0 +1,6 @@
+framework module AliVfsSDK {
+  umbrella header "AliVfsSDK.h"
+
+  export *
+  module * { export * }
+}

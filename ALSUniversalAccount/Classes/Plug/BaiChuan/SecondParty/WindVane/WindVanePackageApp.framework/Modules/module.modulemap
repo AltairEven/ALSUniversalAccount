@@ -1,0 +1,6 @@
+framework module WindVanePackageApp {
+  umbrella header "WindVanePackageApp.h"
+
+  export *
+  module * { export * }
+}

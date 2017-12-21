@@ -1,0 +1,6 @@
+framework module NetworkPolicy {
+  umbrella header "NetworkPolicy.h"
+
+  export *
+  module * { export * }
+}

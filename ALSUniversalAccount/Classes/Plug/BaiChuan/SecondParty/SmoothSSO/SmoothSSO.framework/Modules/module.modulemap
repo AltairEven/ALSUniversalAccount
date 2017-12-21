@@ -1,0 +1,6 @@
+framework module SmoothSSO {
+  umbrella header "SmoothSSO.h"
+
+  export *
+  module * { export * }
+}

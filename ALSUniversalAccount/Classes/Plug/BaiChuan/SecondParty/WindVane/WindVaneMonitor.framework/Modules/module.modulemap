@@ -1,0 +1,6 @@
+framework module WindVaneMonitor {
+  umbrella header "WindVaneMonitor.h"
+
+  export *
+  module * { export * }
+}

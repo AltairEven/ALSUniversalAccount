@@ -1,0 +1,6 @@
+framework module AliVfsORM {
+  umbrella header "AliVfsORM.h"
+
+  export *
+  module * { export * }
+}

@@ -1,6 +1,0 @@
-framework module ALSUniversalAccount {
-  umbrella header "ALSUniversalAccount-umbrella.h"
-
-  export *
-  module * { export * }
-}
