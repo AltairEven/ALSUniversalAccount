@@ -19,6 +19,8 @@
     "ios": "8.0"
   },
   "pod_target_xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(inherited) $(PODS_ROOT)/**",
+    "OTHER_LDFLAGS": "$(inherited) -undefined dynamic_lookup",
     "ENABLE_BITCODE": "NO",
     "MACH_O_TYPE": "staticlib"
   },
@@ -33,15 +35,6 @@
         "ALSUniversalAccount-ThirdParty/Public": [
 
         ],
-        "AEAssistant": [
-
-        ],
-        "AFNetworking": [
-          "3.1.0"
-        ],
-        "MJExtension": [
-          "~> 3.0.13"
-        ],
         "TTTAttributedLabel": [
           "~> 2.0.0"
         ],
@@ -50,23 +43,32 @@
         ],
         "MBProgressHUD": [
           "~> 0.9.0"
+        ],
+        "UMengUShare/Social/Sina": [
+
+        ],
+        "UMengUShare/Social/QQ": [
+
         ]
       },
-      "vendored_frameworks": "ALSUniversalAccount/Classes/Interface/ThirdParty/*.framework",
+      "vendored_frameworks": "ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/**/*.framework",
       "resource_bundles": {
         "ALSUniversalAccount": [
           "ALSUniversalAccount/Assets/**/*.png"
         ]
-      }
-    },
-    {
-      "name": "Plug",
-      "dependencies": {
-        "ALSUniversalAccount-ThirdParty/Public": [
-
+      },
+      "frameworks": "CoreMotion",
+      "ios": {
+        "libraries": [
+          "sqlite3.0",
+          "z.1.2.8"
         ]
       },
-      "vendored_frameworks": "ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/**/*.framework"
+      "subspecs": [
+        {
+          "name": "Plug"
+        }
+      ]
     }
   ]
 }

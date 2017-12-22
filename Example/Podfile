@@ -2,10 +2,10 @@ use_frameworks!
 
 target 'ALSUniversalAccount_Example' do
 
-  #pre_install do |installer|
+  pre_install do |installer|
     # workaround for https://github.com/CocoaPods/CocoaPods/issues/3289
-   # def installer.verify_no_static_framework_transitive_dependencies; end 
-  #end
+    def installer.verify_no_static_framework_transitive_dependencies; end
+  end
 
   #pod 'ALSUniversalAccount-SecondParty', :path => '../'
   pod 'ALSUniversalAccount-ThirdParty', :path => '../'

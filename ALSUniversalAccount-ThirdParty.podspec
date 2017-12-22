@@ -29,12 +29,12 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.pod_target_xcconfig = {
-    #'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/**',
-    #'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup',
+    s.pod_target_xcconfig = {
+    'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/**',
+    'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup',
     'ENABLE_BITCODE'         => 'NO',
     'MACH_O_TYPE'            => 'staticlib'
-  }
+    }
     
   s.subspec 'Public' do |pub|
     pub.source_files = 'ALSUniversalAccount/Classes/Public/*'
@@ -47,15 +47,23 @@ TODO: Add long description of the pod here.
     }
 
     # #第三方
-    int.dependency 'AEAssistant'
-    int.dependency 'AFNetworking', '3.1.0'
-    int.dependency 'MJExtension', '~> 3.0.13'
     int.dependency 'TTTAttributedLabel', '~> 2.0.0'
     int.dependency 'SFHFKeychainUtils', '~> 0.0.1'
     int.dependency 'MBProgressHUD', '~> 0.9.0'
+
+    int.dependency 'UMengUShare/Social/Sina'
+    # 集成微信
+    #int.dependency 'UMengUShare/Social/WeChat'
+    # 集成qq
+    int.dependency 'UMengUShare/Social/QQ'
+
+    int.subspec 'Plug' do |pl|
+        int.vendored_frameworks = 'ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/**/*.framework'
+        int.frameworks = 'CoreMotion'
+        int.ios.libraries = 'sqlite3.0', 'z.1.2.8'
+    end
   end
-  s.subspec 'Plug' do |pl|
-    pl.dependency 'ALSUniversalAccount-ThirdParty/Public'
-    pl.vendored_frameworks = 'ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/**/*.framework'
-  end
+#s.subspec 'Plug' do |pl|
+#   pl.dependency 'ALSUniversalAccount-ThirdParty/Public'
+# end
 end

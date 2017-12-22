@@ -1,44 +1,39 @@
 PODS:
-  - AEAssistant (0.0.18):
-    - AFNetworking
-    - GTMBase64 (= 1.0.0)
-    - RegexKitLite
-  - AFNetworking (3.1.0):
-    - AFNetworking/NSURLSession (= 3.1.0)
-    - AFNetworking/Reachability (= 3.1.0)
-    - AFNetworking/Security (= 3.1.0)
-    - AFNetworking/Serialization (= 3.1.0)
-    - AFNetworking/UIKit (= 3.1.0)
-  - AFNetworking/NSURLSession (3.1.0):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.1.0)
-  - AFNetworking/Security (3.1.0)
-  - AFNetworking/Serialization (3.1.0)
-  - AFNetworking/UIKit (3.1.0):
-    - AFNetworking/NSURLSession
   - ALSUniversalAccount-ThirdParty (0.0.1):
     - ALSUniversalAccount-ThirdParty/Interface (= 0.0.1)
-    - ALSUniversalAccount-ThirdParty/Plug (= 0.0.1)
     - ALSUniversalAccount-ThirdParty/Public (= 0.0.1)
   - ALSUniversalAccount-ThirdParty/Interface (0.0.1):
-    - AEAssistant
-    - AFNetworking (= 3.1.0)
+    - ALSUniversalAccount-ThirdParty/Interface/Plug (= 0.0.1)
     - ALSUniversalAccount-ThirdParty/Public
     - MBProgressHUD (~> 0.9.0)
-    - MJExtension (~> 3.0.13)
     - SFHFKeychainUtils (~> 0.0.1)
     - TTTAttributedLabel (~> 2.0.0)
-  - ALSUniversalAccount-ThirdParty/Plug (0.0.1):
+    - UMengUShare/Social/QQ
+    - UMengUShare/Social/Sina
+  - ALSUniversalAccount-ThirdParty/Interface/Plug (0.0.1):
     - ALSUniversalAccount-ThirdParty/Public
+    - MBProgressHUD (~> 0.9.0)
+    - SFHFKeychainUtils (~> 0.0.1)
+    - TTTAttributedLabel (~> 2.0.0)
+    - UMengUShare/Social/QQ
+    - UMengUShare/Social/Sina
   - ALSUniversalAccount-ThirdParty/Public (0.0.1)
-  - GTMBase64 (1.0.0)
   - MBProgressHUD (0.9.2)
-  - MJExtension (3.0.13)
-  - RegexKitLite (4.0)
   - SFHFKeychainUtils (0.0.1)
   - TTTAttributedLabel (2.0.0)
+  - UMengUShare/Core (6.4.8):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.8)
+  - UMengUShare/Social/QQ (6.4.8):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedQQ (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedSina (6.4.8):
+    - UMengUShare/Core
+  - UMengUShare/Social/Sina (6.4.8):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedSina
 
 DEPENDENCIES:
   - ALSUniversalAccount-ThirdParty (from `../`)
@@ -48,16 +43,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AEAssistant: 503d977b56613d3301fdb928f89158ca98b4908a
-  AFNetworking: 0f9f92467cc2ad03ea9961c65bb75028ea4d49a9
-  ALSUniversalAccount-ThirdParty: a1147b5bc5157f13fa36965e2dc05e2cdcc460cc
-  GTMBase64: b788b4900fb2ecccafd8ae112e856b8512c124f3
-  MBProgressHUD: fedcbb887a3d162dbffee8e1b92a800309ce67f0
-  MJExtension: d9fbee1fb9025889dae7d7096e6ecb9d0ff36121
-  RegexKitLite: 65b0cd1de46774d1f2f16db3f1846f61ede362b0
-  SFHFKeychainUtils: ce5d93bad22bd5b0d7df6e8e4d73736bec9d3e32
-  TTTAttributedLabel: 5d9e639864b09d8e4c85a3d2a819509d63346805
+  ALSUniversalAccount-ThirdParty: 049af05c82722ba16ff636c4c238b6e9829f68d6
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  SFHFKeychainUtils: 9576b411a79a058f4d5381ace6f3242b9a62e664
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  UMengUShare: 7a0ab762ccd445ccfcf11bde8e7f81b29b9f5e1c
 
-PODFILE CHECKSUM: 10b0e21d7a074dbfd24628ebd02804abb8085382
+PODFILE CHECKSUM: f39064e6a1a1da06b8078fd66ef403f0c67a1dca
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.1
