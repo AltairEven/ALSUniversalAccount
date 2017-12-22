@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ALSUniversalAccount-ThirdParty'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'A short description of ALSUniversalAccount.'
 
 # This description is used to generate tags and improve search results.
@@ -57,10 +57,10 @@ TODO: Add long description of the pod here.
     # 集成qq
     int.dependency 'UMengUShare/Social/QQ'
 
-    int.subspec 'Plug' do |pl|
-        int.vendored_frameworks = 'ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/**/*.framework'
-        int.frameworks = 'CoreMotion'
-        int.ios.libraries = 'sqlite3.0', 'z.1.2.8'
+    int.subspec 'BaiChuan' do |bc|
+        bc.vendored_frameworks = 'ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/**/*.framework'
+        bc.frameworks = 'CoreMotion'
+        bc.ios.libraries = 'sqlite3.0', 'z.1.2.8'
     end
   end
 #s.subspec 'Plug' do |pl|

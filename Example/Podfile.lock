@@ -1,23 +1,23 @@
 PODS:
-  - ALSUniversalAccount-ThirdParty (0.0.1):
-    - ALSUniversalAccount-ThirdParty/Interface (= 0.0.1)
-    - ALSUniversalAccount-ThirdParty/Public (= 0.0.1)
-  - ALSUniversalAccount-ThirdParty/Interface (0.0.1):
-    - ALSUniversalAccount-ThirdParty/Interface/Plug (= 0.0.1)
+  - ALSUniversalAccount-ThirdParty (0.0.2):
+    - ALSUniversalAccount-ThirdParty/Interface (= 0.0.2)
+    - ALSUniversalAccount-ThirdParty/Public (= 0.0.2)
+  - ALSUniversalAccount-ThirdParty/Interface (0.0.2):
+    - ALSUniversalAccount-ThirdParty/Interface/BaiChuan (= 0.0.2)
     - ALSUniversalAccount-ThirdParty/Public
     - MBProgressHUD (~> 0.9.0)
     - SFHFKeychainUtils (~> 0.0.1)
     - TTTAttributedLabel (~> 2.0.0)
     - UMengUShare/Social/QQ
     - UMengUShare/Social/Sina
-  - ALSUniversalAccount-ThirdParty/Interface/Plug (0.0.1):
+  - ALSUniversalAccount-ThirdParty/Interface/BaiChuan (0.0.2):
     - ALSUniversalAccount-ThirdParty/Public
     - MBProgressHUD (~> 0.9.0)
     - SFHFKeychainUtils (~> 0.0.1)
     - TTTAttributedLabel (~> 2.0.0)
     - UMengUShare/Social/QQ
     - UMengUShare/Social/Sina
-  - ALSUniversalAccount-ThirdParty/Public (0.0.1)
+  - ALSUniversalAccount-ThirdParty/Public (0.0.2)
   - MBProgressHUD (0.9.2)
   - SFHFKeychainUtils (0.0.1)
   - TTTAttributedLabel (2.0.0)
@@ -43,7 +43,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ALSUniversalAccount-ThirdParty: 049af05c82722ba16ff636c4c238b6e9829f68d6
+  ALSUniversalAccount-ThirdParty: d351ba2e056f9499ff1b670752fd91f479314f5c
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   SFHFKeychainUtils: 9576b411a79a058f4d5381ace6f3242b9a62e664
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656

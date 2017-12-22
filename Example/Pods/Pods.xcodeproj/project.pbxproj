@@ -7,68 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0737D1980CE01A136B5F2689A794ECB5 /* ALSUAResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C508BAB4B8D8C60E8A2F442A76F63309 /* ALSUAResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18B0123BE28AF9703AB6886C58E65475 /* ALSUAOAuthPlugInitializationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1CEDCEB24A8C775E1384C5FE387A61 /* ALSUAOAuthPlugInitializationInfo.m */; };
-		1D0AAC82C38C07FB1014D5422E472A1B /* ALSUAResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 651A7C6CCB267034BEC8C29470989200 /* ALSUAResponse.m */; };
+		0737D1980CE01A136B5F2689A794ECB5 /* ALSUAResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = CB198658FF568DC1DE5223FC4A276806 /* ALSUAResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18B0123BE28AF9703AB6886C58E65475 /* ALSUAOAuthPlugInitializationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F30B3660F6D78F35A6304DDF2B3BCE7 /* ALSUAOAuthPlugInitializationInfo.m */; };
+		1D0AAC82C38C07FB1014D5422E472A1B /* ALSUAResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 903A57355B9535242EDB56E6211E522E /* ALSUAResponse.m */; };
 		1FD2DAD54CDFE4FC4C90A9D0D55C27BE /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 96D74F63BE5EB2F019404EE192EB6C97 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22E2511ACB6B16EE3C741C7D4F3D4E90 /* Pods-ALSUniversalAccount_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F75365775C46290F335AEB1FE0E3B16D /* Pods-ALSUniversalAccount_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22FAF679403657FD7D7686244E0896E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9916DF3EBAD54B0A497CB2AF5EF9A4 /* CoreGraphics.framework */; };
-		244A523F9CB6D489DCDA765B26AE4AA1 /* icon_list_eye_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA5952C726ED9D3D14948E5159C7129 /* icon_list_eye_on@3x.png */; };
-		3017F109C012D5B720211002A8E33996 /* alsua_icon_pop_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD52BECF9ADD0E0B2A2A997346A18EC4 /* alsua_icon_pop_success@3x.png */; };
+		244A523F9CB6D489DCDA765B26AE4AA1 /* icon_list_eye_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A24403244B5F2B9DF1107F5494679B1E /* icon_list_eye_on@3x.png */; };
+		3017F109C012D5B720211002A8E33996 /* alsua_icon_pop_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20C5F93BD60E4083C2C483FEFFF6A72D /* alsua_icon_pop_success@3x.png */; };
 		386D3D0CE60A37649B173A22AE12A973 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5B3E7537DC94F772CF247B0FBBC12E /* TTTAttributedLabel.m */; };
-		3E33778347080FD9F66837EF92D986F0 /* ALSUABaiChuanPlugInitializationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D0FF43E712C6F2EE1FE2249E79F599 /* ALSUABaiChuanPlugInitializationInfo.m */; };
+		3E33778347080FD9F66837EF92D986F0 /* ALSUABaiChuanPlugInitializationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 305F4A1A81CC707A03D83676B660C639 /* ALSUABaiChuanPlugInitializationInfo.m */; };
 		3F33FAD436904B7E671586D9720B6993 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2224AF7784FDD93094194BB469B199AB /* SFHFKeychainUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		41F8D1F1E50BA661D025713E0016507C /* SFHFKeychainUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FE1F60467B2509C61439CB141AF202 /* SFHFKeychainUtils.framework */; };
 		44FFCD22E2FD37084D0483D93660B222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD735B047D2C004C4EC25FDA3CCCF183 /* Foundation.framework */; };
-		452980756583700518ED93C17337FF33 /* icon_nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F399BBF1D50E4C3E1455FA15F4FEF1E8 /* icon_nav_back@2x.png */; };
+		452980756583700518ED93C17337FF33 /* icon_nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDE3155F235C2B768E316C3D652DE80D /* icon_nav_back@2x.png */; };
 		45876B3369463FAD63196BE72B641C9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD735B047D2C004C4EC25FDA3CCCF183 /* Foundation.framework */; };
-		490DCCA949F1F02EBB1CC3BC186BDC80 /* alsua_icon_list_eye_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849C3A7981EBC9BD91C8EE3DD4EBFF2E /* alsua_icon_list_eye_on@2x.png */; };
-		4E10CC75ED26B53F8CC39F9B3FED2252 /* ALSUniversalAccount-ThirdParty-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EAA09248DF947D5DF0446F997622B0 /* ALSUniversalAccount-ThirdParty-dummy.m */; };
+		490DCCA949F1F02EBB1CC3BC186BDC80 /* alsua_icon_list_eye_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBDD384C63B5DE1A5A720A8A2022CE0 /* alsua_icon_list_eye_on@2x.png */; };
+		4E10CC75ED26B53F8CC39F9B3FED2252 /* ALSUniversalAccount-ThirdParty-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3A8752D723C65E30818842400467C6 /* ALSUniversalAccount-ThirdParty-dummy.m */; };
 		4ED96C3F0E055599E555A1B36C8774CC /* Pods-ALSUniversalAccount_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6647CE1D985855E783D0D801F7566429 /* Pods-ALSUniversalAccount_Tests-dummy.m */; };
-		4F2285E5D66FDF295949733F57769CB6 /* ALSUAPlugProtocal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4234D82140D0D5735462758F359A5B57 /* ALSUAPlugProtocal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F2285E5D66FDF295949733F57769CB6 /* ALSUAPlugProtocal.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C8306BE45ACED85D45D38E2BC48B7A /* ALSUAPlugProtocal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F2449FF9AE81D4363484A6B058D48BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD735B047D2C004C4EC25FDA3CCCF183 /* Foundation.framework */; };
 		541311E77CD1289A8EED2A77501F0D4C /* TTTAttributedLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 950DBA20BB827CF4212F613F36070550 /* TTTAttributedLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		541D7A7592522532FDC9B84E4BA67979 /* alsua_icon_eye_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 657FF34BCF3BFD685CC88A18814B0CD5 /* alsua_icon_eye_off@2x.png */; };
-		54B7C3BB908CC70C371891710F30A297 /* ALSUAErrorDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 710996F06E5E81E933B4FE3BEF3D2986 /* ALSUAErrorDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5989BCC8D103ABE5151774B399259624 /* ALSUAOperationMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B49EB11D809FFC783547C56D6D51E2 /* ALSUAOperationMode.m */; };
+		541D7A7592522532FDC9B84E4BA67979 /* alsua_icon_eye_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFBAE51C07F929567B02EEDAEA617BB8 /* alsua_icon_eye_off@2x.png */; };
+		54B7C3BB908CC70C371891710F30A297 /* ALSUAErrorDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 40EB03C1BF2E2A33AAE71CBFACBFAEB5 /* ALSUAErrorDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5989BCC8D103ABE5151774B399259624 /* ALSUAOperationMode.m in Sources */ = {isa = PBXBuildFile; fileRef = A6048FF5CEF6487F8DF1FA3AADDB0289 /* ALSUAOperationMode.m */; };
 		5C6A962311333BEBE547A22B84228A96 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE1E7A432A00E5AC972D6DE3CBB0DFC /* CoreText.framework */; };
-		5EB1F4CDA24F2B05A36C9FC32C69C051 /* icon_nav_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE81EA56FB2F743DDA3E1CFBB8FE587 /* icon_nav_back@3x.png */; };
-		6059735E295F53816F3F5D890791B061 /* ALSUABaiChuanPlugInitializationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 630D4CC4C4904639AC88DA1B13E21180 /* ALSUABaiChuanPlugInitializationInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64C87C3F436F1BA1C8DE95D06861447C /* ALSUAOAuthPlugInitializationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED70F97A3236BCF8112A6BD46AC4CF5 /* ALSUAOAuthPlugInitializationInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EB1F4CDA24F2B05A36C9FC32C69C051 /* icon_nav_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7962E4261AC8BCE6B547F25E66715D /* icon_nav_back@3x.png */; };
+		6059735E295F53816F3F5D890791B061 /* ALSUABaiChuanPlugInitializationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A3589FCB0722A8BDCB84878D544095 /* ALSUABaiChuanPlugInitializationInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64C87C3F436F1BA1C8DE95D06861447C /* ALSUAOAuthPlugInitializationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F96471E8C49AF4B724AFB1081BF05D /* ALSUAOAuthPlugInitializationInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8060E8F15BC8906DFE640ECDB3272523 /* SFHFKeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B272EFB1E1C932BDD4BB5FF9702C54A8 /* SFHFKeychainUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		852043E223A981EFE170B548674E1CC6 /* ALSUAPlugMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A23610000E3AC80BB4F6C1F19431536 /* ALSUAPlugMode.m */; };
+		852043E223A981EFE170B548674E1CC6 /* ALSUAPlugMode.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA814D2EBF4C573B4DE758DF742BB85 /* ALSUAPlugMode.m */; };
 		86B45C2FBE19A0DCE382B7CB33D6FD96 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37737F2ACE5DE68F03712C5C0607D525 /* MBProgressHUD-dummy.m */; };
 		8858981B4313BEEBBBA4B8611E5B0E02 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EDB4071B39CC025497337AE61786CD1 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C3743F255DE6DBAB5C59F477653CCD0 /* Pods-ALSUniversalAccount_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF08360A70EE3CBFC3FDF83C38DC872B /* Pods-ALSUniversalAccount_Example-dummy.m */; };
 		9143EE3F4E53AAD262D78506D276E088 /* ALSUniversalAccount.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0557E02F9BE12E7AE993AF31E7A45937 /* ALSUniversalAccount.bundle */; };
 		93B99D16C7CF8314B5BE7F63CFA45868 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD735B047D2C004C4EC25FDA3CCCF183 /* Foundation.framework */; };
 		A3636084EB79E9FFA2DAAA1CB567B901 /* TTTAttributedLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51139B471274E212338ADE6A2560B69 /* TTTAttributedLabel.framework */; };
-		A531B3F6919FB3436123FD7478856864 /* alsua_icon_pop_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5BC15CD878329C4ED9C0D106488A9 /* alsua_icon_pop_success@2x.png */; };
-		B3F3C1371792E75E5B6699EB4E1AC185 /* alsua_icon_nav_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49378BFE6FB327E2D7B0B8D0FDAB0D2A /* alsua_icon_nav_back@3x.png */; };
+		A531B3F6919FB3436123FD7478856864 /* alsua_icon_pop_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7253899F0C15ABACE1E179704615874 /* alsua_icon_pop_success@2x.png */; };
+		B3F3C1371792E75E5B6699EB4E1AC185 /* alsua_icon_nav_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FFC4BFFCF659AC86050587BA8F21235 /* alsua_icon_nav_back@3x.png */; };
 		B58709B54F6E689C1986B9AFEE2E5EB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F504718E71622C2FB1698D662092C6 /* UIKit.framework */; };
-		B58F0382F4DAD98BF71C002023678CBF /* icon_eye_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37FE6C3A9EDFBF4142D7CA48D7818688 /* icon_eye_off@2x.png */; };
+		B58F0382F4DAD98BF71C002023678CBF /* icon_eye_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC884AA90F9EC991A32722184A66408 /* icon_eye_off@2x.png */; };
 		B8559824346D27CB25510EFE79873EC8 /* SFHFKeychainUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BF78DA4D00B20E9168A46678B10CF0 /* SFHFKeychainUtils-dummy.m */; };
-		BBF91F92C2FC849BF95AF4942FB99837 /* icon_pop_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6B226BC37A4E5C1F6F02DE07C0336E /* icon_pop_success@3x.png */; };
+		BBF91F92C2FC849BF95AF4942FB99837 /* icon_pop_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FFF2CBDD22C7F9925B37F11BD80A96B /* icon_pop_success@3x.png */; };
 		BCB8585DBFD8A0579884246FEE33A922 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811298F66488BC7595575725E32216AC /* Security.framework */; };
-		BD9223CB715CA5D89D1B48B42B264076 /* icon_list_eye_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6BC4232E29DA7106AB620B0420CD6E5 /* icon_list_eye_on@2x.png */; };
+		BD9223CB715CA5D89D1B48B42B264076 /* icon_list_eye_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8529181EF26F150A203CD022B2B27E93 /* icon_list_eye_on@2x.png */; };
 		C49FE4538821543CE97114CD070A8013 /* Pods-ALSUniversalAccount_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E4CBF217489490CC0D81F47740E6EA0 /* Pods-ALSUniversalAccount_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5AECA9D573AC070A21BE9E0F8DA757C /* TTTAttributedLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FC85C9E66D118246E329D6B4CE525D /* TTTAttributedLabel-dummy.m */; };
 		C668EDD85B79BE8205FA479D80B78E66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9916DF3EBAD54B0A497CB2AF5EF9A4 /* CoreGraphics.framework */; };
-		C990AE478CCFCF336EFB1B4CC005F5CC /* ALSUAPlugMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 280DECF40802ABB308605998EBDC5828 /* ALSUAPlugMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C990AE478CCFCF336EFB1B4CC005F5CC /* ALSUAPlugMode.h in Headers */ = {isa = PBXBuildFile; fileRef = F17AF4FF76AD4C28F0560E3D743788A5 /* ALSUAPlugMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB4211A45D177FEFCBC6A187961A8283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD735B047D2C004C4EC25FDA3CCCF183 /* Foundation.framework */; };
 		CE4CBE004CB5AA33B340151F1621FB60 /* SFHFKeychainUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B587362AF7B455245F9F705D10753561 /* SFHFKeychainUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8DB9FE29C2717D1519BAF3969BD9837 /* ALSUniversalAccount-ThirdParty-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3206446D90DE788941A75FB7664DAC /* ALSUniversalAccount-ThirdParty-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE03E07756794BB44140384FC6838D89 /* alsua_icon_list_eye_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDE18D5707CB9A66B8BF59507D36268 /* alsua_icon_list_eye_on@3x.png */; };
+		D8DB9FE29C2717D1519BAF3969BD9837 /* ALSUniversalAccount-ThirdParty-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5017309296334A9D75C66186F7FE164 /* ALSUniversalAccount-ThirdParty-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE03E07756794BB44140384FC6838D89 /* alsua_icon_list_eye_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BBCA8274A57728933143355E29D7DC /* alsua_icon_list_eye_on@3x.png */; };
 		DEA6C631E073960E458490C28A43B540 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155669EB8CAA8513177ECAB8DC814314 /* QuartzCore.framework */; };
-		DEBDB542F18CAB6BD1482298DE531425 /* ALSUAOperationMode.h in Headers */ = {isa = PBXBuildFile; fileRef = DB607BA213BBA9400E24F7A3C220E451 /* ALSUAOperationMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E23242B6DF90219F9059AE336F2359E4 /* alsua_icon_nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD0407D74077D83274F63CD648546F48 /* alsua_icon_nav_back@2x.png */; };
-		E5B7102DA52D00F072F3ECDF3BACD7D9 /* icon_eye_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F671DC8B69E997CFB84A0E9479686F74 /* icon_eye_off@3x.png */; };
+		DEBDB542F18CAB6BD1482298DE531425 /* ALSUAOperationMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 074D852C6F3BDAF5DCA0A36BF5896BB8 /* ALSUAOperationMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E23242B6DF90219F9059AE336F2359E4 /* alsua_icon_nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55CA6CDB9AA2B70E58DF02146D1B190E /* alsua_icon_nav_back@2x.png */; };
+		E5B7102DA52D00F072F3ECDF3BACD7D9 /* icon_eye_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A9D447D61B1CA00424A6AABD728B5E2 /* icon_eye_off@3x.png */; };
 		E5FA0EDF2B21C69C58694CD238668AF9 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC24AC51F9AF72E3533DCBBC96CEC015 /* MBProgressHUD.framework */; };
 		EB11D4A2C4BF01A811CE86E43EAE2ED1 /* TTTAttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = EADF2F67930C1518BB43AF865B2CCD6A /* TTTAttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1A82D9D57E3E9268EBA69163B57A3BE /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4922B6E8799106C08827FE955D8280D0 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F4F0F5D439EC8662D9C62F16ABBB6EB1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389C3A7480F19B68C6424A7C91C7C9B9 /* CoreMotion.framework */; };
 		F720729AEC4E24D0C35C278100857C38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD735B047D2C004C4EC25FDA3CCCF183 /* Foundation.framework */; };
-		FDCAFC5B08C89F9793E0EF73EC5F4C14 /* alsua_icon_eye_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 653C78564DF3902DC6B427C53A09EE7F /* alsua_icon_eye_off@3x.png */; };
+		FDCAFC5B08C89F9793E0EF73EC5F4C14 /* alsua_icon_eye_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8301D44CABC726E1053ACDDB93826466 /* alsua_icon_eye_off@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,129 +133,130 @@
 /* Begin PBXFileReference section */
 		009CE26A58171A94539D0F7618FDA936 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0192ABD0D597DB8E31E0F468577BE0E0 /* Pods-ALSUniversalAccount_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALSUniversalAccount_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		02EAA09248DF947D5DF0446F997622B0 /* ALSUniversalAccount-ThirdParty-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALSUniversalAccount-ThirdParty-dummy.m"; sourceTree = "<group>"; };
 		03BB28034CACC28C3D884D75FAE9EE9F /* Pods-ALSUniversalAccount_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSUniversalAccount_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0557E02F9BE12E7AE993AF31E7A45937 /* ALSUniversalAccount.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ALSUniversalAccount.bundle; path = ALSUniversalAccount.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		05FC85C9E66D118246E329D6B4CE525D /* TTTAttributedLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTTAttributedLabel-dummy.m"; sourceTree = "<group>"; };
-		0BA5952C726ED9D3D14948E5159C7129 /* icon_list_eye_on@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_list_eye_on@3x.png"; sourceTree = "<group>"; };
+		074D852C6F3BDAF5DCA0A36BF5896BB8 /* ALSUAOperationMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSUAOperationMode.h; sourceTree = "<group>"; };
 		0C70FDCDA67C5FCF6663494FF9087D09 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenAPI.framework; sourceTree = "<group>"; };
-		0ED70F97A3236BCF8112A6BD46AC4CF5 /* ALSUAOAuthPlugInitializationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSUAOAuthPlugInitializationInfo.h; sourceTree = "<group>"; };
-		1012F5AACF0935132C8EB668493AE049 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E2249D6B9C77C4F7E4C82289DB3FA95 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F30B3660F6D78F35A6304DDF2B3BCE7 /* ALSUAOAuthPlugInitializationInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALSUAOAuthPlugInitializationInfo.m; sourceTree = "<group>"; };
 		155669EB8CAA8513177ECAB8DC814314 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		165A0B80E2619B29A5313615849291EC /* TTTAttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTTAttributedLabel.framework; path = TTTAttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C8306BE45ACED85D45D38E2BC48B7A /* ALSUAPlugProtocal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSUAPlugProtocal.h; sourceTree = "<group>"; };
 		195B26EAD25A892455716BA8C93B0D62 /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboToken.h"; path = "UShareSDK/SocialLibraries/Sina/SinaSDK/WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
 		1A9916DF3EBAD54B0A497CB2AF5EF9A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		1A9ADB1FC1117BADC9E83FC39F6395E4 /* WeiboSDK+Statistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WeiboSDK+Statistics.h"; path = "UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK+Statistics.h"; sourceTree = "<group>"; };
 		1CED3ACDE74753957D963638F7B22704 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E964614278E67783E45B14F146B5FFB /* Pods-ALSUniversalAccount_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALSUniversalAccount_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1F715EA3D545D0F8BA5025778539FBCB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C5F93BD60E4083C2C483FEFFF6A72D /* alsua_icon_pop_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alsua_icon_pop_success@3x.png"; sourceTree = "<group>"; };
 		2224AF7784FDD93094194BB469B199AB /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SFHFKeychainUtils.m; path = security/SFHFKeychainUtils.m; sourceTree = "<group>"; };
 		23678053083375EC7DA7352EF7F0F5A3 /* SFHFKeychainUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SFHFKeychainUtils.framework; path = SFHFKeychainUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		25A5BC15CD878329C4ED9C0D106488A9 /* alsua_icon_pop_success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alsua_icon_pop_success@2x.png"; sourceTree = "<group>"; };
+		24252CC17037784BB6B15BEEB822F8A6 /* AlibabaAuthExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlibabaAuthExt.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/AlibabaAuthSDK/AlibabaAuthExt.framework; sourceTree = "<group>"; };
 		267AC299EBDC65605712C8E88EDD8190 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
-		280DECF40802ABB308605998EBDC5828 /* ALSUAPlugMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSUAPlugMode.h; sourceTree = "<group>"; };
 		2F1A19D142BD01BD74141EAD92DA4C7D /* UMSocialSDKPromptResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSocialSDKPromptResources.bundle; path = UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle; sourceTree = "<group>"; };
+		305F4A1A81CC707A03D83676B660C639 /* ALSUABaiChuanPlugInitializationInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALSUABaiChuanPlugInitializationInfo.m; sourceTree = "<group>"; };
 		33BFE3DAAF1216B9110AA25715A8974B /* TTTAttributedLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTTAttributedLabel.xcconfig; sourceTree = "<group>"; };
-		34346B92B72F981D73A5088DBEC38CFF /* ALSUniversalAccount-ThirdParty.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ALSUniversalAccount-ThirdParty.xcconfig"; sourceTree = "<group>"; };
-		34CD0EB699B187E55FEC7111322FDBC9 /* AlibabaAuthExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlibabaAuthExt.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/AlibabaAuthSDK/AlibabaAuthExt.framework; sourceTree = "<group>"; };
-		350077C2857309A87E6A8A51E012F86E /* ResourceBundle-ALSUniversalAccount-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ALSUniversalAccount-Info.plist"; sourceTree = "<group>"; };
-		36B49EB11D809FFC783547C56D6D51E2 /* ALSUAOperationMode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALSUAOperationMode.m; sourceTree = "<group>"; };
+		34BA440025EAF2ED83349659C01BAC2B /* ALBBOpenAccountSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALBBOpenAccountSDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/ALBBOpenAccountSDK/ALBBOpenAccountSDK.framework; sourceTree = "<group>"; };
+		351CCF7BA8E32C8B2BFBBDDEB7F4643C /* ALSUniversalAccount-ThirdParty-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALSUniversalAccount-ThirdParty-prefix.pch"; sourceTree = "<group>"; };
+		3627368CB1587FAD19F5FD5CC51727E5 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/UTDID/UTDID.framework; sourceTree = "<group>"; };
 		37737F2ACE5DE68F03712C5C0607D525 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		37FE6C3A9EDFBF4142D7CA48D7818688 /* icon_eye_off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_eye_off@2x.png"; sourceTree = "<group>"; };
 		389C3A7480F19B68C6424A7C91C7C9B9 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
-		3A23610000E3AC80BB4F6C1F19431536 /* ALSUAPlugMode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALSUAPlugMode.m; sourceTree = "<group>"; };
+		3C4B7E8991AD496302AE98FC66CDF6EF /* UTMini.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTMini.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/BCUserTrack/UTMini.framework; sourceTree = "<group>"; };
 		3E7C629D4C942FF54C3E970968B5DBA7 /* Pods-ALSUniversalAccount_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALSUniversalAccount_Tests-resources.sh"; sourceTree = "<group>"; };
-		4234D82140D0D5735462758F359A5B57 /* ALSUAPlugProtocal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSUAPlugProtocal.h; sourceTree = "<group>"; };
+		40EB03C1BF2E2A33AAE71CBFACBFAEB5 /* ALSUAErrorDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSUAErrorDefine.h; sourceTree = "<group>"; };
 		462212DAC356CDA3295D69BB403455C1 /* TTTAttributedLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTTAttributedLabel-prefix.pch"; sourceTree = "<group>"; };
 		4922B6E8799106C08827FE955D8280D0 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		49378BFE6FB327E2D7B0B8D0FDAB0D2A /* alsua_icon_nav_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alsua_icon_nav_back@3x.png"; sourceTree = "<group>"; };
+		4A9D447D61B1CA00424A6AABD728B5E2 /* icon_eye_off@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_eye_off@3x.png"; sourceTree = "<group>"; };
+		4B033A2911368AAF08A595AC64D2CC4A /* SGMain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGMain.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/SGMain/SGMain.framework; sourceTree = "<group>"; };
 		4EDB4071B39CC025497337AE61786CD1 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		52571EFD8E2B1CED487CB5DB4111D157 /* ALSUniversalAccount_ThirdParty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ALSUniversalAccount_ThirdParty.framework; path = "ALSUniversalAccount-ThirdParty.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DFEF8EBA9BEAC7003414D795D324170 /* ALBBOpenAccountSSO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALBBOpenAccountSSO.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/ALBBOpenAccountSDK/ALBBOpenAccountSSO.framework; sourceTree = "<group>"; };
+		55CA6CDB9AA2B70E58DF02146D1B190E /* alsua_icon_nav_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alsua_icon_nav_back@2x.png"; sourceTree = "<group>"; };
 		5FB8FC205EA1A8B68008E67703C4975A /* TTTAttributedLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TTTAttributedLabel.modulemap; sourceTree = "<group>"; };
+		5FFC4BFFCF659AC86050587BA8F21235 /* alsua_icon_nav_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alsua_icon_nav_back@3x.png"; sourceTree = "<group>"; };
 		626AB8C8480EFFCAF47A3A87F8B54CF3 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.h; sourceTree = "<group>"; };
-		630D4CC4C4904639AC88DA1B13E21180 /* ALSUABaiChuanPlugInitializationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSUABaiChuanPlugInitializationInfo.h; sourceTree = "<group>"; };
 		64828056905787E99085D6E129698A4C /* UMSocialQQHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialQQHandler.h; path = UShareSDK/SocialLibraries/QQ/UMSocialQQHandler.h; sourceTree = "<group>"; };
-		651A7C6CCB267034BEC8C29470989200 /* ALSUAResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALSUAResponse.m; sourceTree = "<group>"; };
-		653C78564DF3902DC6B427C53A09EE7F /* alsua_icon_eye_off@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alsua_icon_eye_off@3x.png"; sourceTree = "<group>"; };
-		657FF34BCF3BFD685CC88A18814B0CD5 /* alsua_icon_eye_off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alsua_icon_eye_off@2x.png"; sourceTree = "<group>"; };
+		64BBCA8274A57728933143355E29D7DC /* alsua_icon_list_eye_on@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alsua_icon_list_eye_on@3x.png"; sourceTree = "<group>"; };
 		662018E8988356AE2CE04872D5DB56AF /* Pods-ALSUniversalAccount_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ALSUniversalAccount_Example.modulemap"; sourceTree = "<group>"; };
 		6647CE1D985855E783D0D801F7566429 /* Pods-ALSUniversalAccount_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALSUniversalAccount_Tests-dummy.m"; sourceTree = "<group>"; };
-		67E9DBA89B28A8C00FBCF3CDC484CDC6 /* SecurityGuardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityGuardSDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/SecurityGuardSDK/SecurityGuardSDK.framework; sourceTree = "<group>"; };
 		687D53DC23C47C7A7B8E237ABF44123E /* SFHFKeychainUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SFHFKeychainUtils.modulemap; sourceTree = "<group>"; };
-		6EE81EA56FB2F743DDA3E1CFBB8FE587 /* icon_nav_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_nav_back@3x.png"; sourceTree = "<group>"; };
-		710996F06E5E81E933B4FE3BEF3D2986 /* ALSUAErrorDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSUAErrorDefine.h; sourceTree = "<group>"; };
 		74654350F9F5AD50A376ABCB75ED0577 /* Pods_ALSUniversalAccount_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ALSUniversalAccount_Tests.framework; path = "Pods-ALSUniversalAccount_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7776511AE7D52E7D5F324C6115EEC752 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/UTDID/UTDID.framework; sourceTree = "<group>"; };
+		75A3589FCB0722A8BDCB84878D544095 /* ALSUABaiChuanPlugInitializationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSUABaiChuanPlugInitializationInfo.h; sourceTree = "<group>"; };
 		78D9391C48E755730B612BE7E4CB3CE9 /* Pods-ALSUniversalAccount_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSUniversalAccount_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7AE1E7A432A00E5AC972D6DE3CBB0DFC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		7B61F241F47FFEAE2F150C5FB9444934 /* Pods-ALSUniversalAccount_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALSUniversalAccount_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7BEAB69693593A0961492441111900D2 /* Pods-ALSUniversalAccount_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALSUniversalAccount_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7E4CBF217489490CC0D81F47740E6EA0 /* Pods-ALSUniversalAccount_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ALSUniversalAccount_Example-umbrella.h"; sourceTree = "<group>"; };
 		7E9FCAEB23A75E91D79AF3BB4F153E1F /* Pods_ALSUniversalAccount_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ALSUniversalAccount_Example.framework; path = "Pods-ALSUniversalAccount_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D3A2091A4A105B2F88BEC61443395B /* OpenMtopExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenMtopExt.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/mtop/OpenMtopExt.framework; sourceTree = "<group>"; };
 		811298F66488BC7595575725E32216AC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		849C3A7981EBC9BD91C8EE3DD4EBFF2E /* alsua_icon_list_eye_on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alsua_icon_list_eye_on@2x.png"; sourceTree = "<group>"; };
-		92F10A27A21EA4954DFD81AF06B643F2 /* OpenMtopExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenMtopExt.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/mtop/OpenMtopExt.framework; sourceTree = "<group>"; };
+		8301D44CABC726E1053ACDDB93826466 /* alsua_icon_eye_off@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alsua_icon_eye_off@3x.png"; sourceTree = "<group>"; };
+		8529181EF26F150A203CD022B2B27E93 /* icon_list_eye_on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_list_eye_on@2x.png"; sourceTree = "<group>"; };
+		8D7962E4261AC8BCE6B547F25E66715D /* icon_nav_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_nav_back@3x.png"; sourceTree = "<group>"; };
+		903A57355B9535242EDB56E6211E522E /* ALSUAResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALSUAResponse.m; sourceTree = "<group>"; };
+		90EBBB1E8BD65D285139C8BB403E1710 /* ResourceBundle-ALSUniversalAccount-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ALSUniversalAccount-Info.plist"; sourceTree = "<group>"; };
+		9288FB57E403186CF47031C4B5F3CD2C /* ALSUniversalAccount-ThirdParty.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "ALSUniversalAccount-ThirdParty.modulemap"; sourceTree = "<group>"; };
 		931D93EBF9850B49D146AA262AB5BB53 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
 		932D42D463927B9906EF1DADC9E8573B /* Pods-ALSUniversalAccount_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSUniversalAccount_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94794E327F56A8FC5D8C74FD9CF561EC /* UMSocialNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMSocialNetwork.framework; path = UShareSDK/UMSocialSDK/UMSocialNetwork.framework; sourceTree = "<group>"; };
 		950DBA20BB827CF4212F613F36070550 /* TTTAttributedLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTTAttributedLabel-umbrella.h"; sourceTree = "<group>"; };
-		96A5FB09295C3496680B10D167670BCF /* AlibabaAuthSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlibabaAuthSDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/AlibabaAuthSDK/AlibabaAuthSDK.framework; sourceTree = "<group>"; };
 		96D74F63BE5EB2F019404EE192EB6C97 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		97F96471E8C49AF4B724AFB1081BF05D /* ALSUAOAuthPlugInitializationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSUAOAuthPlugInitializationInfo.h; sourceTree = "<group>"; };
 		98BF78DA4D00B20E9168A46678B10CF0 /* SFHFKeychainUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFHFKeychainUtils-dummy.m"; sourceTree = "<group>"; };
 		9ABBA80B2731524239F8A6ABB194E7E4 /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = UShareSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a; sourceTree = "<group>"; };
 		9BFBD4B2355458ADE6939AF5AFA55B72 /* SFHFKeychainUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFHFKeychainUtils.xcconfig; sourceTree = "<group>"; };
-		9C3206446D90DE788941A75FB7664DAC /* ALSUniversalAccount-ThirdParty-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALSUniversalAccount-ThirdParty-umbrella.h"; sourceTree = "<group>"; };
-		9EF949D38655000A8386AA485A11FE80 /* ALSUniversalAccount-ThirdParty-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALSUniversalAccount-ThirdParty-prefix.pch"; sourceTree = "<group>"; };
+		9CC884AA90F9EC991A32722184A66408 /* icon_eye_off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_eye_off@2x.png"; sourceTree = "<group>"; };
+		9FFF2CBDD22C7F9925B37F11BD80A96B /* icon_pop_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_pop_success@3x.png"; sourceTree = "<group>"; };
 		A19E2485A59DCD5D615AA1CF64095E84 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		A2D0FF43E712C6F2EE1FE2249E79F599 /* ALSUABaiChuanPlugInitializationInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALSUABaiChuanPlugInitializationInfo.m; sourceTree = "<group>"; };
+		A24403244B5F2B9DF1107F5494679B1E /* icon_list_eye_on@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_list_eye_on@3x.png"; sourceTree = "<group>"; };
 		A39C1F1298B1701710EAB34AEDDEBD67 /* libSocialQQ.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialQQ.a; path = UShareSDK/SocialLibraries/QQ/libSocialQQ.a; sourceTree = "<group>"; };
+		A4C08D5F64654AFFF07224BDAB5107B0 /* SecurityGuardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityGuardSDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/SecurityGuardSDK/SecurityGuardSDK.framework; sourceTree = "<group>"; };
 		A51139B471274E212338ADE6A2560B69 /* TTTAttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTTAttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA1CEDCEB24A8C775E1384C5FE387A61 /* ALSUAOAuthPlugInitializationInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALSUAOAuthPlugInitializationInfo.m; sourceTree = "<group>"; };
+		A6048FF5CEF6487F8DF1FA3AADDB0289 /* ALSUAOperationMode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALSUAOperationMode.m; sourceTree = "<group>"; };
+		A94583301888D00D5652B4AEFB532D58 /* AlibabaAuthSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlibabaAuthSDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/AlibabaAuthSDK/AlibabaAuthSDK.framework; sourceTree = "<group>"; };
+		AAA814D2EBF4C573B4DE758DF742BB85 /* ALSUAPlugMode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ALSUAPlugMode.m; sourceTree = "<group>"; };
 		AC24AC51F9AF72E3533DCBBC96CEC015 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B272EFB1E1C932BDD4BB5FF9702C54A8 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFHFKeychainUtils.h; path = security/SFHFKeychainUtils.h; sourceTree = "<group>"; };
 		B587362AF7B455245F9F705D10753561 /* SFHFKeychainUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFHFKeychainUtils-umbrella.h"; sourceTree = "<group>"; };
-		B66DECA7F4DC3D4083E2CE1CFEF8626C /* UTMini.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTMini.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/BCUserTrack/UTMini.framework; sourceTree = "<group>"; };
 		B733A0DBAF54377887234E7386090E2C /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialSinaHandler.h; path = UShareSDK/SocialLibraries/Sina/UMSocialSinaHandler.h; sourceTree = "<group>"; };
-		BABB4F3B6BADB3975B4911816DD87CF2 /* OpenMtopSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenMtopSDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/mtop/OpenMtopSDK.framework; sourceTree = "<group>"; };
-		BD52BECF9ADD0E0B2A2A997346A18EC4 /* alsua_icon_pop_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alsua_icon_pop_success@3x.png"; sourceTree = "<group>"; };
+		BB4C2B7AD9F44583EA16742FE37F2F99 /* SGSecurityBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGSecurityBody.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/SGSecurityBody/SGSecurityBody.framework; sourceTree = "<group>"; };
 		BDDA6129B4FB1E0462035B44982835F8 /* UMSocialCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMSocialCore.framework; path = UShareSDK/UMSocialSDK/UMSocialCore.framework; sourceTree = "<group>"; };
+		BDE3155F235C2B768E316C3D652DE80D /* icon_nav_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_nav_back@2x.png"; sourceTree = "<group>"; };
+		C3858F62F934D1B85E816B652F2906F5 /* SGNoCaptcha.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGNoCaptcha.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/SGNoCaptcha/SGNoCaptcha.framework; sourceTree = "<group>"; };
 		C4FE1F60467B2509C61439CB141AF202 /* SFHFKeychainUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SFHFKeychainUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C508BAB4B8D8C60E8A2F442A76F63309 /* ALSUAResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSUAResponse.h; sourceTree = "<group>"; };
-		C6BC4232E29DA7106AB620B0420CD6E5 /* icon_list_eye_on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_list_eye_on@2x.png"; sourceTree = "<group>"; };
+		C7253899F0C15ABACE1E179704615874 /* alsua_icon_pop_success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alsua_icon_pop_success@2x.png"; sourceTree = "<group>"; };
 		C73645B0F3A63D76909E1F6472B2D4B4 /* libUMSocialLog.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libUMSocialLog.a; path = UShareSDK/UMSocialSDKPlugin/libUMSocialLog.a; sourceTree = "<group>"; };
-		CD0407D74077D83274F63CD648546F48 /* alsua_icon_nav_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alsua_icon_nav_back@2x.png"; sourceTree = "<group>"; };
-		CD17CCB1009083F4577F79FF0F6D6A87 /* ALBBOpenAccountUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALBBOpenAccountUI.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/ALBBOpenAccountSDK/ALBBOpenAccountUI.framework; sourceTree = "<group>"; };
-		CD6B226BC37A4E5C1F6F02DE07C0336E /* icon_pop_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_pop_success@3x.png"; sourceTree = "<group>"; };
+		CB198658FF568DC1DE5223FC4A276806 /* ALSUAResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSUAResponse.h; sourceTree = "<group>"; };
 		CD735B047D2C004C4EC25FDA3CCCF183 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CF08360A70EE3CBFC3FDF83C38DC872B /* Pods-ALSUniversalAccount_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALSUniversalAccount_Example-dummy.m"; sourceTree = "<group>"; };
+		CFBAE51C07F929567B02EEDAEA617BB8 /* alsua_icon_eye_off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alsua_icon_eye_off@2x.png"; sourceTree = "<group>"; };
+		D0AE12A41DD2ED8BD5AC32031E64A320 /* ALBBOpenAccountUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALBBOpenAccountUI.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/ALBBOpenAccountSDK/ALBBOpenAccountUI.framework; sourceTree = "<group>"; };
 		D31034C0AA53F44A02B6B7F1A82DDACC /* Pods-ALSUniversalAccount_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALSUniversalAccount_Example-resources.sh"; sourceTree = "<group>"; };
 		D4B31C84AA43FD12E1E2590D10DC5DF2 /* SFHFKeychainUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFHFKeychainUtils-prefix.pch"; sourceTree = "<group>"; };
+		D5017309296334A9D75C66186F7FE164 /* ALSUniversalAccount-ThirdParty-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALSUniversalAccount-ThirdParty-umbrella.h"; sourceTree = "<group>"; };
 		D8C9C6EFF70D0548E4F0DAB10C65309F /* Pods-ALSUniversalAccount_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALSUniversalAccount_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D979D4B82EF6051AF81342A2814F4B6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9A9D413DB5CF3AE75A96755A11D6661 /* ALBBOpenAccountSSO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALBBOpenAccountSSO.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/ALBBOpenAccountSDK/ALBBOpenAccountSSO.framework; sourceTree = "<group>"; };
 		DA5B3E7537DC94F772CF247B0FBBC12E /* TTTAttributedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTTAttributedLabel.m; path = TTTAttributedLabel/TTTAttributedLabel.m; sourceTree = "<group>"; };
-		DB607BA213BBA9400E24F7A3C220E451 /* ALSUAOperationMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSUAOperationMode.h; sourceTree = "<group>"; };
-		DC445A6E2B294C1FC56FDF53BB116FE5 /* ALSUniversalAccount-ThirdParty.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "ALSUniversalAccount-ThirdParty.modulemap"; sourceTree = "<group>"; };
+		DF25EE6ED43BE2DD5A63CD92351D6993 /* ALSUniversalAccount-ThirdParty.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ALSUniversalAccount-ThirdParty.xcconfig"; sourceTree = "<group>"; };
 		E25011DE8DF712CE80276D1FD84EAF25 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
-		E638B0FF4882044AE06273F14B5872CD /* SGSecurityBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGSecurityBody.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/SGSecurityBody/SGSecurityBody.framework; sourceTree = "<group>"; };
+		E26E830A95E6D38E117562666BCD9398 /* AlisportsUniversalAccount.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlisportsUniversalAccount.framework; path = ALSUniversalAccount/Classes/Interface/ThirdParty/AlisportsUniversalAccount.framework; sourceTree = "<group>"; };
 		E8B9EF1731F369A3C76ADB2B49283886 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		E9F5745B00751343A245A311CB64A43C /* Pods-ALSUniversalAccount_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSUniversalAccount_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EADF2F67930C1518BB43AF865B2CCD6A /* TTTAttributedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTTAttributedLabel.h; path = TTTAttributedLabel/TTTAttributedLabel.h; sourceTree = "<group>"; };
 		EC2E0AE1BC02918FABD0B05A3F4F4905 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFD67582ADDF9A94E23305A3F6651701 /* ALBBOpenAccountSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALBBOpenAccountSDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/ALBBOpenAccountSDK/ALBBOpenAccountSDK.framework; sourceTree = "<group>"; };
+		ECBDD384C63B5DE1A5A720A8A2022CE0 /* alsua_icon_list_eye_on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alsua_icon_list_eye_on@2x.png"; sourceTree = "<group>"; };
+		EE300F3BB850450EF9F8E1C310A59642 /* OpenMtopSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenMtopSDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/mtop/OpenMtopSDK.framework; sourceTree = "<group>"; };
 		F0F504718E71622C2FB1698D662092C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F17AF4FF76AD4C28F0560E3D743788A5 /* ALSUAPlugMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ALSUAPlugMode.h; sourceTree = "<group>"; };
 		F33F7E0F1DC378651DB0A5A54BB8A464 /* libSocialSina.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialSina.a; path = UShareSDK/SocialLibraries/Sina/libSocialSina.a; sourceTree = "<group>"; };
-		F399BBF1D50E4C3E1455FA15F4FEF1E8 /* icon_nav_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_nav_back@2x.png"; sourceTree = "<group>"; };
 		F59D765C63B4601E8A24A3B7C6DAAE6F /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C1C90B979B90CFF899135C284EC9B1 /* Pods-ALSUniversalAccount_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALSUniversalAccount_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F671DC8B69E997CFB84A0E9479686F74 /* icon_eye_off@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_eye_off@3x.png"; sourceTree = "<group>"; };
 		F75365775C46290F335AEB1FE0E3B16D /* Pods-ALSUniversalAccount_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ALSUniversalAccount_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FAFCE5CB897DC4C61C22CEF1D3E88F57 /* SGNoCaptcha.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGNoCaptcha.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/SGNoCaptcha/SGNoCaptcha.framework; sourceTree = "<group>"; };
 		FB6F9871D7A2E3293D9189CEE3CC9E4E /* Pods-ALSUniversalAccount_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ALSUniversalAccount_Tests.modulemap"; sourceTree = "<group>"; };
-		FDCD14774104670376BEBE068C65FCF4 /* SGMain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGMain.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/SGMain/SGMain.framework; sourceTree = "<group>"; };
+		FD3A8752D723C65E30818842400467C6 /* ALSUniversalAccount-ThirdParty-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALSUniversalAccount-ThirdParty-dummy.m"; sourceTree = "<group>"; };
 		FE286F82D7156B2AF82752342F577FBE /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = UShareSDK/SocialLibraries/Sina/SinaSDK/WBHttpRequest.h; sourceTree = "<group>"; };
-		FEDE18D5707CB9A66B8BF59507D36268 /* alsua_icon_list_eye_on@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alsua_icon_list_eye_on@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -327,6 +328,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0248B68A28BC7741F9B0AE486B450BB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E26E830A95E6D38E117562666BCD9398 /* AlisportsUniversalAccount.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		041BA5B92FE4455B148483DD9CE0A5C4 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -345,29 +354,6 @@
 				BDDA6129B4FB1E0462035B44982835F8 /* UMSocialCore.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		0B99A8610000FE693C5A588DB57A07DB /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F140430A9007CD27BCEB705C31BBF37A /* ALSUniversalAccount */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		11FC7C4E9980224DD4C043A3084C60D3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DC445A6E2B294C1FC56FDF53BB116FE5 /* ALSUniversalAccount-ThirdParty.modulemap */,
-				34346B92B72F981D73A5088DBEC38CFF /* ALSUniversalAccount-ThirdParty.xcconfig */,
-				02EAA09248DF947D5DF0446F997622B0 /* ALSUniversalAccount-ThirdParty-dummy.m */,
-				9EF949D38655000A8386AA485A11FE80 /* ALSUniversalAccount-ThirdParty-prefix.pch */,
-				9C3206446D90DE788941A75FB7664DAC /* ALSUniversalAccount-ThirdParty-umbrella.h */,
-				1012F5AACF0935132C8EB668493AE049 /* Info.plist */,
-				350077C2857309A87E6A8A51E012F86E /* ResourceBundle-ALSUniversalAccount-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ALSUniversalAccount-ThirdParty";
 			sourceTree = "<group>";
 		};
 		15B6B3CD0C6C59AD99623CFF9BA7A477 /* Network */ = {
@@ -392,15 +378,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		17CBEB309964303CE82C0194CA6F85DB /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				3E8C5C6E8FB163F97A99F51C956B9AE5 /* Images */,
-			);
-			name = Assets;
-			path = Assets;
-			sourceTree = "<group>";
-		};
 		19283DC1C6D348A155BF12C7C6789128 /* Pods-ALSUniversalAccount_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -417,15 +394,6 @@
 			);
 			name = "Pods-ALSUniversalAccount_Tests";
 			path = "Target Support Files/Pods-ALSUniversalAccount_Tests";
-			sourceTree = "<group>";
-		};
-		1AC107B0FE76EF8BD36B61FF7875BADD /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D29995763ED5B2163FAAB1DAF27EB6E6 /* Public */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		1F056FDB14CBADFAB38CAB0321ADA047 /* Sina */ = {
@@ -461,24 +429,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3E8C5C6E8FB163F97A99F51C956B9AE5 /* Images */ = {
+		3C69019B374AC0A2F500ADD97938BECE /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				657FF34BCF3BFD685CC88A18814B0CD5 /* alsua_icon_eye_off@2x.png */,
-				653C78564DF3902DC6B427C53A09EE7F /* alsua_icon_eye_off@3x.png */,
-				849C3A7981EBC9BD91C8EE3DD4EBFF2E /* alsua_icon_list_eye_on@2x.png */,
-				FEDE18D5707CB9A66B8BF59507D36268 /* alsua_icon_list_eye_on@3x.png */,
-				CD0407D74077D83274F63CD648546F48 /* alsua_icon_nav_back@2x.png */,
-				49378BFE6FB327E2D7B0B8D0FDAB0D2A /* alsua_icon_nav_back@3x.png */,
-				25A5BC15CD878329C4ED9C0D106488A9 /* alsua_icon_pop_success@2x.png */,
-				BD52BECF9ADD0E0B2A2A997346A18EC4 /* alsua_icon_pop_success@3x.png */,
-				37FE6C3A9EDFBF4142D7CA48D7818688 /* icon_eye_off@2x.png */,
-				F671DC8B69E997CFB84A0E9479686F74 /* icon_eye_off@3x.png */,
-				C6BC4232E29DA7106AB620B0420CD6E5 /* icon_list_eye_on@2x.png */,
-				0BA5952C726ED9D3D14948E5159C7129 /* icon_list_eye_on@3x.png */,
-				F399BBF1D50E4C3E1455FA15F4FEF1E8 /* icon_nav_back@2x.png */,
-				6EE81EA56FB2F743DDA3E1CFBB8FE587 /* icon_nav_back@3x.png */,
-				CD6B226BC37A4E5C1F6F02DE07C0336E /* icon_pop_success@3x.png */,
+				CFBAE51C07F929567B02EEDAEA617BB8 /* alsua_icon_eye_off@2x.png */,
+				8301D44CABC726E1053ACDDB93826466 /* alsua_icon_eye_off@3x.png */,
+				ECBDD384C63B5DE1A5A720A8A2022CE0 /* alsua_icon_list_eye_on@2x.png */,
+				64BBCA8274A57728933143355E29D7DC /* alsua_icon_list_eye_on@3x.png */,
+				55CA6CDB9AA2B70E58DF02146D1B190E /* alsua_icon_nav_back@2x.png */,
+				5FFC4BFFCF659AC86050587BA8F21235 /* alsua_icon_nav_back@3x.png */,
+				C7253899F0C15ABACE1E179704615874 /* alsua_icon_pop_success@2x.png */,
+				20C5F93BD60E4083C2C483FEFFF6A72D /* alsua_icon_pop_success@3x.png */,
+				9CC884AA90F9EC991A32722184A66408 /* icon_eye_off@2x.png */,
+				4A9D447D61B1CA00424A6AABD728B5E2 /* icon_eye_off@3x.png */,
+				8529181EF26F150A203CD022B2B27E93 /* icon_list_eye_on@2x.png */,
+				A24403244B5F2B9DF1107F5494679B1E /* icon_list_eye_on@3x.png */,
+				BDE3155F235C2B768E316C3D652DE80D /* icon_nav_back@2x.png */,
+				8D7962E4261AC8BCE6B547F25E66715D /* icon_nav_back@3x.png */,
+				9FFF2CBDD22C7F9925B37F11BD80A96B /* icon_pop_success@3x.png */,
 			);
 			name = Images;
 			path = Images;
@@ -506,6 +474,14 @@
 			path = TTTAttributedLabel;
 			sourceTree = "<group>";
 		};
+		4D6056E5CA56876BA258A27107949EBB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F14A622EAB8F00681D46F93A6F390959 /* ALSUniversalAccount */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		53D884C5BD420108032AC675B1488B7E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -528,15 +504,24 @@
 			path = "../Target Support Files/SFHFKeychainUtils";
 			sourceTree = "<group>";
 		};
-		5BE1CBE8772A439E0CD70C1598132471 /* ALSUniversalAccount-ThirdParty */ = {
+		696EFF64FCA89C3CBE684C43C1708783 /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				B32D3359A3D48257CB408C3E755A2010 /* Interface */,
-				E6E91D6A35D7850E6933CC9FA186A67C /* Public */,
-				11FC7C4E9980224DD4C043A3084C60D3 /* Support Files */,
+				75A3589FCB0722A8BDCB84878D544095 /* ALSUABaiChuanPlugInitializationInfo.h */,
+				305F4A1A81CC707A03D83676B660C639 /* ALSUABaiChuanPlugInitializationInfo.m */,
+				40EB03C1BF2E2A33AAE71CBFACBFAEB5 /* ALSUAErrorDefine.h */,
+				97F96471E8C49AF4B724AFB1081BF05D /* ALSUAOAuthPlugInitializationInfo.h */,
+				0F30B3660F6D78F35A6304DDF2B3BCE7 /* ALSUAOAuthPlugInitializationInfo.m */,
+				074D852C6F3BDAF5DCA0A36BF5896BB8 /* ALSUAOperationMode.h */,
+				A6048FF5CEF6487F8DF1FA3AADDB0289 /* ALSUAOperationMode.m */,
+				F17AF4FF76AD4C28F0560E3D743788A5 /* ALSUAPlugMode.h */,
+				AAA814D2EBF4C573B4DE758DF742BB85 /* ALSUAPlugMode.m */,
+				17C8306BE45ACED85D45D38E2BC48B7A /* ALSUAPlugProtocal.h */,
+				CB198658FF568DC1DE5223FC4A276806 /* ALSUAResponse.h */,
+				903A57355B9535242EDB56E6211E522E /* ALSUAResponse.m */,
 			);
-			name = "ALSUniversalAccount-ThirdParty";
-			path = ../..;
+			name = Public;
+			path = Public;
 			sourceTree = "<group>";
 		};
 		6A353F38686CD376898B5E42D8ABC7C9 /* Pods */ = {
@@ -548,6 +533,30 @@
 				A5ABB04673A087175038FF0DE9203644 /* UMengUShare */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		77ACA2949D01E29AF3EEA8BAF4A47C9F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				696EFF64FCA89C3CBE684C43C1708783 /* Public */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7838EA0974CDE6D0117CFE4FBA204D10 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9288FB57E403186CF47031C4B5F3CD2C /* ALSUniversalAccount-ThirdParty.modulemap */,
+				DF25EE6ED43BE2DD5A63CD92351D6993 /* ALSUniversalAccount-ThirdParty.xcconfig */,
+				FD3A8752D723C65E30818842400467C6 /* ALSUniversalAccount-ThirdParty-dummy.m */,
+				351CCF7BA8E32C8B2BFBBDDEB7F4643C /* ALSUniversalAccount-ThirdParty-prefix.pch */,
+				D5017309296334A9D75C66186F7FE164 /* ALSUniversalAccount-ThirdParty-umbrella.h */,
+				0E2249D6B9C77C4F7E4C82289DB3FA95 /* Info.plist */,
+				90EBBB1E8BD65D285139C8BB403E1710 /* ResourceBundle-ALSUniversalAccount-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ALSUniversalAccount-ThirdParty";
 			sourceTree = "<group>";
 		};
 		7B98216C1A72BD521984793CD02F9E38 /* Support Files */ = {
@@ -562,6 +571,26 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TTTAttributedLabel";
+			sourceTree = "<group>";
+		};
+		7C38D33FD6D863427C84EB37DE089C71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34BA440025EAF2ED83349659C01BAC2B /* ALBBOpenAccountSDK.framework */,
+				D9A9D413DB5CF3AE75A96755A11D6661 /* ALBBOpenAccountSSO.framework */,
+				D0AE12A41DD2ED8BD5AC32031E64A320 /* ALBBOpenAccountUI.framework */,
+				24252CC17037784BB6B15BEEB822F8A6 /* AlibabaAuthExt.framework */,
+				A94583301888D00D5652B4AEFB532D58 /* AlibabaAuthSDK.framework */,
+				80D3A2091A4A105B2F88BEC61443395B /* OpenMtopExt.framework */,
+				EE300F3BB850450EF9F8E1C310A59642 /* OpenMtopSDK.framework */,
+				A4C08D5F64654AFFF07224BDAB5107B0 /* SecurityGuardSDK.framework */,
+				4B033A2911368AAF08A595AC64D2CC4A /* SGMain.framework */,
+				C3858F62F934D1B85E816B652F2906F5 /* SGNoCaptcha.framework */,
+				BB4C2B7AD9F44583EA16742FE37F2F99 /* SGSecurityBody.framework */,
+				3627368CB1587FAD19F5FD5CC51727E5 /* UTDID.framework */,
+				3C4B7E8991AD496302AE98FC66CDF6EF /* UTMini.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -587,9 +616,18 @@
 		8F7D586FD198E2DC4F60E4C2559209EA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5BE1CBE8772A439E0CD70C1598132471 /* ALSUniversalAccount-ThirdParty */,
+				DDD42498E8FAFB590C6DD1A9B82F3EDD /* ALSUniversalAccount-ThirdParty */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		933D08D65C7846F2942D601EB22D27D5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3C69019B374AC0A2F500ADD97938BECE /* Images */,
+			);
+			name = Assets;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		958C8C20DB5B5857611C05F7255BE127 /* Frameworks */ = {
@@ -609,24 +647,12 @@
 			name = QQ;
 			sourceTree = "<group>";
 		};
-		99B81D7F8B3B991CBA447313E3834ECF /* Frameworks */ = {
+		9AFA599D13F42F3E67B759F3BA724CA2 /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				EFD67582ADDF9A94E23305A3F6651701 /* ALBBOpenAccountSDK.framework */,
-				5DFEF8EBA9BEAC7003414D795D324170 /* ALBBOpenAccountSSO.framework */,
-				CD17CCB1009083F4577F79FF0F6D6A87 /* ALBBOpenAccountUI.framework */,
-				34CD0EB699B187E55FEC7111322FDBC9 /* AlibabaAuthExt.framework */,
-				96A5FB09295C3496680B10D167670BCF /* AlibabaAuthSDK.framework */,
-				92F10A27A21EA4954DFD81AF06B643F2 /* OpenMtopExt.framework */,
-				BABB4F3B6BADB3975B4911816DD87CF2 /* OpenMtopSDK.framework */,
-				67E9DBA89B28A8C00FBCF3CDC484CDC6 /* SecurityGuardSDK.framework */,
-				FDCD14774104670376BEBE068C65FCF4 /* SGMain.framework */,
-				FAFCE5CB897DC4C61C22CEF1D3E88F57 /* SGNoCaptcha.framework */,
-				E638B0FF4882044AE06273F14B5872CD /* SGSecurityBody.framework */,
-				7776511AE7D52E7D5F324C6115EEC752 /* UTDID.framework */,
-				B66DECA7F4DC3D4083E2CE1CFEF8626C /* UTMini.framework */,
+				A3CD07EDC6783A456BB34C2E6E5AA197 /* ALSUniversalAccount */,
 			);
-			name = Frameworks;
+			name = Public;
 			sourceTree = "<group>";
 		};
 		9D73EBA070D9A1A3F84852280FBB3C9F /* Products */ = {
@@ -641,6 +667,15 @@
 				165A0B80E2619B29A5313615849291EC /* TTTAttributedLabel.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A3CD07EDC6783A456BB34C2E6E5AA197 /* ALSUniversalAccount */ = {
+			isa = PBXGroup;
+			children = (
+				77ACA2949D01E29AF3EEA8BAF4A47C9F /* Classes */,
+			);
+			name = ALSUniversalAccount;
+			path = ALSUniversalAccount;
 			sourceTree = "<group>";
 		};
 		A5ABB04673A087175038FF0DE9203644 /* UMengUShare */ = {
@@ -680,15 +715,6 @@
 			path = "Target Support Files/Pods-ALSUniversalAccount_Example";
 			sourceTree = "<group>";
 		};
-		B32D3359A3D48257CB408C3E755A2010 /* Interface */ = {
-			isa = PBXGroup;
-			children = (
-				99B81D7F8B3B991CBA447313E3834ECF /* Frameworks */,
-				0B99A8610000FE693C5A588DB57A07DB /* Resources */,
-			);
-			name = Interface;
-			sourceTree = "<group>";
-		};
 		B6E18BE1E0B3C9137C653942E5F5905A /* ReducedSina */ = {
 			isa = PBXGroup;
 			children = (
@@ -722,35 +748,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		CF38DDD6B176C7200D072C531B447CAC /* ALSUniversalAccount */ = {
-			isa = PBXGroup;
-			children = (
-				1AC107B0FE76EF8BD36B61FF7875BADD /* Classes */,
-			);
-			name = ALSUniversalAccount;
-			path = ALSUniversalAccount;
-			sourceTree = "<group>";
-		};
-		D29995763ED5B2163FAAB1DAF27EB6E6 /* Public */ = {
-			isa = PBXGroup;
-			children = (
-				630D4CC4C4904639AC88DA1B13E21180 /* ALSUABaiChuanPlugInitializationInfo.h */,
-				A2D0FF43E712C6F2EE1FE2249E79F599 /* ALSUABaiChuanPlugInitializationInfo.m */,
-				710996F06E5E81E933B4FE3BEF3D2986 /* ALSUAErrorDefine.h */,
-				0ED70F97A3236BCF8112A6BD46AC4CF5 /* ALSUAOAuthPlugInitializationInfo.h */,
-				AA1CEDCEB24A8C775E1384C5FE387A61 /* ALSUAOAuthPlugInitializationInfo.m */,
-				DB607BA213BBA9400E24F7A3C220E451 /* ALSUAOperationMode.h */,
-				36B49EB11D809FFC783547C56D6D51E2 /* ALSUAOperationMode.m */,
-				280DECF40802ABB308605998EBDC5828 /* ALSUAPlugMode.h */,
-				3A23610000E3AC80BB4F6C1F19431536 /* ALSUAPlugMode.m */,
-				4234D82140D0D5735462758F359A5B57 /* ALSUAPlugProtocal.h */,
-				C508BAB4B8D8C60E8A2F442A76F63309 /* ALSUAResponse.h */,
-				651A7C6CCB267034BEC8C29470989200 /* ALSUAResponse.m */,
-			);
-			name = Public;
-			path = Public;
-			sourceTree = "<group>";
-		};
 		D4E4FE9506246CF836CA0E8A983D5B14 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -759,12 +756,23 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		E6E91D6A35D7850E6933CC9FA186A67C /* Public */ = {
+		D633C751D2E7534DBCB92389B273F37E /* BaiChuan */ = {
 			isa = PBXGroup;
 			children = (
-				CF38DDD6B176C7200D072C531B447CAC /* ALSUniversalAccount */,
+				7C38D33FD6D863427C84EB37DE089C71 /* Frameworks */,
 			);
-			name = Public;
+			name = BaiChuan;
+			sourceTree = "<group>";
+		};
+		DDD42498E8FAFB590C6DD1A9B82F3EDD /* ALSUniversalAccount-ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				F1C564AE034994DADFA819A1011DDF2A /* Interface */,
+				9AFA599D13F42F3E67B759F3BA724CA2 /* Public */,
+				7838EA0974CDE6D0117CFE4FBA204D10 /* Support Files */,
+			);
+			name = "ALSUniversalAccount-ThirdParty";
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		EA2A80BDF7C85AE97A945CC2A2105E5C /* Support Files */ = {
@@ -792,13 +800,23 @@
 			name = Social;
 			sourceTree = "<group>";
 		};
-		F140430A9007CD27BCEB705C31BBF37A /* ALSUniversalAccount */ = {
+		F14A622EAB8F00681D46F93A6F390959 /* ALSUniversalAccount */ = {
 			isa = PBXGroup;
 			children = (
-				17CBEB309964303CE82C0194CA6F85DB /* Assets */,
+				933D08D65C7846F2942D601EB22D27D5 /* Assets */,
 			);
 			name = ALSUniversalAccount;
 			path = ALSUniversalAccount;
+			sourceTree = "<group>";
+		};
+		F1C564AE034994DADFA819A1011DDF2A /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				D633C751D2E7534DBCB92389B273F37E /* BaiChuan */,
+				0248B68A28BC7741F9B0AE486B450BB1 /* Frameworks */,
+				4D6056E5CA56876BA258A27107949EBB /* Resources */,
+			);
+			name = Interface;
 			sourceTree = "<group>";
 		};
 		FA771E81615546346C117F14E85373BA /* Core */ = {
@@ -1196,7 +1214,7 @@
 /* Begin XCBuildConfiguration section */
 		1ED751C0296A2AEE160EC1B584530F16 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34346B92B72F981D73A5088DBEC38CFF /* ALSUniversalAccount-ThirdParty.xcconfig */;
+			baseConfigurationReference = DF25EE6ED43BE2DD5A63CD92351D6993 /* ALSUniversalAccount-ThirdParty.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1464,7 +1482,7 @@
 		};
 		7AC109E7375C5C31A9DC5C33E66C7C15 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34346B92B72F981D73A5088DBEC38CFF /* ALSUniversalAccount-ThirdParty.xcconfig */;
+			baseConfigurationReference = DF25EE6ED43BE2DD5A63CD92351D6993 /* ALSUniversalAccount-ThirdParty.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1668,7 +1686,7 @@
 		};
 		FB67D9C7C5B4886D87FF332F21E5BD89 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34346B92B72F981D73A5088DBEC38CFF /* ALSUniversalAccount-ThirdParty.xcconfig */;
+			baseConfigurationReference = DF25EE6ED43BE2DD5A63CD92351D6993 /* ALSUniversalAccount-ThirdParty.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ALSUniversalAccount-ThirdParty";
@@ -1684,7 +1702,7 @@
 		};
 		FF02F6F89CE521C4E7A878D696400E26 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34346B92B72F981D73A5088DBEC38CFF /* ALSUniversalAccount-ThirdParty.xcconfig */;
+			baseConfigurationReference = DF25EE6ED43BE2DD5A63CD92351D6993 /* ALSUniversalAccount-ThirdParty.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ALSUniversalAccount-ThirdParty";
