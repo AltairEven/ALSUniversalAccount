@@ -313,14 +313,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ALSUniversalAccount_Example/Pods-ALSUniversalAccount_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ALSUniversalAccount-SecondParty/ALSUniversalAccount_SecondParty.framework",
+				"${BUILT_PRODUCTS_DIR}/ALSUniversalAccount-ThirdParty/ALSUniversalAccount_ThirdParty.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SFHFKeychainUtils/SFHFKeychainUtils.framework",
 				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ALSUniversalAccount_SecondParty.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ALSUniversalAccount_ThirdParty.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SFHFKeychainUtils.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",

@@ -1,6 +1,6 @@
 {
   "name": "ALSUniversalAccount-ThirdParty",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "summary": "A short description of ALSUniversalAccount.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/AltairEven/ALSUniversalAccount",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/AltairEven/ALSUniversalAccount.git",
-    "tag": "0.0.2"
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "8.0"
@@ -43,12 +43,6 @@
         ],
         "MBProgressHUD": [
           "~> 0.9.0"
-        ],
-        "UMengUShare/Social/Sina": [
-
-        ],
-        "UMengUShare/Social/QQ": [
-
         ]
       },
       "vendored_frameworks": "ALSUniversalAccount/Classes/Interface/ThirdParty/*.framework",

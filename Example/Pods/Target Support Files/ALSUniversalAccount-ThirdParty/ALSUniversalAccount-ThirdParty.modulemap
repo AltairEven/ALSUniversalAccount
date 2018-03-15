@@ -1,0 +1,6 @@
+framework module ALSUniversalAccount_ThirdParty {
+  umbrella header "ALSUniversalAccount-ThirdParty-umbrella.h"
+
+  export *
+  module * { export * }
+}

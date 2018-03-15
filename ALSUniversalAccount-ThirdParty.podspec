@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ALSUniversalAccount-ThirdParty'
-  s.version          = '0.0.4'
+  s.version          = '0.0.0.1-THD'
   s.summary          = 'A short description of ALSUniversalAccount.'
 
 # This description is used to generate tags and improve search results.
@@ -51,11 +51,11 @@ TODO: Add long description of the pod here.
     int.dependency 'SFHFKeychainUtils', '~> 0.0.1'
     int.dependency 'MBProgressHUD', '~> 0.9.0'
 
-    int.dependency 'UMengUShare/Social/Sina'
+    #int.dependency 'UMengUShare/Social/Sina'
     # 集成微信
     #int.dependency 'UMengUShare/Social/WeChat'
     # 集成qq
-    int.dependency 'UMengUShare/Social/QQ'
+    #int.dependency 'UMengUShare/Social/QQ'
 
     int.subspec 'BaiChuan' do |bc|
         bc.vendored_frameworks = 'ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/**/*.framework'

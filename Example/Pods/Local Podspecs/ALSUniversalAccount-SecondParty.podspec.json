@@ -1,6 +1,6 @@
 {
   "name": "ALSUniversalAccount-SecondParty",
-  "version": "0.0.1",
+  "version": "0.0.0.1-SND",
   "summary": "A short description of ALSUniversalAccount.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/AltairEven/ALSUniversalAccount",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/AltairEven/ALSUniversalAccount.git",
-    "tag": "0.0.1"
+    "tag": "0.0.0.1-SND"
   },
   "platforms": {
     "ios": "8.0"

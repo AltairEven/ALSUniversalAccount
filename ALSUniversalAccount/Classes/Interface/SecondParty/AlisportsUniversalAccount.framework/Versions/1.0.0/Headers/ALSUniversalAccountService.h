@@ -36,7 +36,7 @@ typedef enum {
  @param succeed 初始化成功回调
  @param failure 初始化失败回调
  */
-- (void)asyncInitWithAppKey:(NSString *)key appSecret:(NSString *)secret succeed:(void(^)())succeed failure:(void(^)(NSError *))failure;
+- (void)asyncInitWithAppKey:(NSString *)key appSecret:(NSString *)secret succeed:(void(^)(void))succeed failure:(void(^)(NSError *))failure;
 
 /**
  将指定的账户模式启动
