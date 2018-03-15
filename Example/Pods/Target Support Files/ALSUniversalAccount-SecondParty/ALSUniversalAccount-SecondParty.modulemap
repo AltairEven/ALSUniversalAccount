@@ -1,0 +1,6 @@
+framework module ALSUniversalAccount_SecondParty {
+  umbrella header "ALSUniversalAccount-SecondParty-umbrella.h"
+
+  export *
+  module * { export * }
+}

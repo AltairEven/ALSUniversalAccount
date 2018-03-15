@@ -29,13 +29,12 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.pod_target_xcconfig = {
+    s.pod_target_xcconfig = {
     'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/**',
     'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup',
     'ENABLE_BITCODE'         => 'NO',
     'MACH_O_TYPE'            => 'staticlib'
-  }
-
+    }
     
   s.subspec 'Public' do |pub|
     pub.source_files = 'ALSUniversalAccount/Classes/Public/*'
@@ -47,23 +46,24 @@ TODO: Add long description of the pod here.
      	'ALSUniversalAccount' => ['ALSUniversalAccount/Assets/**/*.png']
     }
 
-
     # #第三方
-    int.dependency 'AEAssistant'
-    int.dependency 'MJExtension', '~> 3.0.13'
     int.dependency 'TTTAttributedLabel', '~> 2.0.0'
     int.dependency 'SFHFKeychainUtils', '~> 0.0.1'
     int.dependency 'MBProgressHUD', '~> 0.9.0'
-  end
-  s.subspec 'Plug' do |pl|
-    pl.dependency 'ALSUniversalAccount-SecondParty/Public'
 
-    pl.vendored_frameworks = 'ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/**/*.framework'
-
-
-    # 集成新浪微博
-    pl.dependency 'UMengUShare/Social/Sina'
+    #int.dependency 'UMengUShare/Social/Sina'
+    # 集成微信
+    #int.dependency 'UMengUShare/Social/WeChat'
     # 集成qq
-    pl.dependency 'UMengUShare/Social/QQ'
+    #int.dependency 'UMengUShare/Social/QQ'
+
+    int.subspec 'BaiChuan' do |bc|
+        bc.vendored_frameworks = 'ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/**/*.framework'
+        bc.frameworks = 'CoreMotion'
+        bc.ios.libraries = 'sqlite3.0', 'z.1.2.8'
+    end
   end
+#s.subspec 'Plug' do |pl|
+#   pl.dependency 'ALSUniversalAccount-SecondParty/Public'
+# end
 end

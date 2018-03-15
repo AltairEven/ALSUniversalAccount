@@ -7,8 +7,8 @@ target 'ALSUniversalAccount_Example' do
     def installer.verify_no_static_framework_transitive_dependencies; end
   end
 
-  #pod 'ALSUniversalAccount-SecondParty', :path => '../'
-  pod 'ALSUniversalAccount-ThirdParty', :path => '../'
+  pod 'ALSUniversalAccount-SecondParty', :path => '../'
+  #pod 'ALSUniversalAccount-ThirdParty', :path => '../'
 
 
   target 'ALSUniversalAccount_Tests' do
