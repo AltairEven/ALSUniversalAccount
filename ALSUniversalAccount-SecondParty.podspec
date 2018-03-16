@@ -51,6 +51,23 @@ TODO: Add long description of the pod here.
     int.dependency 'SFHFKeychainUtils', '~> 0.0.1'
     int.dependency 'MBProgressHUD', '~> 0.9.0'
 
+    
+    int.dependency 'ALBBOpenAccountSDK',    '2.4.0.19'
+    int.dependency 'ALBBOpenAccountUI',     '2.4.0.19'
+    int.dependency 'ALBBOpenAccountSSO',    '2.4.0.19'
+    int.dependency 'MtopSDK',              '1.8.0.2'
+    int.dependency 'mtopext',              '1.7.0.7'
+    int.dependency 'UserTrack',            '6.3.0.1'
+    int.dependency 'SecurityGuardSDK',     '6.3.38'
+    int.dependency 'SGMain',               '6.3.38'
+    int.dependency 'SGSecurityBody',       '6.3.26'
+    int.dependency 'SGNoCaptcha',          '6.3.20'
+    int.dependency 'TBSecuritySDK',        '6.3.12'
+
+    int.dependency 'AliUniversalAccount',  '3.0.5.7'
+    int.dependency 'TBLoginCenter',        '1.3.9.5'
+    int.dependency 'SmoothSSO'
+
     #int.dependency 'UMengUShare/Social/Sina'
     # 集成微信
     #int.dependency 'UMengUShare/Social/WeChat'
@@ -60,12 +77,14 @@ TODO: Add long description of the pod here.
 
 
 
-    s.subspec 'BaiChuan' do |bc|
-        bc.vendored_frameworks = 'ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/**/*.framework'
-        bc.frameworks = 'CoreMotion', 'AssetsLibrary', 'AVFoundation', 'WebKit', 'Contacts', 'ContactsUI', 'CoreLocation', 'AddressBook', 'AddressBookUI', 'CoreBluetooth', 'MobileCoreServices', 'AudioToolbox', 'UserNotifications', 'MessageUI'
-        bc.ios.libraries = 'sqlite3.0', 'z.1.2.8', 'stdc++', 'resolv'
-    end
+#    s.subspec 'BaiChuan' do |bc|
+#        bc.vendored_frameworks = 'ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/**/*.framework'
+#        bc.frameworks = 'CoreMotion', 'AssetsLibrary', 'AVFoundation', 'WebKit', 'Contacts', 'ContactsUI', 'CoreLocation', 'AddressBook', 'AddressBookUI', 'CoreBluetooth', 'MobileCoreServices', 'AudioToolbox', 'UserNotifications', 'MessageUI'
+#        bc.ios.libraries = 'sqlite3.0', 'z.1.2.8', 'stdc++', 'resolv'
+#    end
 #s.subspec 'Plug' do |pl|
 #   pl.dependency 'ALSUniversalAccount-SecondParty/Public'
 # end
+
+    
 end

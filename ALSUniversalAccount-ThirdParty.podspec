@@ -59,11 +59,11 @@ TODO: Add long description of the pod here.
   end
 
 
-    s.subspec 'BaiChuan' do |bc|
-        bc.vendored_frameworks = 'ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/**/*.framework'
-        bc.frameworks = 'CoreMotion'
-        bc.ios.libraries = 'sqlite3.0', 'z.1.2.8'
-    end
+#    s.subspec 'BaiChuan' do |bc|
+#        bc.vendored_frameworks = 'ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/**/*.framework'
+#        bc.frameworks = 'CoreMotion'
+#        bc.ios.libraries = 'sqlite3.0', 'z.1.2.8'
+#    end
 #s.subspec 'Plug' do |pl|
 #   pl.dependency 'ALSUniversalAccount-ThirdParty/Public'
 # end

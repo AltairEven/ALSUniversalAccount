@@ -43,40 +43,54 @@
         ],
         "MBProgressHUD": [
           "~> 0.9.0"
+        ],
+        "ALBBOpenAccountSDK": [
+          "2.4.0.19"
+        ],
+        "ALBBOpenAccountUI": [
+          "2.4.0.19"
+        ],
+        "ALBBOpenAccountSSO": [
+          "2.4.0.19"
+        ],
+        "MtopSDK": [
+          "1.8.0.2"
+        ],
+        "mtopext": [
+          "1.7.0.7"
+        ],
+        "UserTrack": [
+          "6.3.0.1"
+        ],
+        "SecurityGuardSDK": [
+          "6.3.38"
+        ],
+        "SGMain": [
+          "6.3.38"
+        ],
+        "SGSecurityBody": [
+          "6.3.26"
+        ],
+        "SGNoCaptcha": [
+          "6.3.20"
+        ],
+        "TBSecuritySDK": [
+          "6.3.12"
+        ],
+        "AliUniversalAccount": [
+          "3.0.5.7"
+        ],
+        "TBLoginCenter": [
+          "1.3.9.5"
+        ],
+        "SmoothSSO": [
+
         ]
       },
       "vendored_frameworks": "ALSUniversalAccount/Classes/Interface/SecondParty/*.framework",
       "resource_bundles": {
         "ALSUniversalAccount": [
           "ALSUniversalAccount/Assets/**/*.png"
-        ]
-      }
-    },
-    {
-      "name": "BaiChuan",
-      "vendored_frameworks": "ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/**/*.framework",
-      "frameworks": [
-        "CoreMotion",
-        "AssetsLibrary",
-        "AVFoundation",
-        "WebKit",
-        "Contacts",
-        "ContactsUI",
-        "CoreLocation",
-        "AddressBook",
-        "AddressBookUI",
-        "CoreBluetooth",
-        "MobileCoreServices",
-        "AudioToolbox",
-        "UserNotifications",
-        "MessageUI"
-      ],
-      "ios": {
-        "libraries": [
-          "sqlite3.0",
-          "z.1.2.8",
-          "stdc++",
-          "resolv"
         ]
       }
     }
