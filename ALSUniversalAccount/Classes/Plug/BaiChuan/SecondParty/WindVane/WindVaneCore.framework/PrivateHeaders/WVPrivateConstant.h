@@ -13,9 +13,6 @@
 
 #pragma mark - Notification
 
-// 所有配置都已更新完毕的通知。
-FOUNDATION_EXPORT NSString * _Nonnull const WVAllConfigUpdateFinishedNotification;
-
 // 表示更新完毕的配置名称的键。
 FOUNDATION_EXPORT NSString * _Nonnull const WVConfigNameKey;
 

@@ -10,7 +10,7 @@
 // WVBasicUserConfig 已与 WVUserConfig 合并，请直接使用 WVUserConfig 类，这里的方法会逐渐废弃掉。
 @interface WVBasicUserConfig : NSObject
 
-#pragma mark - 设置方法
+#pragma mark - 设置方法，请使用 WVUserConfig 类的同名方法
 
 + (void)setAppKey:(NSString *)appKey;
 + (void)setAppName:(NSString *)appName;

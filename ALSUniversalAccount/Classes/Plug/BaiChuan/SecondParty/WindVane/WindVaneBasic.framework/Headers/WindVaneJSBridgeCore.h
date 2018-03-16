@@ -23,11 +23,3 @@ typedef void (^WVJSBDeallocHandler)(UIViewController * sourceViewController, UIW
 
 // 因为存在对 self 的强引用，所以很容易导致循环引用，因此不再提供。
 // #define WV_JSB_RELEASE_SERVICE ;
-
-DEPRECATED_ATTRIBUTE
-@interface WindVaneJSBridgeCore : NSObject
-+ (NSString *)parseJSBHandlerName:(NSURLRequest *)request DEPRECATED_ATTRIBUTE;
-+ (NSString *)parseJSBHandlerClassName:(NSURLRequest *)request DEPRECATED_ATTRIBUTE;
-+ (NSString *)parseJSBHandlerIfid:(NSURLRequest *)request DEPRECATED_ATTRIBUTE;
-+ (NSString *)parseJSBHandlerParam:(NSURLRequest *)request DEPRECATED_ATTRIBUTE;
-@end

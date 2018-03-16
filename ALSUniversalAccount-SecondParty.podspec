@@ -62,8 +62,8 @@ TODO: Add long description of the pod here.
 
     s.subspec 'BaiChuan' do |bc|
         bc.vendored_frameworks = 'ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/**/*.framework'
-        bc.frameworks = 'CoreMotion'
-        bc.ios.libraries = 'sqlite3.0', 'z.1.2.8'
+        bc.frameworks = 'CoreMotion', 'AssetsLibrary', 'AVFoundation', 'WebKit', 'Contacts', 'ContactsUI', 'CoreLocation', 'AddressBook', 'AddressBookUI', 'CoreBluetooth', 'MobileCoreServices', 'AudioToolbox', 'UserNotifications', 'MessageUI'
+        bc.ios.libraries = 'sqlite3.0', 'z.1.2.8', 'stdc++', 'resolv'
     end
 #s.subspec 'Plug' do |pl|
 #   pl.dependency 'ALSUniversalAccount-SecondParty/Public'

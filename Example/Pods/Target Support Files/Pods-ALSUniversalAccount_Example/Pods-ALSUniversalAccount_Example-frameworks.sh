@@ -102,13 +102,13 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/ALSUniversalAccount-ThirdParty/ALSUniversalAccount_ThirdParty.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ALSUniversalAccount-SecondParty/ALSUniversalAccount_SecondParty.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SFHFKeychainUtils/SFHFKeychainUtils.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/ALSUniversalAccount-ThirdParty/ALSUniversalAccount_ThirdParty.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ALSUniversalAccount-SecondParty/ALSUniversalAccount_SecondParty.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SFHFKeychainUtils/SFHFKeychainUtils.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework"

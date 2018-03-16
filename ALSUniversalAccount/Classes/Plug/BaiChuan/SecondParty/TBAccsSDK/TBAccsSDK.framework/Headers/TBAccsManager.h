@@ -28,6 +28,20 @@ UIKIT_EXTERN NSString *const kAccsSDKOperationTypeNotification;
 #define k_Accs_Aisle_OK @"k_Accs_Aisle_OK"
 #define k_Accs_Aisle_NO @"k_Accs_Aisle_NO"
 
+#define ACCS_PUBKEY_SEQ_CDN    1      //EASY_CONNECT_SSSL_CDN_SEQNUM
+#define ACCS_PUBKEY_PSEQ_CDN   1      //cdn去黑匣子使用相同的公钥
+#define ACCS_PUBKEY_SEQ_ACCS   3      //EASY_CONNECT_SSSL_ACCS_SEQNUM
+#define ACCS_PUBKEY_PSEQ_ACCS  4      //对应aserver明文公钥
+#define ACCS_PUBKEY_SEQ_TEST   0      //EASY_CONNECT_SSSL_TEST_SEQNUM
+#define ACCS_PUBKEY_SEQ_AE     5      //for AE
+#define ACCS_PUBKEY_SEQ_ARUP   6      //for arup
+#define ACCS_PUBKEY_PSEQ_ARUP  7      //for arup plaintext
+#define ACCS_PUBKEY_SEQ_ADASH  8      //for adash
+#define ACCS_PUBKEY_PSEQ_ADASH 9      //for adash plaintext
+#define ACCS_PUBKEY_SEQ_OPEN   10     //for 第三方
+#define ACCS_PUBKEY_PSEQ_OPEN  11     //for 第三方 plaintext
+#define ACCS_PUBKEY_PSEQ_EMAS  12     // for EMAS
+
 @class TBAccsReceiveAndCallBackCenter;
 @class TBAccsRequestQueue;
 @class TBAccsConfiguration;
@@ -40,7 +54,9 @@ UIKIT_EXTERN NSString *const kAccsSDKOperationTypeNotification;
 @property (nonatomic, strong, readonly) TBAccsRequestQueue                      *accsRequestQueue;
 @property (nonatomic, strong, readonly) NSString                                *host;
 @property (nonatomic, strong, readonly) TBAccsConfiguration                     *configuration;
+@property (nonatomic, assign) BOOL supportLocalDNS;
 @property (nonatomic, assign) BOOL userCustomHost;
+@property (nonatomic, assign) int  slightSslPublicKeySeq;
 
 
 /**
@@ -66,9 +82,6 @@ UIKIT_EXTERN NSString *const kAccsSDKOperationTypeNotification;
  *  @param  host   单元化对应的host
  */
 + (TBAccsManager *)accsManagerByHost:(nonnull NSString *)host;
-
-
-
 
 /**
  * 静态注册下行消息callback. 注意：该注册方式与info.plist中注册相互冲突，因兼容性以及避免对已有业务的干扰，若

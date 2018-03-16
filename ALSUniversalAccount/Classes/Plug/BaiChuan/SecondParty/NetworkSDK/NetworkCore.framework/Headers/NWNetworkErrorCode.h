@@ -32,6 +32,8 @@
 
 #define NETERR_TNET_SESSION_STATUS_INVALID          -7002
 
+#define NETERR_CONTENT_LENGTH_ERROR                 -7003
+
 extern NSString* const  ERR_DOMAIN_REQUEST_ERROR;
 
 extern NSString* const  ERR_DOMAIN_SESSION_ERROR;

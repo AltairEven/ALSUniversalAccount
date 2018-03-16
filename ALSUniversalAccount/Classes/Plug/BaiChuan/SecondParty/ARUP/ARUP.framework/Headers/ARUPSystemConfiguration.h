@@ -40,6 +40,10 @@ typedef NS_ENUM(NSInteger, ARUPEnvironment)
  */
 + (instancetype _Nonnull)shareInstance;
 
+- (void)putServerConfigByEnvironment:(ARUPEnvironment)environment
+                              domain:(NSString *_Nonnull)domain
+                                  ip:(NSString *_Nonnull)ip;
+
 /**
  *  设置环境
  */

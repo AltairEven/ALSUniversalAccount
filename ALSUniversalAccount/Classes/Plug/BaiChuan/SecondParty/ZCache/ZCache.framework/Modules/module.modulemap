@@ -1,0 +1,6 @@
+framework module ZCache {
+  umbrella header "ZCache.h"
+
+  export *
+  module * { export * }
+}

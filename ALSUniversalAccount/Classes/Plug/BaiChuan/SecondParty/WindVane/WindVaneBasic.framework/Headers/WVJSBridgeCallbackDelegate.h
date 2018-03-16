@@ -7,27 +7,10 @@
 
 #import <Foundation/Foundation.h>
 
-/**
- * JSBridge 的回调委托。
- */
+// 不再建议使用，为了旧版本过渡，目前只支持事件，其它回调不再支持
 @protocol WVJSBridgeCallbackDelegate <NSObject>
 
 @required
-
-/**
- * 调用 JSBridge 的 URL。
- */
-- (NSURL *)URL;
-
-/**
- * JSBridge 的成功回调。
- */
-- (void)onSuccess:(NSString *)ifid withRet:(NSString *)ret withResult:(NSDictionary *)result;
-
-/**
- * JSBridge 的失败回调。
- */
-- (void)onFailure:(NSString *)ifid withRet:(NSString *)ret withResult:(NSDictionary *)result;
 
 /**
  * 发送事件的回调。

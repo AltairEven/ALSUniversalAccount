@@ -35,16 +35,6 @@ typedef void (^WVDownloadCompletionBlock)(WVDownloadTask * task);
 @property (nonatomic, copy, readonly) NSURLRequest * request;
 
 /**
- * 是否需要断点续传。
- */
-@property (nonatomic, assign) BOOL shouldResume;
-
-/**
- * 最后完成的目标文件路径，如果设置了的话，总是会将下载的文件写入此路径。
- */
-@property (nonatomic, copy) NSString * destinationPath;
-
-/**
  * 其它用户自定义数据。
  */
 @property (nonatomic, copy) NSDictionary * userInfo;
@@ -121,5 +111,10 @@ typedef void (^WVDownloadCompletionBlock)(WVDownloadTask * task);
  * 会自动对已经开始的下载任务做强引用。
  */
 + (WVDownloadTask *)taskWithRequest:(NSURLRequest *)request withPriority:(WVDownloadTaskPriority)priority;
+
+#pragma mark - 已废弃，预计于 2019.1.1 删除
+
+@property (nonatomic, assign) BOOL shouldResume DEPRECATED_ATTRIBUTE;
+@property (nonatomic, copy) NSString * destinationPath DEPRECATED_ATTRIBUTE;
 
 @end

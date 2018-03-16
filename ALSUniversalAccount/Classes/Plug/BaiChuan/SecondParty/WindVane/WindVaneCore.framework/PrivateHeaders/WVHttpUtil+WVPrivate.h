@@ -13,8 +13,7 @@ FOUNDATION_EXPORT NSString * _Nonnull const WVHttpHeaderFRefer;
 FOUNDATION_EXPORT NSString * _Nonnull const WVHttpHeaderProtocolType;
 
 // 私有 Http 头。
-FOUNDATION_EXPORT NSString * _Nonnull const WVHttpHeaderMonitor;
-FOUNDATION_EXPORT NSString * _Nonnull const WVHttpHeaderPkgName;
-FOUNDATION_EXPORT NSString * _Nonnull const WVHttpHeaderPkgVersion;
-FOUNDATION_EXPORT NSString * _Nonnull const WVHttpHeaderPkgSeq;
-FOUNDATION_EXPORT NSString * _Nonnull const WVHttpHeaderVerifyTime;
+FOUNDATION_EXPORT NSString * _Nonnull const WVHttpHeaderZCacheMonitor;
+FOUNDATION_EXPORT NSString * _Nonnull const WVHttpHeaderZCacheInfo;
+FOUNDATION_EXPORT NSString * _Nonnull const WVHttpHeaderZCacheVerifyTime;
+

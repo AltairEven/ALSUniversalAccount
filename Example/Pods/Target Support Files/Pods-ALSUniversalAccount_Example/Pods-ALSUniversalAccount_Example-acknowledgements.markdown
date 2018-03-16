@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## ALSUniversalAccount-ThirdParty
+## ALSUniversalAccount-SecondParty
 
 Copyright (c) 2017 AltairEven <qianye.qy@alibaba-inc.com>
 

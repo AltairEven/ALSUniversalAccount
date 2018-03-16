@@ -13,10 +13,13 @@
 
 @interface WVCommonUtil (Deprecated)
 
-/**
- * 请替换为 [NSString wvIsBlank:] 方法。
- */
-+ (BOOL)isBlank:(NSString *)str;
+#pragma mark - 已废弃，预计于 2019.1.1 删除
+
++ (BOOL)isBlank:(NSString *)str DEPRECATED_MSG_ATTRIBUTE("请替换为 [NSString wvIsBlank:] 方法");
++ (BOOL)testSampleRate:(double)sampleRate DEPRECATED_ATTRIBUTE;
++ (long long)serverIntervalToLocal:(long long)interval DEPRECATED_ATTRIBUTE;
++ (NSUInteger)processorCount DEPRECATED_ATTRIBUTE;
++ (NSTimeInterval)foregroundTime DEPRECATED_ATTRIBUTE;
 
 #pragma mark - 已废弃，预计于 2018.8.1 删除
 

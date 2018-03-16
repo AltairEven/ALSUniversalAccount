@@ -7,9 +7,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <WindVaneBridge/WindVaneBridge.h>
 
-@interface WVUIToast : WVDynamicHandler
+@interface WVUIToast : NSObject
 
 /**
  * 居中显示 Toast。

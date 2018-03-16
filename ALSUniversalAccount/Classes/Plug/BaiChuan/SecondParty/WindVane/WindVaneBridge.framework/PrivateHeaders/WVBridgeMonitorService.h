@@ -53,15 +53,6 @@
  */
 - (void)bridgeInvoke:(WVBridgeMonitorStat * _Nonnull)stat;
 
-/**
- * 在 WVBridge 调用错误时调用。
- *
- * @param name WVBridge 的名称。
- * @param url  WVBridge 的 URL。
- * @param code 错误代码。
- */
-- (void)bridgeInvokeError:(NSString * _Nonnull)name withURL:(NSURL * _Nullable)url code:(NSUInteger)code;
-
 @end
 
 #pragma mark - 注册监控

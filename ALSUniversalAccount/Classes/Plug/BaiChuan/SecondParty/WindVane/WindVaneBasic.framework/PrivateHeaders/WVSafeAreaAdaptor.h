@@ -15,18 +15,9 @@
 
 /**
  判断是否是 iOS 11。
+ 貌似有越狱机系统是 iOS11，但调用任何 iOS11 方法都会 Crash，只能再主动检测一下。
  */
 + (BOOL)isIOS11;
-
-/**
- 表示是通过 Xcode9 编译的模式。
- */
-+ (void)Xcode9Mode;
-
-/**
- 返回是否是 Xcode8 编译的兼容模式。
- */
-+ (BOOL)isXcode8CompatibleMode;
 
 /**
  返回指定 UI 方向下的设备 SafeArea 间距。
@@ -43,18 +34,3 @@
 
 @end
 
-/**
- 一段时间内仍然会使用 Xcode8 编译 SDK，这时是无法正常使用 iOS11 的新 API 的。
- 为了对 iPhoneX 做兼容，这里声明了一些 iOS11 的新 API。
- */
-@interface UIView (WVSafeAreaCompatible)
-
-@property (nonatomic,readonly) UIEdgeInsets safeAreaInsets NS_AVAILABLE_IOS(11_0);
-
-@end
-
-@interface UIScrollView (WVSafeAreaCompatible)
-
-@property (nonatomic, readonly) UIEdgeInsets adjustedContentInset NS_AVAILABLE_IOS(11_0);
-
-@end

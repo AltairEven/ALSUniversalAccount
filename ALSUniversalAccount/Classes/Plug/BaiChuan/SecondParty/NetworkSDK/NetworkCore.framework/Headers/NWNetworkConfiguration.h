@@ -25,6 +25,20 @@ typedef enum {
 #define NETWORK_PROTOCOL_CONNECTION_REGISTER    @"connection_register"
 #define NETWORK_ENVIRONMENT_CHANGED             @"network_environment_changed"
 
+#define SLIGHT_SSL_PUBKEY_SEQ_CDN    1      //EASY_CONNECT_SSSL_CDN_SEQNUM
+#define SLIGHT_SSL_PUBKEY_PSEQ_CDN   1      //cdn去黑匣子使用相同的公钥
+#define SLIGHT_SSL_PUBKEY_SEQ_ACCS   3      //EASY_CONNECT_SSSL_ACCS_SEQNUM
+#define SLIGHT_SSL_PUBKEY_PSEQ_ACCS  4      //对应aserver明文公钥
+#define SLIGHT_SSL_PUBKEY_SEQ_TEST   0      //EASY_CONNECT_SSSL_TEST_SEQNUM
+#define SLIGHT_SSL_PUBKEY_SEQ_AE     5      //for AE
+#define SLIGHT_SSL_PUBKEY_SEQ_ARUP   6      //for arup
+#define SLIGHT_SSL_PUBKEY_PSEQ_ARUP  7      //for arup plaintext
+#define SLIGHT_SSL_PUBKEY_SEQ_ADASH  8      //for adash
+#define SLIGHT_SSL_PUBKEY_PSEQ_ADASH 9      //for adash plaintext
+#define SLIGHT_SSL_PUBKEY_SEQ_OPEN   10     //for 第三方
+#define SLIGHT_SSL_PUBKEY_PSEQ_OPEN  11     //for 第三方 plaintext
+#define SLIGHT_SSL_PUBKEY_PSEQ_EMAS  12     // for EMAS
+
 @interface NWNetworkConfiguration : NSObject
 
 #pragma mark -- initial properties
@@ -39,7 +53,6 @@ typedef enum {
 @property (nonatomic, nullable, strong)             NSString          *appkey;
 @property (nonatomic, nullable, strong)             NSString          *appSecret;         // 如果使用安全保镖，该参数不用填写
 @property (nonatomic, nullable, strong)             NSString          *authCode;          // 安全保镖SDK的授权码，不传或为空串，使用默认加密文件
-@property (nonatomic, nullable, strong)             NSString          *clusterPublickey;  // ASERVER 集群预置公钥: ACS, AE, OPEN
 @property (nonatomic, nullable, strong)             NSString          *utdid;
 @property (nonatomic, nullable, strong)             NSString          *longitude;
 @property (nonatomic, nullable, strong)             NSString          *latitude;
@@ -151,6 +164,18 @@ typedef enum {
  * 设置session配置
  */
 - (void)setSessionConfiguration:(nonnull NWSessionConfiguration *)configuration;
+
+
+/**
+ * 设置域名公钥索引
+ */
+- (void)setHost:(nonnull NSString *)host withSlightSslPubkeySeq:(int)seq;
+
+
+/**
+ * 获取当前域名公钥索引
+ */
+- (int)slightSslPubkeySeqWithHost:(nonnull NSString *)host;
 
 
 /**

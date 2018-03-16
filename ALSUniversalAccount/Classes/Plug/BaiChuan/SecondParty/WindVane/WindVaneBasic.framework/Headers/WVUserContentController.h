@@ -50,9 +50,9 @@
 + (instancetype _Nonnull)globalController;
 
 /**
- * 在指定 WebView 中注入自定义脚本。
+ 在指定 WebView 中执行自定义脚本。
  */
-+ (void)inject:(WVUserContentController * _Nullable)userScriptController toWebView:(UIView<WVWebViewBasicProtocol> * _Nonnull)webView;
++ (void)execute:(WVUserContentController * _Nullable)userScriptController inWebView:(UIView<WVWebViewBasicProtocol> * _Nonnull)webView;
 
 /**
  * 获取自定义脚本列表。

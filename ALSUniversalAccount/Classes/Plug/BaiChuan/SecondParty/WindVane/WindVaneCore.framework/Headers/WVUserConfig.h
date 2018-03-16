@@ -191,7 +191,7 @@ typedef NS_ENUM(NSInteger, WVLogLevel) {
  */
 + (NSString *)configBaseURL;
 
-#pragma mark - 已废弃
+#pragma mark - 已废弃，删除时间未定
 
 // 请直接使用 setAppKey: 方法。
 + (void)setAppKey:(NSString *)key secrect:(NSString *)secrect;

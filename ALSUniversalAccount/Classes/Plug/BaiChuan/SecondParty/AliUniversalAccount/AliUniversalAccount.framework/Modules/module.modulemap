@@ -1,0 +1,6 @@
+framework module AliUniversalAccount {
+  umbrella header "AliUniversalAccount.h"
+
+  export *
+  module * { export * }
+}

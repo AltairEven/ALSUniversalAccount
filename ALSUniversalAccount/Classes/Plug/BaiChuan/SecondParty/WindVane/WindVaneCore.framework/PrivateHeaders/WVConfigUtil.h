@@ -15,11 +15,12 @@ typedef NS_ENUM(NSInteger, WVConfigType) {
 	WVConfigTypeCommon = 1,        // 公共配置。
 	WVConfigTypeDomain = 2,        // 安全域名配置。
 	WVConfigTypeMonitor = 3,       // 监控配置。
-	WVConfigTypeOldPackageApp = 4, // 旧版的 PackageApp 配置，不再使用。
-	WVConfigTypePackageApp = 5,    // PackageApp 配置。
-	WVConfigTypeCustoms = 6,       // 个性化 PackageApp 配置。
-	WVConfigTypePrefixes = 7,      // PackageApp 前缀配置。
-	WVConfigTypeOldURLRule = 9,    // 旧的 URL 拦截配置，不再使用。
+	// 预加载相关配置，已迁移至 ZCache SDK。
+	// WVConfigTypeOldPackageApp = 4, // 旧版的 PackageApp 配置，不再使用。
+	// WVConfigTypePackageApp = 5,    // PackageApp 配置。
+	// WVConfigTypeCustoms = 6,       // 个性化 PackageApp 配置。
+	// WVConfigTypePrefixes = 7,      // PackageApp 前缀配置。
+	// WVConfigTypeOldURLRule = 9,    // 旧的 URL 拦截配置，不再使用。
 };
 
 /**
@@ -33,14 +34,6 @@ typedef NS_ENUM(NSInteger, WVConfigType) {
  * @return 若当前版本号高于原始版本号，则为 YES；否则为 NO。
  */
 + (BOOL)compareVersion:(NSString * _Nullable)version withOriginal:(NSString * _Nullable)origVersion ignoreTarget:(BOOL)ignoreTarget;
-
-/**
- * 返回指定版本号与前一版本号的时间间隔。
- *
- * @param version     要比较的版本号。
- * @param lastVersion 前一版本号。
- */
-+ (NSTimeInterval)getVersionInteval:(NSString * _Nullable)version withLastVersion:(NSString * _Nullable)lastVersion;
 
 #pragma mark - File Operation
 

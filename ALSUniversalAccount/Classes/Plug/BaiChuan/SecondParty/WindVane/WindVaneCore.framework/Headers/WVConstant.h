@@ -11,8 +11,8 @@
 
 /* WindVane Version */
 /****************************************************/
-#define WINDVANE_VERSION_ORIGIN_VALUE 8.3.0
-#define WINDVANE_VERSION @"8.3.0"
+#define WINDVANE_VERSION_ORIGIN_VALUE 8.4.1
+#define WINDVANE_VERSION @"8.4.1"
 /****************************************************/
 
 #pragma mark - Constant

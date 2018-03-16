@@ -17,6 +17,8 @@
 
 @interface TBAccsUtil : NSObject
 
++ (NSString *)utdid;
+
 + (NSString *)getAppVersion;
 
 + (NSString *)getDeviceModel;

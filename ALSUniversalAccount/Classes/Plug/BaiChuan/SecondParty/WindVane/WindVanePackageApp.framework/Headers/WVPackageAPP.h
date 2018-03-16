@@ -6,6 +6,7 @@
  */
 
 #import <Foundation/Foundation.h>
+#import <ZCache/ZCache.h>
 
 /**
  * 初始化 WindVane PackageApp 模块。
@@ -40,11 +41,6 @@
  * 强制所有 App 更新一次。
  */
 + (void)forceUpdate;
-
-/**
- * 强制所有 App 走线上，不走本地（仅本次启动有效）。
- */
-+ (void)forceOnline;
 
 /**
  * 注册指定的个性化 App，App 会在之后被安装和更新。
@@ -107,11 +103,9 @@
 #pragma mark - 更新监听
 
 /**
- * Package App 更新完毕的监听器。
- *
- * @param appName 更新完毕的 App 名称。
+ Package App 更新完毕的监听器。
  */
-typedef void (^WVPackageUpdateListener)(NSString * _Nonnull appName);
+typedef ZCacheAppUpdateListener WVPackageUpdateListener;
 
 /**
  * 注册指定的 App 更新监听器，在 App 更新成功后自动调用。
@@ -129,10 +123,8 @@ typedef void (^WVPackageUpdateListener)(NSString * _Nonnull appName);
  */
 + (BOOL)updateApp:(NSString * _Nonnull)appName withCallback:(void (^_Nullable)(NSString * _Nonnull appName, NSError * _Nullable error))callback withProgress:(void (^_Nullable)(NSString * _Nonnull appName, double percentage))progressBlock;
 
-#pragma mark - 已废弃，预计于 2018.1.1 删除
+#pragma mark - 已废弃，预计于 2019.1.1 删除
 
-+ (void)setPreunzipPackageName:(NSString * _Nonnull)packageName DEPRECATED_MSG_ATTRIBUTE("请使用 [WVPackageApp setPreloadPackageName:] 方法");
-+ (NSString * _Nullable)resourcePathForURL:(NSString * _Nonnull)resourceURL DEPRECATED_MSG_ATTRIBUTE("请使用 [WVPackageApp resourceContentForURL:] 方法");
-+ (NSString * _Nullable)resourcePathForURL:(NSString * _Nonnull)resourceURL isNewest:(BOOL * _Nullable)isNewest DEPRECATED_MSG_ATTRIBUTE("请使用 [WVPackageApp resourceContentForURL:] 方法");
++ (void)forceOnline DEPRECATED_ATTRIBUTE;
 
 @end

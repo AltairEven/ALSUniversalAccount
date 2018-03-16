@@ -1,11 +1,12 @@
 /*
  * WVUIWebViewController.h
- * 
+ *
  * Created by WindVane.
  * Copyright (c) 2017年 阿里巴巴-淘宝技术部. All rights reserved.
  */
 
 #import "WVRuleWebViewController.h"
+#import "WVUIButtonItem.h"
 #import "WVWebViewControllerProtocol.h"
 #import <UIKit/UIKit.h>
 
@@ -50,11 +51,6 @@
 @property (nonatomic, copy, nullable) NSString * loadUrl;
 
 /**
- * 自定义导航栏高度 - 用于计算 WebView 高度。
- */
-@property (nonatomic, assign) CGFloat navBarHeight;
-
-/**
  * 自定义 TabBar 高度 - 用于计算 WebView 高度。
  */
 @property (nonatomic, assign) CGFloat tabBarHeight;
@@ -62,20 +58,97 @@
 #pragma mark - Status Bar
 
 /**
+ 状态栏的样式，默认不对状态栏样式做变更。
+ */
+@property (nonatomic, assign) UIStatusBarStyle statusBarStyle;
+
+/**
  隐藏导航栏时，Status Bar 背景的颜色，默认为 nil。
  
  @discussion iOS 7 的 Status Bar 在导航栏隐藏的时候会背景透明，与 WebView 中的内容遮盖。
  如果希望为 Status Bar 添加一个不透明背景，可以设置此属性为需要的颜色。
- 自 iOS11 后，iPhoneX 的机型状态栏高度变为 44pt，不再适合自动设置状态栏高度，应当由前端主动填充合适的背景，让状态栏与背景融合起来。
+ 自 iOS11 后，iPhoneX 的机型状态栏高度变为 44pt，不再适合自动设置状态栏颜色，应当由前端主动填充合适的背景，让状态栏与背景融合起来。
  */
 @property (nonatomic, strong, nullable) UIColor * statusBarColor NS_DEPRECATED_IOS(7_0, 10_0);
 
 /**
  [iOS 7 适配] 隐藏导航栏时，为 Status Bar 添加白色背景颜色。
  
- @discussion 自 iOS11 后，iPhoneX 的机型状态栏高度变为 44pt，不再适合自动设置状态栏高度，应当由前端主动填充合适的背景，让状态栏与背景融合起来。
+ @discussion 自 iOS11 后，iPhoneX 的机型状态栏高度变为 44pt，不再适合自动设置状态栏颜色，应当由前端主动填充合适的背景，让状态栏与背景融合起来。
  */
 - (void)supportiOS7WithoutStatusBar NS_DEPRECATED_IOS(7_0, 10_0);
+
+#pragma mark - Title
+
+/**
+ 是否允许 H5 title 发生变更后是否更新导航栏的标题，默认为 YES。
+ 不受 allowsControlNavigationBar 的影响。
+ */
+@property (nonatomic, assign, getter=isAutoLoadTitle) BOOL autoLoadTitle;
+
+/**
+ 导航栏的标题项，注意标题默认不支持为文本标题设置点击回调，默认为 nil。
+ */
+@property (nonatomic, strong, nullable) WVUIButtonItem * navigationBarTitleItem;
+
+#pragma mark - Navigation Bar
+
+/**
+ 自定义导航栏高度 - 用于计算 WebView 高度。
+ */
+@property (nonatomic, assign) CGFloat navBarHeight;
+
+/**
+ 是否允许 H5 操纵导航栏，默认为 NO。
+ 请在创建 WebView 之前完成设置。
+ 包括通过 JSBridge 或 meta 设置隐藏、透明等功能，但标题不受影响（仅由 autoLoadTitle 控制）。
+ */
+@property (nonatomic, assign) BOOL allowsControlNavigationBar;
+
+/**
+ 是否允许通过手势关闭当前 ViewController，默认为 WVTristateNotSure，表示未设置。
+ */
+@property (nonatomic, assign) WVTristate allowsNavigationGestures;
+
+/**
+ 导航栏是否被隐藏，默认为 WVTristateNotSure，表示未设置。
+ */
+@property(nonatomic, assign, getter=isNavigationBarHidden) WVTristate navigationBarHidden;
+
+/**
+ 导航栏的右侧按钮，默认为 nil。
+ */
+@property (nonatomic, copy, nullable) NSArray<WVUIButtonItem *> * navigationBarRightItems;
+
+/**
+ 导航栏的前景色，默认为 nil，表示不设置。
+ */
+@property (nonatomic, strong, nullable) UIColor * navigationBarForegroundColor;
+
+/**
+ 导航栏的背景色，默认为 nil，表示不设置。
+ 如果希望指定透明背景，请设置为 [UIColor wvTransparentColor]。
+ */
+@property (nonatomic, strong, nullable) UIColor * navigationBarBackgroundColor;
+
+/**
+ 更新导航栏的前景色，可以自行覆盖以提供定制化的逻辑。
+ 
+ @param color 导航栏的前景色，nil 表示需要重置前景色。
+ */
+- (void)updateNavigationBarForegroundColor:(UIColor * _Nullable)color;
+
+/**
+ 更新导航栏的背景色，可以自行覆盖以提供定制化的逻辑。
+ 
+ @param color 导航栏的背景色，nil 表示需要重置背景色。
+ */
+- (void)updateNavigationBarBackgroundColor:(UIColor * _Nullable)color;
+
+/**
+ 更新 ViewController 的 UI（导航栏隐藏、前景色、背景色和按钮等），一般在 viewWillAppear 时调用。
+ */
+- (void)updateViewControllerUI;
 
 #pragma mark - Toolbar
 

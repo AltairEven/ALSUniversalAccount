@@ -10,21 +10,6 @@
 @interface WVFileUtil : NSObject
 
 /**
- * 返回主 Bundle。
- */
-+ (NSBundle *)mainBundle;
-
-/**
- * 获取临时文件目录。
- */
-+ (NSString *)getTempPath:(NSString *)path;
-
-/**
- * 获取 WindVane App 目录 Documents/wvapp。
- */
-+ (NSString *)getWVAppPath;
-
-/**
  * 获取 WindVane Config 目录 Documents/wvapp/config。
  */
 + (NSString *)getConfigPath;
@@ -39,15 +24,6 @@
  * 会移除 URL 的 query 和 fragment，只保留路径本身。
  */
 + (NSString *)getCachesFilePath:(NSString *)url;
-
-/**
- * 返回指定路径的短描述，一般用于展示或埋点。
- *
- * @param path 本地文件路径。
- *
- * @return 指定路径的短描述。
- */
-+ (NSString *)getPathDesc:(NSString *)path;
 
 #pragma mark - pathUtil
 
@@ -97,92 +73,24 @@
 + (BOOL)removeItemAtPath:(NSString *)path error:(NSError **)error;
 
 /**
- * 将指定路径的文件/文件夹复制到其它路径。
- *
- * @param srcPath 要复制的源路径。
- * @param dstPath 要复制到的目标路径。
- *
- * @return 是否成功复制文件/文件夹。
- */
-+ (BOOL)copyItemAtPath:(NSString *)srcPath toPath:(NSString *)dstPath;
-
-/**
- * 将指定路径的文件/文件夹复制到其它路径。
- *
- * @param srcPath 要复制的源路径。
- * @param dstPath 要复制到的目标路径。
- * @param error   复制的错误信息。
- *
- * @return 是否成功复制文件/文件夹。
- */
-+ (BOOL)copyItemAtPath:(NSString *)srcPath toPath:(NSString *)dstPath error:(NSError **)error;
-
-/**
- * 将指定路径的文件/文件夹移动到其它路径。
- *
- * @param srcPath 要移动的源路径。
- * @param dstPath 要移动到的目标路径。
- *
- * @return 是否成功移动文件/文件夹。
- */
-+ (BOOL)moveItemAtPath:(NSString *)srcPath toPath:(NSString *)dstPath;
-
-/**
- * 将指定路径的文件/文件夹移动到其它路径。
- *
- * @param srcPath 要移动的源路径。
- * @param dstPath 要移动到的目标路径。
- * @param error   移动的错误信息。
- *
- * @return 是否成功移动文件/文件夹。
- */
-+ (BOOL)moveItemAtPath:(NSString *)srcPath toPath:(NSString *)dstPath error:(NSError **)error;
-
-/**
- * 将指定文件夹内的的文件/文件夹复制到其它文件夹，而不是直接替换整个文件夹。
- *
- * @param srcDir 要复制的源文件夹。
- * @param dstDir 要复制到的目标文件夹。
- * @param error  复制的错误信息。
- *
- * @return 是否成功复制文件/文件夹。
- */
-+ (BOOL)copyItemInDirectory:(NSString *)srcDir toDirectory:(NSString *)dstDir error:(NSError **)error;
-
-/**
- * 遍历指定路径下的所有文件。
- * 递归遍历请谨慎使用，磁盘和内存消耗较大。
- *
- * @param path        要遍历的文件夹。
- * @param isRecursive 是否递归的遍历子文件夹。
- *
- * @return 指定路径下的所有文件。
- */
-+ (NSArray<NSString *> *)listAllFilesAt:(NSString *)path isRecursive:(BOOL)isRecursive;
-
-/**
- * 返回指定文件的大小。
- */
-+ (u_int64_t)fileSizeForPath:(NSString *)path;
-
-/**
- * 返回指定文件夹的大小。
- */
-+ (u_int64_t)folderSize:(NSURL *)directory;
-
-/**
  * 设置文件的属性，拒绝被 iCloud 同步。
  */
 + (BOOL)addSkipBackupAttributesToFile:(NSURL *)filePath;
 
-/**
- * 获取文件的最后一次修改时间。
- */
-+ (NSTimeInterval)getFileLastModifiedTime:(NSString *)filePath;
+#pragma mark - 已废弃，预计于 2019.1.1 删除
 
-/**
- * 更新文件最后修改时间。
- */
-+ (void)updateFileLastModifiedTime:(NSString *)filePath;
++ (NSBundle *)mainBundle DEPRECATED_ATTRIBUTE;
++ (NSString *)getTempPath:(NSString *)path DEPRECATED_ATTRIBUTE;
++ (NSString *)getWVAppPath DEPRECATED_ATTRIBUTE;
++ (BOOL)moveItemAtPath:(NSString *)srcPath toPath:(NSString *)dstPath;
++ (BOOL)moveItemAtPath:(NSString *)srcPath toPath:(NSString *)dstPath error:(NSError **)error;
++ (BOOL)copyItemAtPath:(NSString *)srcPath toPath:(NSString *)dstPath DEPRECATED_ATTRIBUTE;
++ (BOOL)copyItemAtPath:(NSString *)srcPath toPath:(NSString *)dstPath error:(NSError **)error DEPRECATED_ATTRIBUTE;
++ (BOOL)copyItemInDirectory:(NSString *)srcDir toDirectory:(NSString *)dstDir error:(NSError **)error DEPRECATED_ATTRIBUTE;
++ (u_int64_t)fileSizeForPath:(NSString *)path DEPRECATED_ATTRIBUTE;
++ (u_int64_t)folderSize:(NSURL *)directory DEPRECATED_ATTRIBUTE;
++ (NSArray<NSString *> *)listAllFilesAt:(NSString *)path isRecursive:(BOOL)isRecursive DEPRECATED_ATTRIBUTE;
++ (NSTimeInterval)getFileLastModifiedTime:(NSString *)filePath DEPRECATED_ATTRIBUTE;
++ (void)updateFileLastModifiedTime:(NSString *)filePath DEPRECATED_ATTRIBUTE;
 
 @end

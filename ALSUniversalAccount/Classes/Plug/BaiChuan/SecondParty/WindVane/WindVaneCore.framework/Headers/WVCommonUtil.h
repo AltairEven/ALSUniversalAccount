@@ -6,7 +6,6 @@
  */
 
 #import "WVUserConfig.h"
-#import <CoreGraphics/CoreGraphics.h>
 #import <Foundation/Foundation.h>
 
 // 判断是否是调试模式的宏。
@@ -81,15 +80,6 @@ typedef NS_OPTIONS(NSInteger, WVURLContentType) {
  */
 + (NSUInteger)randomUnsignedInteger:(NSUInteger)max;
 
-/**
- * 生成一个随机数，并测试是否满足指定采样率。
- *
- * @param sampleRate 采样率，其范围为 [0, 1]。
- *
- * @return 如果生成的随机数满足采样率，则为 YES；否则为 NO。
- */
-+ (BOOL)testSampleRate:(double)sampleRate;
-
 #pragma mark - Domain Check
 
 /**
@@ -150,121 +140,31 @@ typedef NS_OPTIONS(NSInteger, WVURLContentType) {
  */
 + (BOOL)isStatusCodeSuccess:(NSInteger)statusCode;
 
-#pragma mark - Other
-
-/**
- * 返回本机处理器数目。
- */
-+ (NSUInteger)processorCount;
-
-/**
- * 返回应用启动或最近一次从后台切换到前台的时间。
- *
- * @return 返回应用启动或最近一次从后台切换到前台的时间。
- */
-+ (NSTimeInterval)foregroundTime;
-
-/**
- * 将服务器时间（自 1970 年 1 月 1 日以来的毫秒数）转换为本地时间。
- */
-+ (long long)serverIntervalToLocal:(long long)interval;
-
 @end
 
-#pragma mark - Safe Type
+#pragma mark - Perform Block
 
 #if defined __cplusplus
 extern "C" {
 #endif
 
-#define WV_SAFE_TYPE_INVOKE(NAME, VALUE, DEFAULT, ...) NAME(VALUE, DEFAULT)
-
 /**
- * 安全的转换为 BOOL 类型，如果不存在或类型错误则返回默认值。
- * 具体的转换规则由 value 的实际类型决定。
- */
-BOOL wvSafeBOOL(id value, BOOL defaultValue);
-#define WV_SAFE_BOOL(VALUE, ...) WV_SAFE_TYPE_INVOKE(wvSafeBOOL, VALUE, ##__VA_ARGS__, NO)
-
-/**
- * 安全的转换为 NSInteger 类型，如果不存在或类型错误则返回默认值。
- * 具体的转换规则由 value 的实际类型决定。
- */
-NSInteger wvSafeInteger(id value, NSInteger defaultValue);
-#define WV_SAFE_INTEGER(VALUE, ...) WV_SAFE_TYPE_INVOKE(wvSafeInteger, VALUE, ##__VA_ARGS__, 0)
-
-/**
- * 安全的转换为 NSUInteger 类型，如果不存在或类型错误则返回默认值。
- * 具体的转换规则由 value 的实际类型决定。
- */
-NSUInteger wvSafeUnsignedInteger(id value, NSUInteger defaultValue);
-#define WV_SAFE_UINTEGER(VALUE, ...) WV_SAFE_TYPE_INVOKE(wvSafeUnsignedInteger, VALUE, ##__VA_ARGS__, 0)
-
-/**
- * 安全的转换为 long long 类型，如果不存在或类型错误则返回默认值。
- * 具体的转换规则由 value 的实际类型决定。
- */
-long long wvSafeLongLong(id value, long long defaultValue);
-#define WV_SAFE_LLONG(VALUE, ...) WV_SAFE_TYPE_INVOKE(wvSafeLongLong, VALUE, ##__VA_ARGS__, 0LL)
-
-/**
- * 安全的转换为 unsigned long long 类型，如果不存在或类型错误则返回默认值。
- * 具体的转换规则由 value 的实际类型决定。
- */
-unsigned long long wvSafeUnsignedLongLong(id value, unsigned long long defaultValue);
-#define WV_SAFE_ULLONG(VALUE, ...) WV_SAFE_TYPE_INVOKE(wvSafeUnsignedLongLong, VALUE, ##__VA_ARGS__, 0ULL)
-
-/**
- * 安全的转换为 CGFloat 类型，如果不存在或类型错误则返回默认值。
- * 具体的转换规则由 value 的实际类型决定。
- */
-CGFloat wvSafeFloat(id value, CGFloat defaultValue);
-#define WV_SAFE_FLOAT(VALUE, ...) WV_SAFE_TYPE_INVOKE(wvSafeFloat, VALUE, ##__VA_ARGS__, 0.0)
-
-/**
- * 安全的转换为 double 类型，如果不存在或类型错误则返回默认值。
- * 具体的转换规则由 value 的实际类型决定。
- */
-double wvSafeDouble(id value, double defaultValue);
-#define WV_SAFE_DOUBLE(VALUE, ...) WV_SAFE_TYPE_INVOKE(wvSafeDouble, VALUE, ##__VA_ARGS__, 0.0)
-
-/**
- * 安全的转换为 NSString 类型，如果不存在或类型错误则返回默认值。
- */
-NSString * wvSafeString(id value, NSString * defaultValue);
-#define WV_SAFE_STRING(VALUE, ...) WV_SAFE_TYPE_INVOKE(wvSafeString, VALUE, ##__VA_ARGS__, nil)
-
-/**
- * 安全的转换为 NSArray 类型，如果不存在或类型错误则返回默认值。
- */
-NSArray * wvSafeArray(id value, NSArray * defaultValue);
-#define WV_SAFE_ARRAY(VALUE, ...) WV_SAFE_TYPE_INVOKE(wvSafeArray, VALUE, ##__VA_ARGS__, nil)
-
-/**
- * 安全的转换为 NSDictionary 类型，如果不存在或类型错误则返回默认值。
- */
-NSDictionary * wvSafeDictionary(id value, NSDictionary * defaultValue);
-#define WV_SAFE_DICTIONARY(VALUE, ...) WV_SAFE_TYPE_INVOKE(wvSafeDictionary, VALUE, ##__VA_ARGS__, nil)
-
-#pragma mark - Perform Block
-
-/**
- * 如果当前已经是主线程，那么直接调用；否则在主线程异步调用指定 Block。
+ 如果当前已经是主线程，那么直接调用；否则在主线程异步调用指定 Block。
  */
 void WVPerformBlockOnMainThread(dispatch_block_t block);
 
 /**
- * 在主线程同步调用指定的 Block。
+ 在主线程同步调用指定的 Block。
  */
 void WVPerformBlockSyncOnMainThread(dispatch_block_t block);
 
 /**
- * 在后台线程异步调用指定 Block。
+ 在后台线程异步调用指定 Block。
  */
 void WVPerformBlockOnGlobalThread(dispatch_block_t block);
 
 /**
- * 在指定 queue 同步调用指定 Block。
+ 在指定 queue 同步调用指定 Block。
  */
 void WVPerformBlockSyncOnQueue(dispatch_queue_t queue, dispatch_block_t block);
 

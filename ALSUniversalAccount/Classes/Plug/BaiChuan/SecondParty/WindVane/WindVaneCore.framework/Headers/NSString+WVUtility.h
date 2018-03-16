@@ -61,18 +61,6 @@ NS_INLINE NSString * WVStringFromPointer(id value) {
  */
 + (BOOL)wvIsBlank:(NSString *)str;
 
-#pragma mark - Trimming
-
-/**
- * 返回移除了字符串开头指定字符的新字符串。
- */
-- (NSString *)wvStringByTrimmingStartCharactersInSet:(NSCharacterSet *)set;
-
-/**
- * 返回移除了字符串末尾指定字符的新字符串。
- */
-- (NSString *)wvStringByTrimmingEndCharactersInSet:(NSCharacterSet *)set;
-
 #pragma mark - Finding
 
 /**
@@ -176,5 +164,10 @@ NS_INLINE NSString * WVStringFromPointer(id value) {
  * 返回当前字符串的 MD5 结果。
  */
 - (NSString *)wvMD5;
+
+#pragma mark - 已废弃，预计于 2019.1.1 删除
+
+- (NSString *)wvStringByTrimmingStartCharactersInSet:(NSCharacterSet *)set DEPRECATED_ATTRIBUTE;
+- (NSString *)wvStringByTrimmingEndCharactersInSet:(NSCharacterSet *)set DEPRECATED_ATTRIBUTE;
 
 @end

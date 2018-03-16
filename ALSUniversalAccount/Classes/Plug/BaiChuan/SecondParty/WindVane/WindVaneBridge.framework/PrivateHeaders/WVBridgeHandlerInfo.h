@@ -18,14 +18,19 @@
 @interface WVBridgeHandlerInfo : NSObject
 
 /**
- * 是否对旧的字符串参数进行兼容。
+ 是否对旧的字符串参数进行兼容。
  */
 @property (nonatomic, assign) WVTristate stringParamsCompatible;
 
 /**
- * 当前 Handler 是否是安全的（无需安全校验）。
+ 当前 Handler 是否是安全的（无需安全校验）。
  */
 @property (nonatomic, assign, getter=isSecure) BOOL secure;
+
+/**
+ 当前 Handler 是否是线程安全的（可以在非主线程执行）。
+ */
+@property (nonatomic, assign, getter=isThreadSafe) BOOL threadSafe;
 
 @end
 

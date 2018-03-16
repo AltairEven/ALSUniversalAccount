@@ -104,6 +104,7 @@ struct easy_http_request_t {
     int                     response_header_inflated;//回复头被spdy解压后长度
     int                     request_body;           //客户端请求的所有spdy data frame长度总和
     int                     response_body;          //服务端回复的所有spdy data frame长度总和
+    int                     origin_content_length;  //服务端回复的content-length字段的值（考虑到解压缩时会删除这个字段）
 };
 
 struct easy_http_packet_t {

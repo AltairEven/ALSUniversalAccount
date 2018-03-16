@@ -1,0 +1,120 @@
+/* 
+  TBMember.strings
+  AliUniversalAccount
+
+  Created by Bangzhe Liu on 16/4/19.
+  Copyright © 2016年 Alibaba. All rights reserved.
+*/
+
+/*
+ common words
+ */
+aluLogin="登录";
+aluBack="返回";
+aluHelp="帮助";
+aluForgetPwd="忘记密码";
+aluRegister="免费注册";
+aluSure="确定";
+aluKnown="知道了";
+aluFindPwd="找回密码";
+//pd改需求，都换成账户登录，这里暂时保存逻辑，后面不用了可以去掉
+aluLoginByAlipay="账户登录";
+aluLoginByAlipayInTaoBao="账户登录";
+aluLoginByTB="账户登录";
+aluLoginChangeToTB = "淘宝账户登录";
+aluLoginChangeToAlipay = "支付宝账户登录";
+aluLoginWays="手机/会员名/邮箱";
+aluLoginByTBPhone="使用手机淘宝登录";
+aluOr="或";
+aluLoginByOther="其他账户登录";
+aluCancel="取消";
+aluLoginTB="淘宝登录";
+aluConfirmLogin="确认登录";
+aluRegisterOnly="注册";
+aluNext="下一步";
+aluOk="好";
+aluYes="是";
+aluNo="否";
+aluNetWrong="网络连接不可用";
+aluDetete="删除";
+
+/* aluLoginViewController */
+aluCodeNotEmpty="验证码不能为空";
+aluPwdNotEmpty="密码不能为空";
+aluUserNameNotEmpty="用户名不能为空";
+
+/* aluH5WebViewController_RDS */
+aluNotSupportSms="该设备不支持短信功能, 请在其他设备上发送短信";
+
+/*aluHistoryUserLoginViewController*/
+aluToAlipayFindPwd="支付宝账户请前往支付宝钱包找密";
+aluLoginBySMS="通过%@手机短信登录";
+
+/*aluRegisterBox*/
+aluPhoneNum="手机号";
+aluInputPhoneNum="请输入手机号码";
+aluCountryArea="国家地区";
+aluCountryAreaWithMark="国家地区:";
+
+/*aluCountryListViewController/aluRegisterViewController*/
+aluChoseCountryArea="选择国家和地区";
+aluCommonUse="常用";
+
+/*aluRegisterViewController/aluNewRegisterViewController*/
+aluProtocal="已阅读并同意以下协议，接受免除或者限制责任、诉讼管辖约定等粗体下划线标示条款，愿意同步创建支付宝账户。";
+aluTaoBaoServicePro="《淘宝平台服务协议》";
+aluAlipayServicePro="《支付宝服务协议》";
+aluSendCodeToThisNum="我们将发送校验码短信到这个号码：%@";
+aluConfirmNum="确认手机号";
+
+/*aluRegSMSVerifyViewController*/
+aluInputCheckCode="填写校验码";
+aluInputReceiveCode="请输入手机号%@收到的短信校验码";
+
+/*aluRegH5ViewController*/
+aluRegisterBreakCanGoBack="返回后注册将中断，是否确认返回？";
+aluRegisterDirect="直接登录";
+
+/*aluRegSetPwdViewController*/
+aluSetPwd="设置登录密码";
+aluLoginPwd="登录密码";
+aluInputPwd="请输入密码";
+aluPwdFormatWith="密码由6-20位英文字母、数字或符号组成";
+
+/*aluLoginBox*/
+aluUserName="账户";
+aluInputUserName="请输入账户名";
+aluShowPwd="密码明文";
+aluDeleteAccount="账户删除";
+aluDeleteAccountTip="删除后，下次登录需要重新校验身份信息，确定删除？";
+
+/*aluRDSBox*/
+aluRDS="验证码";
+aluInputRDS="请输入右侧验证码";
+
+/*aluSMSVerifyBox*/
+aluCheckCode="校验码";
+aluSMSCheckCode="短信校验码";
+aluSendCheckCode="发送校验码";
+aluGetAgagin="重新获取";
+aluSendAfterTimeBySecond="%.0f秒后重发";
+aluInputAlipayPwd="请输入支付宝登录密码";
+
+/*aluSDK.h*/
+aluTimeOut="超时";
+aluDeviceInitFail="设备初始化失败";
+
+/*aluSDKInternal*/
+aluLoginFailTryNative="登录失败，请试试直接用帐密登录吧～";
+
+
+
+/*TBLoginCenter*/
+TBLoginNetworkError="亲，您的手机网络不太顺畅喔～";
+
+
+/*AlipaySSOHandler*/
+aluNotSuppurt2Alipay="不支持授权或未安装支付宝,请试试直接用帐密登录吧";
+aluAlipayAuthFail="支付宝授权失败了,请试试直接用帐密登录吧";
+aluAlipayAuthBreakdown="支付宝授权中断,请试试直接用帐密登录吧";
+aluAlipayAuthCancel="您已取消支付宝授权登录";

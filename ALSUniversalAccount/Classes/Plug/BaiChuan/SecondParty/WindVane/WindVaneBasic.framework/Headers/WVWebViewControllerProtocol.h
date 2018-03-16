@@ -5,14 +5,15 @@
  * Copyright (c) 2017年 阿里巴巴-淘宝技术部. All rights reserved.
  */
 
-#import "WVWebViewControllerBasicProtocol.h"
+#import "WVViewControllerProtocol.h"
+#import "WVWebViewControllerUIProtocol.h"
 #import "WVWebViewToolbar.h"
 #import <Foundation/Foundation.h>
 
 /**
  * 表示基本的 WindVane WebView ViewController 协议，包含 ViewController 额外提供的功能。
  */
-@protocol WVWebViewControllerProtocol <WVWebViewControllerBasicProtocol>
+@protocol WVWebViewControllerProtocol <WVViewControllerProtocol, WVWebViewControllerUIProtocol>
 
 #pragma mark - WebView
 
@@ -125,22 +126,10 @@
 @property (nonatomic, assign, getter=isShowLoadingBox) BOOL showLoadingBox;
 
 /**
- * 显示加载框。
- * 允许由子类重写以自定义加载框。
- */
-- (void)showLoadingBox;
-
-/**
  * 使用指定的标题显示加载框。
  * 允许由子类重写以自定义加载框。
  */
 - (void)showLoadingBoxWithTitle:(NSString * _Nullable)title;
-
-/**
- * 隐藏加载框。
- * 允许由子类重写以自定义加载框。
- */
-- (void)hiddenLoadingBox;
 
 #pragma mark - 设备旋转
 

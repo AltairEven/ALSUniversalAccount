@@ -13,18 +13,28 @@
 @interface UIColor (WVUtility)
 
 /**
- * 使用指定的十六进制颜色初始化 UIColor。
+ 使用指定的十六进制颜色初始化 UIColor。
  */
-+ (UIColor *)wvColorWithHex:(NSInteger)hexValue;
++ (UIColor * _Nonnull)wvColorWithHex:(NSInteger)hexValue;
 
 /**
- * 使用指定的十六进制颜色和透明度初始化 UIColor。
+ 使用指定的十六进制颜色和透明度初始化 UIColor。
  */
-+ (UIColor *)wvColorWithHex:(NSInteger)hexValue alpha:(CGFloat)alphaValue;
++ (UIColor * _Nonnull)wvColorWithHex:(NSInteger)hexValue alpha:(CGFloat)alphaValue;
 
 /**
- * 使用指定的十六进制颜色字符串初始化 UIColor。
+ 使用指定的十六进制颜色字符串初始化 UIColor。
  */
-+ (UIColor *)wvColorWithHexString:(NSString *)hexString;
++ (UIColor * _Nullable)wvColorWithHexString:(NSString * _Nonnull)hexString;
+
+/**
+ 表示透明色。
+ */
++ (UIColor * _Nonnull)wvTransparentColor;
+
+/**
+ 返回当前颜色的十六进制颜色字符串（RRGGBB，不包含前导字符）。
+ */
+- (NSString * _Nullable)wvHexString;
 
 @end

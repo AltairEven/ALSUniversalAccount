@@ -11,8 +11,8 @@ FOUNDATION_EXPORT NSString * _Nonnull const WVHttpVersion1_1;
 
 // 标准 Http 头。
 FOUNDATION_EXPORT NSString * _Nonnull const WVHttpHeaderAccessControlAllowOrigin;
-FOUNDATION_EXPORT NSString * _Nonnull const WVHttpHeaderAge;
 FOUNDATION_EXPORT NSString * _Nonnull const WVHttpHeaderCacheControl;
+FOUNDATION_EXPORT NSString * _Nonnull const WVHttpHeaderCookie;
 FOUNDATION_EXPORT NSString * _Nonnull const WVHttpHeaderVia;
 FOUNDATION_EXPORT NSString * _Nonnull const WVHttpHeaderDate;
 FOUNDATION_EXPORT NSString * _Nonnull const WVHttpHeaderLocation;
@@ -68,11 +68,6 @@ FOUNDATION_EXPORT NSString * _Nonnull const WVHttpHeaderCacheControlNoStore;
 @interface NSDictionary (WVHttpHeader)
 
 /**
- * 返回 Age 头的数据，不存在则返回 0。
- */
-- (NSTimeInterval)wvHttpHeaderAge;
-
-/**
  * 返回 Cache-Control 头的数据，不存在则返回 nil。
  */
 - (NSString * _Nullable)wvHttpHeaderCacheControl;
@@ -101,6 +96,11 @@ FOUNDATION_EXPORT NSString * _Nonnull const WVHttpHeaderCacheControlNoStore;
  * 返回 Referrer 头的数据，不存在则返回 nil。
  */
 - (NSString * _Nullable)wvHttpHeaderReferrer;
+
+/**
+ * 返回 Set-Cookie 头的数据，不存在则返回 nil。
+ */
+- (NSString * _Nullable)wvHttpHeaderSetCookie;
 
 /**
  * 返回 UserAgent 头的数据，不存在则返回 nil。

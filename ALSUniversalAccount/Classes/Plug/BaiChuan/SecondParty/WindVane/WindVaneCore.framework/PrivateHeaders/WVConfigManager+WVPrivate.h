@@ -44,13 +44,4 @@
  */
 + (NSDictionary * _Nonnull)getHandlerVersions;
 
-#pragma mark - 其它
-
-/**
- * 返回应用启动或最近一次从后台切换到前台的时间。
- *
- * @return 返回应用启动或最近一次从后台切换到前台的时间。
- */
-+ (NSTimeInterval)foregroundTime;
-
 @end

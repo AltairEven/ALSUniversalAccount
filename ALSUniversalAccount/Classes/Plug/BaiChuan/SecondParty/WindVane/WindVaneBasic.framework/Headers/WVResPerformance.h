@@ -53,11 +53,6 @@
 @property (nonatomic, copy, readonly) NSString * pkgName;
 
 /**
- * [维度]Package App 应用版本。
- */
-@property (nonatomic, copy, readonly) NSString * pkgVersion;
-
-/**
  * [维度]Package App 应用 seq。
  */
 @property (nonatomic, copy, readonly) NSString * pkgSeq;

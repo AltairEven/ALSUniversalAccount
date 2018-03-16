@@ -7,126 +7,139 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02C449A65D0190EF017AF111E403342C /* alsua_icon_eye_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02FE12E0688F1E499B9D137FAE7FB41E /* alsua_icon_eye_off@3x.png */; };
-		09D223C80A18A103FE25A7B1C2371235 /* ALSUABaiChuanPlugInitializationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 63858E7AAF90797A5D1BFEBD53E1C3FF /* ALSUABaiChuanPlugInitializationInfo.m */; };
-		19F8ED718B288FF017BFBCFBF9DC72EE /* icon_list_eye_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E04B4945512DCAED2055CC735D176E74 /* icon_list_eye_on@2x.png */; };
-		1E84E9AFB34B2FDE720F5ABDF977B831 /* ALSUAResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEB6A8AB453697FB102BFCA82148ADE /* ALSUAResponse.m */; };
-		1FD2DAD54CDFE4FC4C90A9D0D55C27BE /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 45FDB05B98F93B8548B73AD817ABE320 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00AA0FB315FBAEFD5E24111463BF6367 /* alsua_icon_pop_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BE0C65852DCC9B0EC2ECC3C4CB5BBCF /* alsua_icon_pop_success@2x.png */; };
+		08BAB43812ABE69D71FE7F76189464E5 /* alsua_icon_list_eye_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A35AF5777D9FEF9CAC6D0B264A3E294E /* alsua_icon_list_eye_on@3x.png */; };
+		08C9317A77CDC746A7D534EE3F320BB0 /* ALSUniversalAccount-SecondParty-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB35BCFE2A2DBE61B80F64AD4DDF6964 /* ALSUniversalAccount-SecondParty-dummy.m */; };
+		09E9BB40C208B67221F41C2DEECE3E4C /* ALSUAOAuthPlugInitializationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3C3916EA408C8A69CEB5BB4D13CA82 /* ALSUAOAuthPlugInitializationInfo.m */; };
+		0FA7048699E2075B311F2BF3DC99EF26 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF87BD1C4F36160BF0FD62318D937EA /* UserNotifications.framework */; };
+		138635CE7285A223A33EC098911AD5D2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB7F938B23A3F5AF984D6D1EA29DF3C /* MobileCoreServices.framework */; };
+		1F4DB51722316A702DD70BF0229393D8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2193F6A57DFE45B4A71A8EF94A47B48C /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		20838A4AD376F56E2EB578C396F9F368 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292C4E9F24CEC2FBF020CBF8D231AF82 /* AVFoundation.framework */; };
+		220FCE5A6B6A75F44205C8D4EA4F6126 /* icon_nav_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D81C5A6E71967302A9FB555785E29CE /* icon_nav_back@3x.png */; };
 		22E2511ACB6B16EE3C741C7D4F3D4E90 /* Pods-ALSUniversalAccount_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F75365775C46290F335AEB1FE0E3B16D /* Pods-ALSUniversalAccount_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22FAF679403657FD7D7686244E0896E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9916DF3EBAD54B0A497CB2AF5EF9A4 /* CoreGraphics.framework */; };
-		29AC0A1F7AF97E93F9804B1A950429D9 /* ALSUAPlugMode.h in Headers */ = {isa = PBXBuildFile; fileRef = F2534313E914EC1D07C7B1002F41EDC8 /* ALSUAPlugMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		386D3D0CE60A37649B173A22AE12A973 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAB021B321BAD655162A6C63A48FB00 /* TTTAttributedLabel.m */; };
-		3EB608206ECCE792710A025DAF99B43E /* ALSUAPlugProtocal.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A8F1022DCF657750D510069BC88CA0 /* ALSUAPlugProtocal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F33FAD436904B7E671586D9720B6993 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A60DB3176724753E0FA903F872635 /* SFHFKeychainUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		41F8D1F1E50BA661D025713E0016507C /* SFHFKeychainUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FE1F60467B2509C61439CB141AF202 /* SFHFKeychainUtils.framework */; };
-		44FFCD22E2FD37084D0483D93660B222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD735B047D2C004C4EC25FDA3CCCF183 /* Foundation.framework */; };
-		45876B3369463FAD63196BE72B641C9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD735B047D2C004C4EC25FDA3CCCF183 /* Foundation.framework */; };
-		47C49EF9B94FED8127AA82CB7BA867C3 /* alsua_icon_pop_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 118C5A0A82AF3CC454C310A2AADC72A7 /* alsua_icon_pop_success@3x.png */; };
+		24EE0DDABA9B2A647CA0A905C96E8BF3 /* TTTAttributedLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 724BDE369DAEF66300DE5C4789ACF64D /* TTTAttributedLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E271B91E363FA87673BF6DFA9432224 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD0E99167845FE1B654A820BD5D98D3 /* CoreText.framework */; };
+		331779879F683E27CFF19AB4ABB8EB2A /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A60DB3176724753E0FA903F872635 /* SFHFKeychainUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		34814F4ED635CD10F58767441703D009 /* icon_list_eye_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183D1A76D3854813E7D770C3362EF2B6 /* icon_list_eye_on@3x.png */; };
+		35E502B997B8F237851CB34E1111B8CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AED5143310741489AA199EA51E8384 /* Foundation.framework */; };
+		39661897A8F23866A07CEF0FBF106950 /* icon_list_eye_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDDDC842D950922019DA473584A72258 /* icon_list_eye_on@2x.png */; };
+		4038925223C662AA6D1C9AB4CDB6B1B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D1064449F7E028BD07D1D8441BD51E /* CoreGraphics.framework */; };
+		43FE71E8894505EBC1F17C935484C223 /* SFHFKeychainUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F49757F333E9F5ABED2C54C5D44709 /* SFHFKeychainUtils.framework */; };
+		459D24F03E2FA725EE21D481FEC214D4 /* alsua_icon_nav_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 112DE14863C23A1A119DC1691515AF47 /* alsua_icon_nav_back@3x.png */; };
+		493B97DFD72729892DD6F63236AB8D25 /* ALSUAPlugMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 561F3B9860735F31414CD977333928AF /* ALSUAPlugMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C42F34C585F676EFF95AD4FAB444689 /* ALSUAOAuthPlugInitializationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F9C8BE990C7A9E9ED1999F3DE84B32BF /* ALSUAOAuthPlugInitializationInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ED96C3F0E055599E555A1B36C8774CC /* Pods-ALSUniversalAccount_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6647CE1D985855E783D0D801F7566429 /* Pods-ALSUniversalAccount_Tests-dummy.m */; };
-		4F2449FF9AE81D4363484A6B058D48BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD735B047D2C004C4EC25FDA3CCCF183 /* Foundation.framework */; };
-		51B8CE8598E35F6A374797F7794F6E53 /* ALSUAErrorDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = F80F28A804484EDF86CB22C770B68530 /* ALSUAErrorDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		541311E77CD1289A8EED2A77501F0D4C /* TTTAttributedLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 724BDE369DAEF66300DE5C4789ACF64D /* TTTAttributedLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5516EF3B8B9931926C197B2A0389CB8E /* alsua_icon_nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6E16A3B9E0072AC4EDD2837425C696 /* alsua_icon_nav_back@2x.png */; };
-		5C6A962311333BEBE547A22B84228A96 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE1E7A432A00E5AC972D6DE3CBB0DFC /* CoreText.framework */; };
-		61C1E75C2936323C277E9121C09AF116 /* ALSUniversalAccount-ThirdParty-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86EBA49BC2DD47573569265C09E779F4 /* ALSUniversalAccount-ThirdParty-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62353172C83DCBBD12E125C13915DCD9 /* ALSUABaiChuanPlugInitializationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4461FEA3D6B42B14DE29CDC061104687 /* ALSUABaiChuanPlugInitializationInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D08391790594C31451E663851563E58 /* ALSUniversalAccount-ThirdParty-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F420B6EF28885DDAF7DB02426C514BA /* ALSUniversalAccount-ThirdParty-dummy.m */; };
-		77AFCD31A47BCE610D790B6EC77C68C5 /* icon_nav_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2924B9D8DBD7B7290965946A04DE51A5 /* icon_nav_back@3x.png */; };
-		7B787918B18992FB369A24D130E20FC7 /* ALSUAOperationMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D637D2511604DF3D91C024BC954EFEE /* ALSUAOperationMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CA36A05224E7402D484CF146F996873 /* ALSUAResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C9EAF2C97823381D521FE16C09F2BBC2 /* ALSUAResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8060E8F15BC8906DFE640ECDB3272523 /* SFHFKeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A2FBA6B0A0EEF4585214B919208612 /* SFHFKeychainUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85E302ACBACCE9412B10BDB215BA5D2F /* alsua_icon_eye_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6547753559EE0900DEE971D51DF63E8E /* alsua_icon_eye_off@2x.png */; };
-		86B45C2FBE19A0DCE382B7CB33D6FD96 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD7E234CF11CA92E2FD287A7EA68BC7 /* MBProgressHUD-dummy.m */; };
-		87ED2E1BCEAA020B9604721F9E7CAD60 /* ALSUAOAuthPlugInitializationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BD2DA0CB104008BB7B31F2108B448B /* ALSUAOAuthPlugInitializationInfo.m */; };
-		880AF64A9CC0315FE65F7DD2EC4E998E /* alsua_icon_nav_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B90D708F23A94F69CE2D8A8945A7F1 /* alsua_icon_nav_back@3x.png */; };
-		8858981B4313BEEBBBA4B8611E5B0E02 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B957FF0761E46D0AEF37E4A155582A82 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C3743F255DE6DBAB5C59F477653CCD0 /* Pods-ALSUniversalAccount_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF08360A70EE3CBFC3FDF83C38DC872B /* Pods-ALSUniversalAccount_Example-dummy.m */; };
-		9143EE3F4E53AAD262D78506D276E088 /* ALSUniversalAccount.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0557E02F9BE12E7AE993AF31E7A45937 /* ALSUniversalAccount.bundle */; };
-		93B99D16C7CF8314B5BE7F63CFA45868 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD735B047D2C004C4EC25FDA3CCCF183 /* Foundation.framework */; };
-		953B76FF68D291146BB18870B34C6741 /* alsua_icon_pop_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF9A597FA0B7FB373E1F117231C2478 /* alsua_icon_pop_success@2x.png */; };
-		97DEC353BC1929B0A912D187F0B1D562 /* icon_nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DF6FA1A8BAE7758C59883227B16F8FE /* icon_nav_back@2x.png */; };
-		9D0FC684E5140CF9E583056339C8BD81 /* icon_pop_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B47C917BFC6E3D65D1F0D4DB7F973F7 /* icon_pop_success@3x.png */; };
-		A1667CBCC2D3BA56D0741F6C41A7501B /* ALSUAOperationMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 754D2949D62744F9465DD401E240F61B /* ALSUAOperationMode.m */; };
-		A3636084EB79E9FFA2DAAA1CB567B901 /* TTTAttributedLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51139B471274E212338ADE6A2560B69 /* TTTAttributedLabel.framework */; };
-		AC8A65C43B4C168CAC7F381DC20AB34F /* ALSUAPlugMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912C66E3F8164FB83AAD5AFDE9E101E /* ALSUAPlugMode.m */; };
-		ADC5FCE6021F92052E91C4EEAFAC69EB /* icon_eye_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B95F167F3DE18BBDE95211089B86750 /* icon_eye_off@2x.png */; };
-		B58709B54F6E689C1986B9AFEE2E5EB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F504718E71622C2FB1698D662092C6 /* UIKit.framework */; };
-		B8559824346D27CB25510EFE79873EC8 /* SFHFKeychainUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1DD2CD12D0FD8F070FAF559179442A /* SFHFKeychainUtils-dummy.m */; };
-		BCB8585DBFD8A0579884246FEE33A922 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811298F66488BC7595575725E32216AC /* Security.framework */; };
-		C49FE4538821543CE97114CD070A8013 /* Pods-ALSUniversalAccount_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E4CBF217489490CC0D81F47740E6EA0 /* Pods-ALSUniversalAccount_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5AECA9D573AC070A21BE9E0F8DA757C /* TTTAttributedLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767BA57DE30A226ECF474FFCC3BC6EA /* TTTAttributedLabel-dummy.m */; };
-		C668EDD85B79BE8205FA479D80B78E66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9916DF3EBAD54B0A497CB2AF5EF9A4 /* CoreGraphics.framework */; };
-		CADFA1CA2341D8923ED25567D627AA69 /* icon_eye_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E206B2564B1248E93A236E5550B5D08A /* icon_eye_off@3x.png */; };
-		CB4211A45D177FEFCBC6A187961A8283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD735B047D2C004C4EC25FDA3CCCF183 /* Foundation.framework */; };
-		CB68E3748AA651926397CA99989BAE6B /* alsua_icon_list_eye_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F630425C2280130A961978A1D08DC96D /* alsua_icon_list_eye_on@2x.png */; };
-		CE4CBE004CB5AA33B340151F1621FB60 /* SFHFKeychainUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACDB8F5DFE20F4147C5736F2AB6B138D /* SFHFKeychainUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD9CD740F1472C825D29E3DC477F2F9E /* icon_list_eye_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B45A286A81D984E6837CAF43411BAD3A /* icon_list_eye_on@3x.png */; };
-		DDC7D32239A5B81032A3A5F6148E078E /* alsua_icon_list_eye_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C3075395AD0E9B72D720D8C771E6F34 /* alsua_icon_list_eye_on@3x.png */; };
-		DEA6C631E073960E458490C28A43B540 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155669EB8CAA8513177ECAB8DC814314 /* QuartzCore.framework */; };
-		E10233133C15D5B318D3FE068912DBFA /* ALSUAOAuthPlugInitializationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FE05A4DCB16674DF481BFA353B00C1F9 /* ALSUAOAuthPlugInitializationInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5FA0EDF2B21C69C58694CD238668AF9 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC24AC51F9AF72E3533DCBBC96CEC015 /* MBProgressHUD.framework */; };
-		EB11D4A2C4BF01A811CE86E43EAE2ED1 /* TTTAttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9671F1170DBD1762A118024873B64514 /* TTTAttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1A82D9D57E3E9268EBA69163B57A3BE /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2193F6A57DFE45B4A71A8EF94A47B48C /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F4F0F5D439EC8662D9C62F16ABBB6EB1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389C3A7480F19B68C6424A7C91C7C9B9 /* CoreMotion.framework */; };
-		F720729AEC4E24D0C35C278100857C38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD735B047D2C004C4EC25FDA3CCCF183 /* Foundation.framework */; };
+		4F2449FF9AE81D4363484A6B058D48BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AED5143310741489AA199EA51E8384 /* Foundation.framework */; };
+		506A4AB0285AD37339102D63C5988736 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AED5143310741489AA199EA51E8384 /* Foundation.framework */; };
+		555775EF45C96F4D3BC2CD95E7457CF7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8FF236816C7491B93836CF5786E2D2 /* WebKit.framework */; };
+		579D1EBF321238F75032A2D4B71439BE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5C65BE30BAE9559BBAA2BE79E297AE /* AudioToolbox.framework */; };
+		5CECC453F18CD21A2BE80300D4F1ADA1 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 45FDB05B98F93B8548B73AD817ABE320 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D7DEDAECC95A7F4AE3F219B52447AEA /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAB021B321BAD655162A6C63A48FB00 /* TTTAttributedLabel.m */; };
+		5DDAD2C797B8283BBD28A8EA394D1FE2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21B07DD4ADB6FA2DCB37266F4155899 /* QuartzCore.framework */; };
+		5F58EB08FD25F8DC9DB5F7BABD1D8557 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E57EAD339AB1CB7B0E48B269A06AB94 /* CoreBluetooth.framework */; };
+		60A1396257252F6D22C6AEAC80B49F14 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC5338D359D02F52828DBCD490CF9C1 /* MessageUI.framework */; };
+		683F2312FCAB30ABD5AFB0E6174BCCE7 /* TTTAttributedLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767BA57DE30A226ECF474FFCC3BC6EA /* TTTAttributedLabel-dummy.m */; };
+		6A3DA39B1EB69FC32C0F978FBAE45957 /* icon_pop_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D06509F02263692EAEF8B563EF0A3E45 /* icon_pop_success@3x.png */; };
+		6B66B2E57C649C113698EA2126936D78 /* icon_eye_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A03661CE0569C96BB160CB417324AE23 /* icon_eye_off@2x.png */; };
+		74CAB5BAB37CD1853E50131757016F40 /* ALSUAResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BD8FEAD57FBE59BABD92FDA23D08C /* ALSUAResponse.m */; };
+		74CC4FD65B2565300AD41A45F7B26404 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45A5149774599EB7DE47576F368F347 /* CoreMotion.framework */; };
+		761B51F52C424C435096C6D260806AE6 /* SFHFKeychainUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACDB8F5DFE20F4147C5736F2AB6B138D /* SFHFKeychainUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79A3F53DF1272E23D29687FDF6FA4AEF /* TTTAttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9671F1170DBD1762A118024873B64514 /* TTTAttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AB37C1BA62C81A5F3E677536D15B9ED /* ALSUAErrorDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 34312EE2E52701C4536331055A0F37AA /* ALSUAErrorDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CDA94FB1BDDC827082108C83469B693 /* ALSUAResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D9454733E3167A92B09D0B7F48A8AC10 /* ALSUAResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EBAFDCF4FEF5F2040F9DBB90FB12C12 /* alsua_icon_eye_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043035CC0B471B58DA810BB7E3542CA7 /* alsua_icon_eye_off@3x.png */; };
+		830BA741F95E75889DD2146453753744 /* ALSUniversalAccount-SecondParty-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 566ED0A6C13E4CFE09B0D1DE1A95A65B /* ALSUniversalAccount-SecondParty-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		865B0C5A2EA90CA660885863F0895AE9 /* icon_nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C61A532A823A084AE42B671A9340A808 /* icon_nav_back@2x.png */; };
+		87AB6BE5CADD2475C40AEB5B33994D93 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B957FF0761E46D0AEF37E4A155582A82 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D3DA0A1381E9F6BB608704EF6835717 /* ALSUniversalAccount.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5C4C6D839CCC8EA5835E6C256D78D25 /* ALSUniversalAccount.bundle */; };
+		8D71E1B11708421F9B0594A111F90F7D /* ALSUABaiChuanPlugInitializationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 66995D95E1A381A8504E8AF2947A689C /* ALSUABaiChuanPlugInitializationInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91574AC28FC56B50C16E9B693EC44617 /* alsua_icon_list_eye_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A889BD6EE9BCF46C368FCF2E32EE6281 /* alsua_icon_list_eye_on@2x.png */; };
+		97D4935A6D0CB3BBB8B8629EDC6AAB17 /* ALSUABaiChuanPlugInitializationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D880EC9712A3A3C23AA083DE1F541D7A /* ALSUABaiChuanPlugInitializationInfo.m */; };
+		995AA375C88C90D8795F9A275BC6BC59 /* alsua_icon_eye_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CD022BF088898818842ABBD839C390F /* alsua_icon_eye_off@2x.png */; };
+		A0F5966C09FB126ACFC72BDE148CE91F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AED5143310741489AA199EA51E8384 /* Foundation.framework */; };
+		A9C96E048BFA1ECDD36609E32D10F8A5 /* ALSUAOperationMode.h in Headers */ = {isa = PBXBuildFile; fileRef = E41A9410C5CC2511BC22A7A9F881469D /* ALSUAOperationMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B05296C24A28FBBC6E2E880BDB261CC0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1153EB659FA4B9ABE242A23676B11C /* CoreLocation.framework */; };
+		B360773015FE3E83A7FA455434088D7E /* alsua_icon_pop_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1250936AF50115AA7B09F9561622FD /* alsua_icon_pop_success@3x.png */; };
+		B5729A8EF6D16604327C926A80E32C8D /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60895278C4D81F92374145F840AFE8D /* AddressBookUI.framework */; };
+		BA9269AD72C2EE6BD0EEAA75C0BD1862 /* icon_eye_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 085A04C77EF104AC011348998D2FD219 /* icon_eye_off@3x.png */; };
+		BE8F723B6E575292BC33BA6A185FF2EF /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD7E234CF11CA92E2FD287A7EA68BC7 /* MBProgressHUD-dummy.m */; };
+		C117E13EB63BF6D1900A5B80433DF50B /* ALSUAPlugProtocal.h in Headers */ = {isa = PBXBuildFile; fileRef = 217D6C07624845AF1EEC3423C15301D5 /* ALSUAPlugProtocal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFF3996F61C3A4E898FD2FE2F5A3BF8F /* TTTAttributedLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFAD3AE8E46A2BFB43A3625E9FB8982 /* TTTAttributedLabel.framework */; };
+		D21F2E785177DEA64C3659A749DEB580 /* ALSUAOperationMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CC1F4A08234D78685A6454D29E6199 /* ALSUAOperationMode.m */; };
+		D2F95926E6CD1C73481807263FFF473C /* Pods-ALSUniversalAccount_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E4CBF217489490CC0D81F47740E6EA0 /* Pods-ALSUniversalAccount_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D31A65F03C2D4E61767D32762894C8D8 /* Pods-ALSUniversalAccount_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF08360A70EE3CBFC3FDF83C38DC872B /* Pods-ALSUniversalAccount_Example-dummy.m */; };
+		D332B676F23C2585D733D21690CB6579 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC3AF5F6F7EEEE825D6CA16936A4349 /* UIKit.framework */; };
+		DCC8B0C0A55E5085343D4F093A135162 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AED5143310741489AA199EA51E8384 /* Foundation.framework */; };
+		DDF70D524FAA203702093BFDFF8BF060 /* ALSUAPlugMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF082E302A424293B225828620934A4 /* ALSUAPlugMode.m */; };
+		DE1D184D2DF573C4B09C4607E2959864 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E240585D3D34BF854174C261A9FED359 /* Contacts.framework */; };
+		E8077B04F59ACD47541D7D492C939F76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D1064449F7E028BD07D1D8441BD51E /* CoreGraphics.framework */; };
+		E952BCD09021058BE6E72C4AC8280C95 /* alsua_icon_nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAC496827E8AE6BD6536C75213BDE4B7 /* alsua_icon_nav_back@2x.png */; };
+		E9A9E5B3F13107834B9B3BA9BD85E7E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AED5143310741489AA199EA51E8384 /* Foundation.framework */; };
+		EA606084B00168BC3641BEFC478FD98C /* SFHFKeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A2FBA6B0A0EEF4585214B919208612 /* SFHFKeychainUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED190C3F6E492408295457867E7758A1 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA1DBB712BF2A93B6C0904C86F2B56A /* AssetsLibrary.framework */; };
+		EE32AC812AA8DB8654EBF55E7399B3DE /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593291C60C0E3B3E8BFD34C2BC638871 /* MBProgressHUD.framework */; };
+		EF0ECA6D85FA2C52BBE5790B565924FD /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73955101F40AF9211C810FEA7DA381E6 /* AddressBook.framework */; };
+		F69B36FDAF062BF1DA99D6380B150DA1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7813869D1A2C0314A30790130D9C3A37 /* Security.framework */; };
+		F76829085ED84CDE0075CCBA74024FB6 /* SFHFKeychainUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1DD2CD12D0FD8F070FAF559179442A /* SFHFKeychainUtils-dummy.m */; };
+		F95430F26C6A4679D7AA485C15C72934 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBC238E88C638B3FA9D1BEB4C7CC909 /* ContactsUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2488FF15F933CF5DE93E5FA9F6317703 /* PBXContainerItemProxy */ = {
+		570A2C50D448F81D8ABAA2D004438AC2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 869DACB885EC0A6DDE9E7E7393FE8539;
-			remoteInfo = "ALSUniversalAccount-ThirdParty";
-		};
-		3283D81D55962D33D83805586AF5E648 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A05EF6FD4DF6F9BC3F6A80B1532215E0;
-			remoteInfo = MBProgressHUD;
-		};
-		537E69EBACF829EE6BF2F90296395293 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8B38A9E0D79DFAEA3979D9437CF430E7;
-			remoteInfo = TTTAttributedLabel;
-		};
-		5D4AEED73DDEEF1AF5143637DD67651B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4E1223651EBA1D748BFCDD88FF3323A0;
+			remoteGlobalIDString = AB3980E8D836529ADD6206351697C7F7;
 			remoteInfo = SFHFKeychainUtils;
 		};
-		70B3D0EB0771E12DD8E7F7A5F619D65C /* PBXContainerItemProxy */ = {
+		58FF1E4823F85B7CF41DC6688DC5BBCC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A05EF6FD4DF6F9BC3F6A80B1532215E0;
+			remoteGlobalIDString = 7346FBE99E6F54576DD94F0A1C692DD3;
+			remoteInfo = "ALSUniversalAccount-SecondParty";
+		};
+		6D572C604058D72748730E56B1834405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9891E441E54562B2444D8BF4A2B8F168;
 			remoteInfo = MBProgressHUD;
 		};
-		D134F10F00D84CC9839752DFD260ACF8 /* PBXContainerItemProxy */ = {
+		7454524C7471BE5CD6D84494F9F58D4A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8B38A9E0D79DFAEA3979D9437CF430E7;
+			remoteGlobalIDString = C011BF6330C7C7B21D8F73026E7976D0;
 			remoteInfo = TTTAttributedLabel;
 		};
-		E91B11A0708733D0E95F3042C0B3B659 /* PBXContainerItemProxy */ = {
+		C75BDDD323FB8EC2FB72CC6E30615F3A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7810AA9A97719C4F57E132E1ABA722B6;
-			remoteInfo = "ALSUniversalAccount-ThirdParty-ALSUniversalAccount";
-		};
-		F8406462D29329369C69670E9B53E4FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4E1223651EBA1D748BFCDD88FF3323A0;
+			remoteGlobalIDString = AB3980E8D836529ADD6206351697C7F7;
 			remoteInfo = SFHFKeychainUtils;
+		};
+		CA5F7C995D6C4AB2FB7140387EEA770F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F7C3305ADEA92611432B8F9CABB90D4;
+			remoteInfo = "ALSUniversalAccount-SecondParty-ALSUniversalAccount";
+		};
+		F38E74FA3E491462EBC0EFDB476175E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9891E441E54562B2444D8BF4A2B8F168;
+			remoteInfo = MBProgressHUD;
+		};
+		FAAE842C117C5529020F3AFBB93A6E41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C011BF6330C7C7B21D8F73026E7976D0;
+			remoteInfo = TTTAttributedLabel;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -134,153 +147,231 @@
 		009CE26A58171A94539D0F7618FDA936 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0192ABD0D597DB8E31E0F468577BE0E0 /* Pods-ALSUniversalAccount_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALSUniversalAccount_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		01A2FBA6B0A0EEF4585214B919208612 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFHFKeychainUtils.h; path = security/SFHFKeychainUtils.h; sourceTree = "<group>"; };
-		02FE12E0688F1E499B9D137FAE7FB41E /* alsua_icon_eye_off@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alsua_icon_eye_off@3x.png"; path = "ALSUniversalAccount/Assets/Images/alsua_icon_eye_off@3x.png"; sourceTree = "<group>"; };
 		03BB28034CACC28C3D884D75FAE9EE9F /* Pods-ALSUniversalAccount_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSUniversalAccount_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0557E02F9BE12E7AE993AF31E7A45937 /* ALSUniversalAccount.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ALSUniversalAccount.bundle; path = ALSUniversalAccount.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		092A887B1BD8419DE45807117A34601D /* SGMain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGMain.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/SGMain/SGMain.framework; sourceTree = "<group>"; };
+		043035CC0B471B58DA810BB7E3542CA7 /* alsua_icon_eye_off@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alsua_icon_eye_off@3x.png"; path = "ALSUniversalAccount/Assets/Images/alsua_icon_eye_off@3x.png"; sourceTree = "<group>"; };
+		0433E379FCD4821F4F7EF8C5B52D379B /* SecurityGuardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityGuardSDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/SecurityGuardSDK/SecurityGuardSDK.framework; sourceTree = "<group>"; };
+		085A04C77EF104AC011348998D2FD219 /* icon_eye_off@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_eye_off@3x.png"; path = "ALSUniversalAccount/Assets/Images/icon_eye_off@3x.png"; sourceTree = "<group>"; };
 		0BC4571082D79A9B7DA50033D9AEFCCA /* TTTAttributedLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTTAttributedLabel-prefix.pch"; sourceTree = "<group>"; };
-		0EEB6A8AB453697FB102BFCA82148ADE /* ALSUAResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALSUAResponse.m; path = ALSUniversalAccount/Classes/Public/ALSUAResponse.m; sourceTree = "<group>"; };
-		118C5A0A82AF3CC454C310A2AADC72A7 /* alsua_icon_pop_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alsua_icon_pop_success@3x.png"; path = "ALSUniversalAccount/Assets/Images/alsua_icon_pop_success@3x.png"; sourceTree = "<group>"; };
+		0CD022BF088898818842ABBD839C390F /* alsua_icon_eye_off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alsua_icon_eye_off@2x.png"; path = "ALSUniversalAccount/Assets/Images/alsua_icon_eye_off@2x.png"; sourceTree = "<group>"; };
+		0D81C5A6E71967302A9FB555785E29CE /* icon_nav_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_nav_back@3x.png"; path = "ALSUniversalAccount/Assets/Images/icon_nav_back@3x.png"; sourceTree = "<group>"; };
+		0DECA3413916B9D8EA069AD3B6C6ED48 /* ZCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZCache.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/ZCache/ZCache.framework; sourceTree = "<group>"; };
+		112DE14863C23A1A119DC1691515AF47 /* alsua_icon_nav_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alsua_icon_nav_back@3x.png"; path = "ALSUniversalAccount/Assets/Images/alsua_icon_nav_back@3x.png"; sourceTree = "<group>"; };
 		121C53F6F3A8CEF03F4F853313FC86E6 /* SFHFKeychainUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFHFKeychainUtils-prefix.pch"; sourceTree = "<group>"; };
-		155669EB8CAA8513177ECAB8DC814314 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		165A0B80E2619B29A5313615849291EC /* TTTAttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTTAttributedLabel.framework; path = TTTAttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A9916DF3EBAD54B0A497CB2AF5EF9A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		137D0C48DB9E7AD424A8BE8AD3375E82 /* NetworkCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkCore.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/NetworkSDK/NetworkCore.framework; sourceTree = "<group>"; };
+		147FEBD45B3C5F7D6CC55FC79B336BD1 /* AliVfsDBSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliVfsDBSDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/AliVfsSDK/AliVfsDBSDK.framework; sourceTree = "<group>"; };
+		183D1A76D3854813E7D770C3362EF2B6 /* icon_list_eye_on@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_list_eye_on@3x.png"; path = "ALSUniversalAccount/Assets/Images/icon_list_eye_on@3x.png"; sourceTree = "<group>"; };
+		1998A009C5E996C584A382EC3DE69C0E /* SFHFKeychainUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SFHFKeychainUtils.framework; path = SFHFKeychainUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D6FA60F4552BEC5D435954B6FABB67 /* SGNoCaptcha.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGNoCaptcha.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/SGNoCaptcha/SGNoCaptcha.framework; sourceTree = "<group>"; };
+		1BE0C65852DCC9B0EC2ECC3C4CB5BBCF /* alsua_icon_pop_success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alsua_icon_pop_success@2x.png"; path = "ALSUniversalAccount/Assets/Images/alsua_icon_pop_success@2x.png"; sourceTree = "<group>"; };
+		1DA4F7ADFB4F371EA42E558D456BEF90 /* ALSUniversalAccount_SecondParty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ALSUniversalAccount_SecondParty.framework; path = "ALSUniversalAccount-SecondParty.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E964614278E67783E45B14F146B5FFB /* Pods-ALSUniversalAccount_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALSUniversalAccount_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1F5C65BE30BAE9559BBAA2BE79E297AE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		20CC1F4A08234D78685A6454D29E6199 /* ALSUAOperationMode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALSUAOperationMode.m; path = ALSUniversalAccount/Classes/Public/ALSUAOperationMode.m; sourceTree = "<group>"; };
+		217D6C07624845AF1EEC3423C15301D5 /* ALSUAPlugProtocal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSUAPlugProtocal.h; path = ALSUniversalAccount/Classes/Public/ALSUAPlugProtocal.h; sourceTree = "<group>"; };
 		2193F6A57DFE45B4A71A8EF94A47B48C /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		22E6869DA325864B179C70833B21FA9E /* ALBBOpenAccountUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALBBOpenAccountUI.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/ALBBOpenAccountSDK/ALBBOpenAccountUI.framework; sourceTree = "<group>"; };
-		23678053083375EC7DA7352EF7F0F5A3 /* SFHFKeychainUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SFHFKeychainUtils.framework; path = SFHFKeychainUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2924B9D8DBD7B7290965946A04DE51A5 /* icon_nav_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_nav_back@3x.png"; path = "ALSUniversalAccount/Assets/Images/icon_nav_back@3x.png"; sourceTree = "<group>"; };
+		23896D7C71843A7FA8B647CB1119631E /* TBSecuritySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TBSecuritySDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/TBSecuritySDK/TBSecuritySDK.framework; sourceTree = "<group>"; };
+		291ED98C66649DD1FFC436422E3992B5 /* ALBBOpenAccountSSO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALBBOpenAccountSSO.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/ALBBOpenAccountSSO/ALBBOpenAccountSSO.framework; sourceTree = "<group>"; };
+		292C4E9F24CEC2FBF020CBF8D231AF82 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		2932CD697B82223A2CB9C143FADB9649 /* AliUniversalAccount.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliUniversalAccount.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/AliUniversalAccount/AliUniversalAccount.framework; sourceTree = "<group>"; };
+		29FA10C8A4FB38E23A47F6F5BBBBB768 /* ALSUniversalAccount-SecondParty.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ALSUniversalAccount-SecondParty.xcconfig"; sourceTree = "<group>"; };
 		2AAB021B321BAD655162A6C63A48FB00 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTTAttributedLabel.m; path = TTTAttributedLabel/TTTAttributedLabel.m; sourceTree = "<group>"; };
-		2ABD7BF2A4AA1B116779BE3A7570787B /* AlibabaAuthSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlibabaAuthSDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/AlibabaAuthSDK/AlibabaAuthSDK.framework; sourceTree = "<group>"; };
-		2ADEF84E8B1C32F20185D81A41A6F35F /* ALBBOpenAccountSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALBBOpenAccountSDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/ALBBOpenAccountSDK/ALBBOpenAccountSDK.framework; sourceTree = "<group>"; };
 		2B4DAB67441FC07B378B1CF09209EA5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		389C3A7480F19B68C6424A7C91C7C9B9 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		2C35DF41B06CE4E2519672671CA665C9 /* TTTAttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTTAttributedLabel.framework; path = TTTAttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34312EE2E52701C4536331055A0F37AA /* ALSUAErrorDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSUAErrorDefine.h; path = ALSUniversalAccount/Classes/Public/ALSUAErrorDefine.h; sourceTree = "<group>"; };
+		36981C875F0C3BD135050D7ED8E0D8F2 /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDB.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/FMDB/FMDB.framework; sourceTree = "<group>"; };
+		37463C9C258CDC0786DF8D51B22BEBCF /* WindVaneMonitor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WindVaneMonitor.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/WindVane/WindVaneMonitor.framework; sourceTree = "<group>"; };
+		3B1E781ED0703D9FCA47389E2A2641D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1153EB659FA4B9ABE242A23676B11C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		3E57B611D9CD35F7C275714B4D44AB33 /* SFHFKeychainUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SFHFKeychainUtils.modulemap; sourceTree = "<group>"; };
 		3E7C629D4C942FF54C3E970968B5DBA7 /* Pods-ALSUniversalAccount_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALSUniversalAccount_Tests-resources.sh"; sourceTree = "<group>"; };
-		4461FEA3D6B42B14DE29CDC061104687 /* ALSUABaiChuanPlugInitializationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSUABaiChuanPlugInitializationInfo.h; path = ALSUniversalAccount/Classes/Public/ALSUABaiChuanPlugInitializationInfo.h; sourceTree = "<group>"; };
-		45B90D708F23A94F69CE2D8A8945A7F1 /* alsua_icon_nav_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alsua_icon_nav_back@3x.png"; path = "ALSUniversalAccount/Assets/Images/alsua_icon_nav_back@3x.png"; sourceTree = "<group>"; };
+		4037424F29A6967B6044F7BCAA398150 /* TBAccsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TBAccsSDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/TBAccsSDK/TBAccsSDK.framework; sourceTree = "<group>"; };
+		40657FB46A23F0FFC2125BE9D176B806 /* ARUP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARUP.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/ARUP/ARUP.framework; sourceTree = "<group>"; };
 		45FDB05B98F93B8548B73AD817ABE320 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		4912C66E3F8164FB83AAD5AFDE9E101E /* ALSUAPlugMode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALSUAPlugMode.m; path = ALSUniversalAccount/Classes/Public/ALSUAPlugMode.m; sourceTree = "<group>"; };
+		4AB775874B177AEE9E7AB33979FDC1A4 /* WindVaneBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WindVaneBridge.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/WindVane/WindVaneBridge.framework; sourceTree = "<group>"; };
 		4AD7E234CF11CA92E2FD287A7EA68BC7 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		4B95F167F3DE18BBDE95211089B86750 /* icon_eye_off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_eye_off@2x.png"; path = "ALSUniversalAccount/Assets/Images/icon_eye_off@2x.png"; sourceTree = "<group>"; };
+		4B402A52FDBF4C9E4478284D03D23F9F /* WindVaneCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WindVaneCore.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/WindVane/WindVaneCore.framework; sourceTree = "<group>"; };
+		4CBC238E88C638B3FA9D1BEB4C7CC909 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ContactsUI.framework; sourceTree = DEVELOPER_DIR; };
 		4ED0A4EBAB8006DED9E761854D20E195 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52571EFD8E2B1CED487CB5DB4111D157 /* ALSUniversalAccount_ThirdParty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ALSUniversalAccount_ThirdParty.framework; path = "ALSUniversalAccount-ThirdParty.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC3AF5F6F7EEEE825D6CA16936A4349 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		52ED04CDFE992325164B3EEA4B4DA643 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		561F3B9860735F31414CD977333928AF /* ALSUAPlugMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSUAPlugMode.h; path = ALSUniversalAccount/Classes/Public/ALSUAPlugMode.h; sourceTree = "<group>"; };
+		566ED0A6C13E4CFE09B0D1DE1A95A65B /* ALSUniversalAccount-SecondParty-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALSUniversalAccount-SecondParty-umbrella.h"; sourceTree = "<group>"; };
 		5767BA57DE30A226ECF474FFCC3BC6EA /* TTTAttributedLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTTAttributedLabel-dummy.m"; sourceTree = "<group>"; };
-		57F924600DFD7F9796430605A61A8F97 /* AlisportsUniversalAccount.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlisportsUniversalAccount.framework; path = ALSUniversalAccount/Classes/Interface/ThirdParty/AlisportsUniversalAccount.framework; sourceTree = "<group>"; };
-		5C2223D0B30D823FC06E22A73C87F60A /* SecurityGuardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityGuardSDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/SecurityGuardSDK/SecurityGuardSDK.framework; sourceTree = "<group>"; };
+		57891B86F78E6DDB5F0E2FE607A5C3AA /* APSecLocalStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APSecLocalStorage.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/APSecLocalStorage/APSecLocalStorage.framework; sourceTree = "<group>"; };
+		593291C60C0E3B3E8BFD34C2BC638871 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59AE0CB297CEB40C31F44331E1E2A627 /* SGIndieKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGIndieKit.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/SGIndieKit/SGIndieKit.framework; sourceTree = "<group>"; };
 		5DF0E0C074F94480DD403FFC73888512 /* SFHFKeychainUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFHFKeychainUtils.xcconfig; sourceTree = "<group>"; };
-		63858E7AAF90797A5D1BFEBD53E1C3FF /* ALSUABaiChuanPlugInitializationInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALSUABaiChuanPlugInitializationInfo.m; path = ALSUniversalAccount/Classes/Public/ALSUABaiChuanPlugInitializationInfo.m; sourceTree = "<group>"; };
-		652FD8CEDCE007C299F0780CB7708C16 /* ALBBOpenAccountSSO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALBBOpenAccountSSO.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/ALBBOpenAccountSDK/ALBBOpenAccountSSO.framework; sourceTree = "<group>"; };
-		6547753559EE0900DEE971D51DF63E8E /* alsua_icon_eye_off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alsua_icon_eye_off@2x.png"; path = "ALSUniversalAccount/Assets/Images/alsua_icon_eye_off@2x.png"; sourceTree = "<group>"; };
+		5E8D654E69F0919F42FCF3505B3D6098 /* AliVfsMemSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliVfsMemSDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/AliVfsSDK/AliVfsMemSDK.framework; sourceTree = "<group>"; };
+		606B51BB982DDC90F8F3067B99ED411B /* WindVaneTBExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WindVaneTBExtension.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/WindVane/WindVaneTBExtension.framework; sourceTree = "<group>"; };
+		6308DC0307B5D3C640C7B2BD8B29679A /* APSecSecuritySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APSecSecuritySDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/AliSecSecuritySDK/APSecSecuritySDK.framework; sourceTree = "<group>"; };
+		631FB30908F696B42C59CB70D5A23EE3 /* WindVaneAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WindVaneAPI.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/WindVane/WindVaneAPI.framework; sourceTree = "<group>"; };
 		662018E8988356AE2CE04872D5DB56AF /* Pods-ALSUniversalAccount_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ALSUniversalAccount_Example.modulemap"; sourceTree = "<group>"; };
+		6643B389D336DE2684DF868FB52ED011 /* APMobileNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APMobileNetwork.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/APSecMobileRPC/APMobileNetwork.framework; sourceTree = "<group>"; };
 		6647CE1D985855E783D0D801F7566429 /* Pods-ALSUniversalAccount_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALSUniversalAccount_Tests-dummy.m"; sourceTree = "<group>"; };
+		66995D95E1A381A8504E8AF2947A689C /* ALSUABaiChuanPlugInitializationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSUABaiChuanPlugInitializationInfo.h; path = ALSUniversalAccount/Classes/Public/ALSUABaiChuanPlugInitializationInfo.h; sourceTree = "<group>"; };
+		67AED5143310741489AA199EA51E8384 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69B3B50E876462B4E07A7689021C25B1 /* ResourceBundle-ALSUniversalAccount-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ALSUniversalAccount-Info.plist"; sourceTree = "<group>"; };
+		6BFAD3AE8E46A2BFB43A3625E9FB8982 /* TTTAttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTTAttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C11FED73F21D388B78F7CDD0E3FE8C3 /* WindVaneBasic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WindVaneBasic.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/WindVane/WindVaneBasic.framework; sourceTree = "<group>"; };
+		6FD8B12A076FC0CB0EDA69590D1FC0A7 /* APSecCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APSecCrypto.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/APSecCrypto/APSecCrypto.framework; sourceTree = "<group>"; };
+		70C5348AAE7F2F9CFBD278CB3B1CAA74 /* AliVfsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliVfsSDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/AliVfsSDK/AliVfsSDK.framework; sourceTree = "<group>"; };
+		716C4F27D57FDCF1E9FC838BBA04D4C8 /* AlisportsUniversalAccount.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlisportsUniversalAccount.framework; path = ALSUniversalAccount/Classes/Interface/SecondParty/AlisportsUniversalAccount.framework; sourceTree = "<group>"; };
 		724BDE369DAEF66300DE5C4789ACF64D /* TTTAttributedLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTTAttributedLabel-umbrella.h"; sourceTree = "<group>"; };
-		74654350F9F5AD50A376ABCB75ED0577 /* Pods_ALSUniversalAccount_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ALSUniversalAccount_Tests.framework; path = "Pods-ALSUniversalAccount_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		754D2949D62744F9465DD401E240F61B /* ALSUAOperationMode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALSUAOperationMode.m; path = ALSUniversalAccount/Classes/Public/ALSUAOperationMode.m; sourceTree = "<group>"; };
-		77DEF5AD27A2377CDEA6C0017894C863 /* OpenMtopSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenMtopSDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/mtop/OpenMtopSDK.framework; sourceTree = "<group>"; };
-		78BFC51114CDDFA00F4B1FBF07E717E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73955101F40AF9211C810FEA7DA381E6 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+		741DE5724F61DBEBF34513583D708ED3 /* Pods_ALSUniversalAccount_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ALSUniversalAccount_Example.framework; path = "Pods-ALSUniversalAccount_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74492406101609BA41549BFA8ADBC3DE /* AliVfsDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliVfsDB.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/AliVfsDB/AliVfsDB.framework; sourceTree = "<group>"; };
+		7813869D1A2C0314A30790130D9C3A37 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		78D9391C48E755730B612BE7E4CB3CE9 /* Pods-ALSUniversalAccount_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSUniversalAccount_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7AE1E7A432A00E5AC972D6DE3CBB0DFC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		7B61F241F47FFEAE2F150C5FB9444934 /* Pods-ALSUniversalAccount_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALSUniversalAccount_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7BE3675B7B8D73E55F8FE9D7A33A3B8B /* WindVanePackageApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WindVanePackageApp.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/WindVane/WindVanePackageApp.framework; sourceTree = "<group>"; };
 		7BEAB69693593A0961492441111900D2 /* Pods-ALSUniversalAccount_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALSUniversalAccount_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7C3075395AD0E9B72D720D8C771E6F34 /* alsua_icon_list_eye_on@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alsua_icon_list_eye_on@3x.png"; path = "ALSUniversalAccount/Assets/Images/alsua_icon_list_eye_on@3x.png"; sourceTree = "<group>"; };
-		7D637D2511604DF3D91C024BC954EFEE /* ALSUAOperationMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSUAOperationMode.h; path = ALSUniversalAccount/Classes/Public/ALSUAOperationMode.h; sourceTree = "<group>"; };
-		7DF6FA1A8BAE7758C59883227B16F8FE /* icon_nav_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_nav_back@2x.png"; path = "ALSUniversalAccount/Assets/Images/icon_nav_back@2x.png"; sourceTree = "<group>"; };
+		7BF082E302A424293B225828620934A4 /* ALSUAPlugMode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALSUAPlugMode.m; path = ALSUniversalAccount/Classes/Public/ALSUAPlugMode.m; sourceTree = "<group>"; };
 		7E4CBF217489490CC0D81F47740E6EA0 /* Pods-ALSUniversalAccount_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ALSUniversalAccount_Example-umbrella.h"; sourceTree = "<group>"; };
-		7E9FCAEB23A75E91D79AF3BB4F153E1F /* Pods_ALSUniversalAccount_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ALSUniversalAccount_Example.framework; path = "Pods-ALSUniversalAccount_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E57EAD339AB1CB7B0E48B269A06AB94 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
 		7EEC826DDFA5A24F552547AC4B1AD6AF /* TTTAttributedLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TTTAttributedLabel.modulemap; sourceTree = "<group>"; };
-		7F420B6EF28885DDAF7DB02426C514BA /* ALSUniversalAccount-ThirdParty-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALSUniversalAccount-ThirdParty-dummy.m"; sourceTree = "<group>"; };
-		811298F66488BC7595575725E32216AC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		8004A767E08ADE44B92F8AD07A16A756 /* SGUATrace.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGUATrace.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/SGUATrace/SGUATrace.framework; sourceTree = "<group>"; };
 		844A60DB3176724753E0FA903F872635 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SFHFKeychainUtils.m; path = security/SFHFKeychainUtils.m; sourceTree = "<group>"; };
-		86EBA49BC2DD47573569265C09E779F4 /* ALSUniversalAccount-ThirdParty-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALSUniversalAccount-ThirdParty-umbrella.h"; sourceTree = "<group>"; };
-		871044868CDC94104F00C8FA152D7FD6 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/UTDID/UTDID.framework; sourceTree = "<group>"; };
+		8923C5699EA6E0D17F570A8D416FE100 /* MtopSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MtopSDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/MtopSDK/MtopSDK.framework; sourceTree = "<group>"; };
+		8CA1DBB712BF2A93B6C0904C86F2B56A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		8D03F81D61ED03B0061D104A62461536 /* AliVfsORM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliVfsORM.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/AliVfsSDK/AliVfsORM.framework; sourceTree = "<group>"; };
+		92F49757F333E9F5ABED2C54C5D44709 /* SFHFKeychainUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SFHFKeychainUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		932D42D463927B9906EF1DADC9E8573B /* Pods-ALSUniversalAccount_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSUniversalAccount_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95843F1102C06046E909371C175E7416 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
-		9613FC961F7F6003253A24ED6A6BD80E /* SGNoCaptcha.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGNoCaptcha.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/SGNoCaptcha/SGNoCaptcha.framework; sourceTree = "<group>"; };
 		9671F1170DBD1762A118024873B64514 /* TTTAttributedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTTAttributedLabel.h; path = TTTAttributedLabel/TTTAttributedLabel.h; sourceTree = "<group>"; };
-		9B47C917BFC6E3D65D1F0D4DB7F973F7 /* icon_pop_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_pop_success@3x.png"; path = "ALSUniversalAccount/Assets/Images/icon_pop_success@3x.png"; sourceTree = "<group>"; };
-		A4B10BA57CBB8CF40EB093308BD01100 /* SGSecurityBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGSecurityBody.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/SGSecurityBody/SGSecurityBody.framework; sourceTree = "<group>"; };
-		A51139B471274E212338ADE6A2560B69 /* TTTAttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTTAttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6855EDF9848B739092025F975770170 /* AlibabaAuthExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlibabaAuthExt.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/AlibabaAuthSDK/AlibabaAuthExt.framework; sourceTree = "<group>"; };
-		A7A8F1022DCF657750D510069BC88CA0 /* ALSUAPlugProtocal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSUAPlugProtocal.h; path = ALSUniversalAccount/Classes/Public/ALSUAPlugProtocal.h; sourceTree = "<group>"; };
-		AC24AC51F9AF72E3533DCBBC96CEC015 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3C3916EA408C8A69CEB5BB4D13CA82 /* ALSUAOAuthPlugInitializationInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALSUAOAuthPlugInitializationInfo.m; path = ALSUniversalAccount/Classes/Public/ALSUAOAuthPlugInitializationInfo.m; sourceTree = "<group>"; };
+		9FF87BD1C4F36160BF0FD62318D937EA /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
+		A03661CE0569C96BB160CB417324AE23 /* icon_eye_off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_eye_off@2x.png"; path = "ALSUniversalAccount/Assets/Images/icon_eye_off@2x.png"; sourceTree = "<group>"; };
+		A2D1064449F7E028BD07D1D8441BD51E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		A35AF5777D9FEF9CAC6D0B264A3E294E /* alsua_icon_list_eye_on@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alsua_icon_list_eye_on@3x.png"; path = "ALSUniversalAccount/Assets/Images/alsua_icon_list_eye_on@3x.png"; sourceTree = "<group>"; };
+		A4CD652232BC19AC7887D9A7B1CFAFDF /* APSecDeviceInfo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APSecDeviceInfo.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/APSecDeviceInfo/APSecDeviceInfo.framework; sourceTree = "<group>"; };
+		A76BD8FEAD57FBE59BABD92FDA23D08C /* ALSUAResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALSUAResponse.m; path = ALSUniversalAccount/Classes/Public/ALSUAResponse.m; sourceTree = "<group>"; };
+		A889BD6EE9BCF46C368FCF2E32EE6281 /* alsua_icon_list_eye_on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alsua_icon_list_eye_on@2x.png"; path = "ALSUniversalAccount/Assets/Images/alsua_icon_list_eye_on@2x.png"; sourceTree = "<group>"; };
+		AAC496827E8AE6BD6536C75213BDE4B7 /* alsua_icon_nav_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alsua_icon_nav_back@2x.png"; path = "ALSUniversalAccount/Assets/Images/alsua_icon_nav_back@2x.png"; sourceTree = "<group>"; };
+		ABC5338D359D02F52828DBCD490CF9C1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		AC361FE0CDAA9250B60DC06E13F7BA4F /* Tnet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Tnet.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/tnet/Tnet.framework; sourceTree = "<group>"; };
 		ACDB8F5DFE20F4147C5736F2AB6B138D /* SFHFKeychainUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFHFKeychainUtils-umbrella.h"; sourceTree = "<group>"; };
+		AEB959F9AA83A27545A1A0BC9E460234 /* Pods_ALSUniversalAccount_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ALSUniversalAccount_Tests.framework; path = "Pods-ALSUniversalAccount_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF31743022FB651D1A9AD90533D2E942 /* TTTAttributedLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTTAttributedLabel.xcconfig; sourceTree = "<group>"; };
+		B219E74B58C370110043CDE0B0C5B898 /* ZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZipArchive.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/ZipArchive/ZipArchive.framework; sourceTree = "<group>"; };
 		B3CC58AB9994048F56AE678A21BC213A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B45A286A81D984E6837CAF43411BAD3A /* icon_list_eye_on@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_list_eye_on@3x.png"; path = "ALSUniversalAccount/Assets/Images/icon_list_eye_on@3x.png"; sourceTree = "<group>"; };
-		B8BD2DA0CB104008BB7B31F2108B448B /* ALSUAOAuthPlugInitializationInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALSUAOAuthPlugInitializationInfo.m; path = ALSUniversalAccount/Classes/Public/ALSUAOAuthPlugInitializationInfo.m; sourceTree = "<group>"; };
+		B473387991ADCD63ABA0883330BEFD82 /* TBLoginCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TBLoginCenter.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/TBLoginCenter/TBLoginCenter.framework; sourceTree = "<group>"; };
+		B6CCA77C199E93B6E7B419D123745EA3 /* SmoothSSO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SmoothSSO.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/SmoothSSO/SmoothSSO.framework; sourceTree = "<group>"; };
+		B6F5E04A0470FEA6D781EDCB68B88F4A /* AliVfsMonitor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliVfsMonitor.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/AliVfsMonitor/AliVfsMonitor.framework; sourceTree = "<group>"; };
 		B957FF0761E46D0AEF37E4A155582A82 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		BAC9A7D4CB7CBCFFE3840E2DB1BE2BA6 /* ALSUniversalAccount-SecondParty-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALSUniversalAccount-SecondParty-prefix.pch"; sourceTree = "<group>"; };
+		BB07C32B249A85FEDB7DD3E3F9EE73C2 /* AliVfsBundle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliVfsBundle.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/AliVfsBundle/AliVfsBundle.framework; sourceTree = "<group>"; };
+		BD3EA8DB124E3BA3124FCBC9B5EAB928 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1CC0873D7BF936A0CE15C67563F9F73 /* WindVane.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WindVane.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/WindVane/WindVane.framework; sourceTree = "<group>"; };
 		C44F1F06B78703B0324C5EB88057791C /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
-		C4FE1F60467B2509C61439CB141AF202 /* SFHFKeychainUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SFHFKeychainUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9EAF2C97823381D521FE16C09F2BBC2 /* ALSUAResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSUAResponse.h; path = ALSUniversalAccount/Classes/Public/ALSUAResponse.h; sourceTree = "<group>"; };
-		CB6E16A3B9E0072AC4EDD2837425C696 /* alsua_icon_nav_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alsua_icon_nav_back@2x.png"; path = "ALSUniversalAccount/Assets/Images/alsua_icon_nav_back@2x.png"; sourceTree = "<group>"; };
-		CD735B047D2C004C4EC25FDA3CCCF183 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C53CCAA8FAF63B552372E82EC3D57635 /* orange.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = orange.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/orange/orange.framework; sourceTree = "<group>"; };
+		C5C4C6D839CCC8EA5835E6C256D78D25 /* ALSUniversalAccount.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ALSUniversalAccount.bundle; path = ALSUniversalAccount.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60895278C4D81F92374145F840AFE8D /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AddressBookUI.framework; sourceTree = DEVELOPER_DIR; };
+		C61A532A823A084AE42B671A9340A808 /* icon_nav_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_nav_back@2x.png"; path = "ALSUniversalAccount/Assets/Images/icon_nav_back@2x.png"; sourceTree = "<group>"; };
+		CB35BCFE2A2DBE61B80F64AD4DDF6964 /* ALSUniversalAccount-SecondParty-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALSUniversalAccount-SecondParty-dummy.m"; sourceTree = "<group>"; };
+		CB8FF236816C7491B93836CF5786E2D2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		CDB7F938B23A3F5AF984D6D1EA29DF3C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		CDDDC842D950922019DA473584A72258 /* icon_list_eye_on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_list_eye_on@2x.png"; path = "ALSUniversalAccount/Assets/Images/icon_list_eye_on@2x.png"; sourceTree = "<group>"; };
 		CF08360A70EE3CBFC3FDF83C38DC872B /* Pods-ALSUniversalAccount_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALSUniversalAccount_Example-dummy.m"; sourceTree = "<group>"; };
 		CF1DD2CD12D0FD8F070FAF559179442A /* SFHFKeychainUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFHFKeychainUtils-dummy.m"; sourceTree = "<group>"; };
-		CFF9A597FA0B7FB373E1F117231C2478 /* alsua_icon_pop_success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alsua_icon_pop_success@2x.png"; path = "ALSUniversalAccount/Assets/Images/alsua_icon_pop_success@2x.png"; sourceTree = "<group>"; };
-		D15026CB5B1AC4EE2D3BCA77C12A15A7 /* ResourceBundle-ALSUniversalAccount-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ALSUniversalAccount-Info.plist"; sourceTree = "<group>"; };
+		D06509F02263692EAEF8B563EF0A3E45 /* icon_pop_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_pop_success@3x.png"; path = "ALSUniversalAccount/Assets/Images/icon_pop_success@3x.png"; sourceTree = "<group>"; };
+		D21B07DD4ADB6FA2DCB37266F4155899 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		D31034C0AA53F44A02B6B7F1A82DDACC /* Pods-ALSUniversalAccount_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALSUniversalAccount_Example-resources.sh"; sourceTree = "<group>"; };
-		D54CE32FFCF90F22D865F4D9254EA61E /* ALSUniversalAccount-ThirdParty.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ALSUniversalAccount-ThirdParty.xcconfig"; sourceTree = "<group>"; };
-		D5EDBA0093E5788033553A6A7463FF91 /* UTMini.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTMini.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/BCUserTrack/UTMini.framework; sourceTree = "<group>"; };
+		D454F20FC1D4C815005CC48A42911294 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/UTDID/UTDID.framework; sourceTree = "<group>"; };
+		D45A5149774599EB7DE47576F368F347 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		D576D28144B8A19AC5AA52793DF5D7D3 /* ALBBOpenAccountUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALBBOpenAccountUI.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/ALBBOpenAccountUI/ALBBOpenAccountUI.framework; sourceTree = "<group>"; };
+		D880EC9712A3A3C23AA083DE1F541D7A /* ALSUABaiChuanPlugInitializationInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALSUABaiChuanPlugInitializationInfo.m; path = ALSUniversalAccount/Classes/Public/ALSUABaiChuanPlugInitializationInfo.m; sourceTree = "<group>"; };
 		D8C9C6EFF70D0548E4F0DAB10C65309F /* Pods-ALSUniversalAccount_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALSUniversalAccount_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DDC91376DC46CC278A09F8BE84A21A0F /* ALSUniversalAccount-ThirdParty.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "ALSUniversalAccount-ThirdParty.modulemap"; sourceTree = "<group>"; };
-		E04B4945512DCAED2055CC735D176E74 /* icon_list_eye_on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_list_eye_on@2x.png"; path = "ALSUniversalAccount/Assets/Images/icon_list_eye_on@2x.png"; sourceTree = "<group>"; };
-		E206B2564B1248E93A236E5550B5D08A /* icon_eye_off@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_eye_off@3x.png"; path = "ALSUniversalAccount/Assets/Images/icon_eye_off@3x.png"; sourceTree = "<group>"; };
-		E47FB593F1016E936A63CC16F30FF151 /* OpenMtopExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenMtopExt.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/mtop/OpenMtopExt.framework; sourceTree = "<group>"; };
+		D9454733E3167A92B09D0B7F48A8AC10 /* ALSUAResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSUAResponse.h; path = ALSUniversalAccount/Classes/Public/ALSUAResponse.h; sourceTree = "<group>"; };
+		D9C7BFB2047B03142BB8F4D73C019E08 /* mtopext.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mtopext.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/mtopext/mtopext.framework; sourceTree = "<group>"; };
+		DB1250936AF50115AA7B09F9561622FD /* alsua_icon_pop_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alsua_icon_pop_success@3x.png"; path = "ALSUniversalAccount/Assets/Images/alsua_icon_pop_success@3x.png"; sourceTree = "<group>"; };
+		E14D9C93CCA660B8C3DE55FE3F0323E1 /* AliPayAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliPayAuth.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/AliPayAuth/AliPayAuth.framework; sourceTree = "<group>"; };
+		E240585D3D34BF854174C261A9FED359 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Contacts.framework; sourceTree = DEVELOPER_DIR; };
+		E41A9410C5CC2511BC22A7A9F881469D /* ALSUAOperationMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSUAOperationMode.h; path = ALSUniversalAccount/Classes/Public/ALSUAOperationMode.h; sourceTree = "<group>"; };
+		E63CF52EB37F0AF195E97CE5DC9A678D /* NetworkPolicy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkPolicy.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/NetworkSDK/NetworkPolicy.framework; sourceTree = "<group>"; };
 		E9F5745B00751343A245A311CB64A43C /* Pods-ALSUniversalAccount_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSUniversalAccount_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EAF8248A45817569C1B3C0CB718F06FE /* ALSUniversalAccount-SecondParty.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "ALSUniversalAccount-SecondParty.modulemap"; sourceTree = "<group>"; };
+		EBCF45EDE6AFF974EFBFD803E50D6FA4 /* SGMain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGMain.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/SGMain/SGMain.framework; sourceTree = "<group>"; };
+		EBD0E99167845FE1B654A820BD5D98D3 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		EC2E0AE1BC02918FABD0B05A3F4F4905 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDA2FF37CF0D290FF5598145D1D755AE /* ALSUniversalAccount-ThirdParty-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALSUniversalAccount-ThirdParty-prefix.pch"; sourceTree = "<group>"; };
-		F0F504718E71622C2FB1698D662092C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		F2534313E914EC1D07C7B1002F41EDC8 /* ALSUAPlugMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSUAPlugMode.h; path = ALSUniversalAccount/Classes/Public/ALSUAPlugMode.h; sourceTree = "<group>"; };
-		F59D765C63B4601E8A24A3B7C6DAAE6F /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED84439BE5CA5329B2CF10569D03B012 /* UT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UT.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/UserTrack/UT.framework; sourceTree = "<group>"; };
+		EF45490361A3FE28133B2EF5726330E2 /* ALBBOpenAccountSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALBBOpenAccountSDK.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/ALBBOpenAccountSDK/ALBBOpenAccountSDK.framework; sourceTree = "<group>"; };
 		F5C1C90B979B90CFF899135C284EC9B1 /* Pods-ALSUniversalAccount_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALSUniversalAccount_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F630425C2280130A961978A1D08DC96D /* alsua_icon_list_eye_on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alsua_icon_list_eye_on@2x.png"; path = "ALSUniversalAccount/Assets/Images/alsua_icon_list_eye_on@2x.png"; sourceTree = "<group>"; };
 		F75365775C46290F335AEB1FE0E3B16D /* Pods-ALSUniversalAccount_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ALSUniversalAccount_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F80F28A804484EDF86CB22C770B68530 /* ALSUAErrorDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSUAErrorDefine.h; path = ALSUniversalAccount/Classes/Public/ALSUAErrorDefine.h; sourceTree = "<group>"; };
+		F9C8BE990C7A9E9ED1999F3DE84B32BF /* ALSUAOAuthPlugInitializationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSUAOAuthPlugInitializationInfo.h; path = ALSUniversalAccount/Classes/Public/ALSUAOAuthPlugInitializationInfo.h; sourceTree = "<group>"; };
+		FA613488789368249F19A2E4165EE29F /* SGSecurityBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGSecurityBody.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/SGSecurityBody/SGSecurityBody.framework; sourceTree = "<group>"; };
 		FB6F9871D7A2E3293D9189CEE3CC9E4E /* Pods-ALSUniversalAccount_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ALSUniversalAccount_Tests.modulemap"; sourceTree = "<group>"; };
-		FE05A4DCB16674DF481BFA353B00C1F9 /* ALSUAOAuthPlugInitializationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALSUAOAuthPlugInitializationInfo.h; path = ALSUniversalAccount/Classes/Public/ALSUAOAuthPlugInitializationInfo.h; sourceTree = "<group>"; };
+		FBB02F8A737DFB50579ACCE3C9FC1155 /* AliReachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliReachability.framework; path = ALSUniversalAccount/Classes/Plug/BaiChuan/SecondParty/NetworkSDK/AliReachability.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00D6B8DAAF47D1FEED94F45DB0D86A15 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4F0F5D439EC8662D9C62F16ABBB6EB1 /* CoreMotion.framework in Frameworks */,
-				93B99D16C7CF8314B5BE7F63CFA45868 /* Foundation.framework in Frameworks */,
-				E5FA0EDF2B21C69C58694CD238668AF9 /* MBProgressHUD.framework in Frameworks */,
-				41F8D1F1E50BA661D025713E0016507C /* SFHFKeychainUtils.framework in Frameworks */,
-				A3636084EB79E9FFA2DAAA1CB567B901 /* TTTAttributedLabel.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3A372177CD61A13B65CAF81FCAAFDA01 /* Frameworks */ = {
+		380A5EF9A0F48193DAF9C23F0047437A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4201EA717F54B3C40141A5507F90AAD1 /* Frameworks */ = {
+		604DCBBF9FD1491C45292898FA417926 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22FAF679403657FD7D7686244E0896E9 /* CoreGraphics.framework in Frameworks */,
-				5C6A962311333BEBE547A22B84228A96 /* CoreText.framework in Frameworks */,
-				F720729AEC4E24D0C35C278100857C38 /* Foundation.framework in Frameworks */,
-				DEA6C631E073960E458490C28A43B540 /* QuartzCore.framework in Frameworks */,
-				B58709B54F6E689C1986B9AFEE2E5EB8 /* UIKit.framework in Frameworks */,
+				E9A9E5B3F13107834B9B3BA9BD85E7E2 /* Foundation.framework in Frameworks */,
+				F69B36FDAF062BF1DA99D6380B150DA1 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE511812C19512E720CD3A254893C9EB /* Frameworks */ = {
+		81F5F593CEF65BE9DADF1AEB6B421608 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45876B3369463FAD63196BE72B641C9E /* Foundation.framework in Frameworks */,
-				BCB8585DBFD8A0579884246FEE33A922 /* Security.framework in Frameworks */,
+				4038925223C662AA6D1C9AB4CDB6B1B2 /* CoreGraphics.framework in Frameworks */,
+				DCC8B0C0A55E5085343D4F093A135162 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52886E40D2E517D353E4BD25B70F60F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E502B997B8F237851CB34E1111B8CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97FB822711F37950E23C72D83614DC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8077B04F59ACD47541D7D492C939F76 /* CoreGraphics.framework in Frameworks */,
+				2E271B91E363FA87673BF6DFA9432224 /* CoreText.framework in Frameworks */,
+				506A4AB0285AD37339102D63C5988736 /* Foundation.framework in Frameworks */,
+				5DDAD2C797B8283BBD28A8EA394D1FE2 /* QuartzCore.framework in Frameworks */,
+				D332B676F23C2585D733D21690CB6579 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF57D16CDA26BD86538E59A639749B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0ECA6D85FA2C52BBE5790B565924FD /* AddressBook.framework in Frameworks */,
+				B5729A8EF6D16604327C926A80E32C8D /* AddressBookUI.framework in Frameworks */,
+				ED190C3F6E492408295457867E7758A1 /* AssetsLibrary.framework in Frameworks */,
+				579D1EBF321238F75032A2D4B71439BE /* AudioToolbox.framework in Frameworks */,
+				20838A4AD376F56E2EB578C396F9F368 /* AVFoundation.framework in Frameworks */,
+				DE1D184D2DF573C4B09C4607E2959864 /* Contacts.framework in Frameworks */,
+				F95430F26C6A4679D7AA485C15C72934 /* ContactsUI.framework in Frameworks */,
+				5F58EB08FD25F8DC9DB5F7BABD1D8557 /* CoreBluetooth.framework in Frameworks */,
+				B05296C24A28FBBC6E2E880BDB261CC0 /* CoreLocation.framework in Frameworks */,
+				74CC4FD65B2565300AD41A45F7B26404 /* CoreMotion.framework in Frameworks */,
+				A0F5966C09FB126ACFC72BDE148CE91F /* Foundation.framework in Frameworks */,
+				EE32AC812AA8DB8654EBF55E7399B3DE /* MBProgressHUD.framework in Frameworks */,
+				60A1396257252F6D22C6AEAC80B49F14 /* MessageUI.framework in Frameworks */,
+				138635CE7285A223A33EC098911AD5D2 /* MobileCoreServices.framework in Frameworks */,
+				43FE71E8894505EBC1F17C935484C223 /* SFHFKeychainUtils.framework in Frameworks */,
+				CFF3996F61C3A4E898FD2FE2F5A3BF8F /* TTTAttributedLabel.framework in Frameworks */,
+				0FA7048699E2075B311F2BF3DC99EF26 /* UserNotifications.framework in Frameworks */,
+				555775EF45C96F4D3BC2CD95E7457CF7 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,38 +383,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6745F6918308D4F041C378AFEAC3915 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C668EDD85B79BE8205FA479D80B78E66 /* CoreGraphics.framework in Frameworks */,
-				CB4211A45D177FEFCBC6A187961A8283 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9AF938548FEFFFC534D42A6C95A78E1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				44FFCD22E2FD37084D0483D93660B222 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		176A67844EE4327AD62734A23BE00BC8 /* iOS */ = {
+		0EB7D6CBA60A8F2EEA14729DFC6F5115 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1A9916DF3EBAD54B0A497CB2AF5EF9A4 /* CoreGraphics.framework */,
-				389C3A7480F19B68C6424A7C91C7C9B9 /* CoreMotion.framework */,
-				7AE1E7A432A00E5AC972D6DE3CBB0DFC /* CoreText.framework */,
-				CD735B047D2C004C4EC25FDA3CCCF183 /* Foundation.framework */,
-				155669EB8CAA8513177ECAB8DC814314 /* QuartzCore.framework */,
-				811298F66488BC7595575725E32216AC /* Security.framework */,
-				F0F504718E71622C2FB1698D662092C6 /* UIKit.framework */,
+				E321FC34734EB799D005AF5399FDFC0A /* ALSUniversalAccount-SecondParty */,
 			);
-			name = iOS;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		19283DC1C6D348A155BF12C7C6789128 /* Pods-ALSUniversalAccount_Tests */ = {
@@ -344,6 +412,21 @@
 			path = "Target Support Files/Pods-ALSUniversalAccount_Tests";
 			sourceTree = "<group>";
 		};
+		1B02700FA60BD359CA3758ACA1EA8C19 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAF8248A45817569C1B3C0CB718F06FE /* ALSUniversalAccount-SecondParty.modulemap */,
+				29FA10C8A4FB38E23A47F6F5BBBBB768 /* ALSUniversalAccount-SecondParty.xcconfig */,
+				CB35BCFE2A2DBE61B80F64AD4DDF6964 /* ALSUniversalAccount-SecondParty-dummy.m */,
+				BAC9A7D4CB7CBCFFE3840E2DB1BE2BA6 /* ALSUniversalAccount-SecondParty-prefix.pch */,
+				566ED0A6C13E4CFE09B0D1DE1A95A65B /* ALSUniversalAccount-SecondParty-umbrella.h */,
+				3B1E781ED0703D9FCA47389E2A2641D1 /* Info.plist */,
+				69B3B50E876462B4E07A7689021C25B1 /* ResourceBundle-ALSUniversalAccount-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ALSUniversalAccount-SecondParty";
+			sourceTree = "<group>";
+		};
 		1E232B0F4D2EF9DB03856D59BAE48ED6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,17 +439,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SFHFKeychainUtils";
-			sourceTree = "<group>";
-		};
-		25D90836DD68B00CF1709E021D9A5B1C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AC24AC51F9AF72E3533DCBBC96CEC015 /* MBProgressHUD.framework */,
-				C4FE1F60467B2509C61439CB141AF202 /* SFHFKeychainUtils.framework */,
-				A51139B471274E212338ADE6A2560B69 /* TTTAttributedLabel.framework */,
-				176A67844EE4327AD62734A23BE00BC8 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		28643817E2C83FEF387AE50C6916F36D /* Support Files */ = {
@@ -417,44 +489,102 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
-		4E77A3821ED2C06A5744E0280AF3A72E /* Frameworks */ = {
+		50856CD6F29887AF95ACA21B1CACE055 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2ADEF84E8B1C32F20185D81A41A6F35F /* ALBBOpenAccountSDK.framework */,
-				652FD8CEDCE007C299F0780CB7708C16 /* ALBBOpenAccountSSO.framework */,
-				22E6869DA325864B179C70833B21FA9E /* ALBBOpenAccountUI.framework */,
-				A6855EDF9848B739092025F975770170 /* AlibabaAuthExt.framework */,
-				2ABD7BF2A4AA1B116779BE3A7570787B /* AlibabaAuthSDK.framework */,
-				E47FB593F1016E936A63CC16F30FF151 /* OpenMtopExt.framework */,
-				77DEF5AD27A2377CDEA6C0017894C863 /* OpenMtopSDK.framework */,
-				5C2223D0B30D823FC06E22A73C87F60A /* SecurityGuardSDK.framework */,
-				092A887B1BD8419DE45807117A34601D /* SGMain.framework */,
-				9613FC961F7F6003253A24ED6A6BD80E /* SGNoCaptcha.framework */,
-				A4B10BA57CBB8CF40EB093308BD01100 /* SGSecurityBody.framework */,
-				871044868CDC94104F00C8FA152D7FD6 /* UTDID.framework */,
-				D5EDBA0093E5788033553A6A7463FF91 /* UTMini.framework */,
+				EF45490361A3FE28133B2EF5726330E2 /* ALBBOpenAccountSDK.framework */,
+				291ED98C66649DD1FFC436422E3992B5 /* ALBBOpenAccountSSO.framework */,
+				D576D28144B8A19AC5AA52793DF5D7D3 /* ALBBOpenAccountUI.framework */,
+				E14D9C93CCA660B8C3DE55FE3F0323E1 /* AliPayAuth.framework */,
+				FBB02F8A737DFB50579ACCE3C9FC1155 /* AliReachability.framework */,
+				2932CD697B82223A2CB9C143FADB9649 /* AliUniversalAccount.framework */,
+				BB07C32B249A85FEDB7DD3E3F9EE73C2 /* AliVfsBundle.framework */,
+				74492406101609BA41549BFA8ADBC3DE /* AliVfsDB.framework */,
+				147FEBD45B3C5F7D6CC55FC79B336BD1 /* AliVfsDBSDK.framework */,
+				5E8D654E69F0919F42FCF3505B3D6098 /* AliVfsMemSDK.framework */,
+				B6F5E04A0470FEA6D781EDCB68B88F4A /* AliVfsMonitor.framework */,
+				8D03F81D61ED03B0061D104A62461536 /* AliVfsORM.framework */,
+				70C5348AAE7F2F9CFBD278CB3B1CAA74 /* AliVfsSDK.framework */,
+				6643B389D336DE2684DF868FB52ED011 /* APMobileNetwork.framework */,
+				6FD8B12A076FC0CB0EDA69590D1FC0A7 /* APSecCrypto.framework */,
+				A4CD652232BC19AC7887D9A7B1CFAFDF /* APSecDeviceInfo.framework */,
+				57891B86F78E6DDB5F0E2FE607A5C3AA /* APSecLocalStorage.framework */,
+				6308DC0307B5D3C640C7B2BD8B29679A /* APSecSecuritySDK.framework */,
+				40657FB46A23F0FFC2125BE9D176B806 /* ARUP.framework */,
+				36981C875F0C3BD135050D7ED8E0D8F2 /* FMDB.framework */,
+				D9C7BFB2047B03142BB8F4D73C019E08 /* mtopext.framework */,
+				8923C5699EA6E0D17F570A8D416FE100 /* MtopSDK.framework */,
+				137D0C48DB9E7AD424A8BE8AD3375E82 /* NetworkCore.framework */,
+				E63CF52EB37F0AF195E97CE5DC9A678D /* NetworkPolicy.framework */,
+				C53CCAA8FAF63B552372E82EC3D57635 /* orange.framework */,
+				0433E379FCD4821F4F7EF8C5B52D379B /* SecurityGuardSDK.framework */,
+				59AE0CB297CEB40C31F44331E1E2A627 /* SGIndieKit.framework */,
+				EBCF45EDE6AFF974EFBFD803E50D6FA4 /* SGMain.framework */,
+				19D6FA60F4552BEC5D435954B6FABB67 /* SGNoCaptcha.framework */,
+				FA613488789368249F19A2E4165EE29F /* SGSecurityBody.framework */,
+				8004A767E08ADE44B92F8AD07A16A756 /* SGUATrace.framework */,
+				B6CCA77C199E93B6E7B419D123745EA3 /* SmoothSSO.framework */,
+				4037424F29A6967B6044F7BCAA398150 /* TBAccsSDK.framework */,
+				B473387991ADCD63ABA0883330BEFD82 /* TBLoginCenter.framework */,
+				23896D7C71843A7FA8B647CB1119631E /* TBSecuritySDK.framework */,
+				AC361FE0CDAA9250B60DC06E13F7BA4F /* Tnet.framework */,
+				ED84439BE5CA5329B2CF10569D03B012 /* UT.framework */,
+				D454F20FC1D4C815005CC48A42911294 /* UTDID.framework */,
+				C1CC0873D7BF936A0CE15C67563F9F73 /* WindVane.framework */,
+				631FB30908F696B42C59CB70D5A23EE3 /* WindVaneAPI.framework */,
+				6C11FED73F21D388B78F7CDD0E3FE8C3 /* WindVaneBasic.framework */,
+				4AB775874B177AEE9E7AB33979FDC1A4 /* WindVaneBridge.framework */,
+				4B402A52FDBF4C9E4478284D03D23F9F /* WindVaneCore.framework */,
+				37463C9C258CDC0786DF8D51B22BEBCF /* WindVaneMonitor.framework */,
+				7BE3675B7B8D73E55F8FE9D7A33A3B8B /* WindVanePackageApp.framework */,
+				606B51BB982DDC90F8F3067B99ED411B /* WindVaneTBExtension.framework */,
+				0DECA3413916B9D8EA069AD3B6C6ED48 /* ZCache.framework */,
+				B219E74B58C370110043CDE0B0C5B898 /* ZipArchive.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6C51E3A601D34A753C986F0D89BF24EB /* Frameworks */ = {
+		523BCB802B30762806BDC89E44428DA1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57F924600DFD7F9796430605A61A8F97 /* AlisportsUniversalAccount.framework */,
+				C5C4C6D839CCC8EA5835E6C256D78D25 /* ALSUniversalAccount.bundle */,
+				1DA4F7ADFB4F371EA42E558D456BEF90 /* ALSUniversalAccount_SecondParty.framework */,
+				BD3EA8DB124E3BA3124FCBC9B5EAB928 /* MBProgressHUD.framework */,
+				741DE5724F61DBEBF34513583D708ED3 /* Pods_ALSUniversalAccount_Example.framework */,
+				AEB959F9AA83A27545A1A0BC9E460234 /* Pods_ALSUniversalAccount_Tests.framework */,
+				1998A009C5E996C584A382EC3DE69C0E /* SFHFKeychainUtils.framework */,
+				2C35DF41B06CE4E2519672671CA665C9 /* TTTAttributedLabel.framework */,
 			);
-			name = Frameworks;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		555956652D4DAFE64C1C7343D479A643 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				D746F1197F06A367A201438EC630F4BD /* Frameworks */,
+				C139EA1C6D74F3AB19B4D8D1D5F192C1 /* Resources */,
+			);
+			name = Interface;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9E85B79DBFE802209EA60ED7FABE7D92 /* Development Pods */,
-				25D90836DD68B00CF1709E021D9A5B1C /* Frameworks */,
+				0EB7D6CBA60A8F2EEA14729DFC6F5115 /* Development Pods */,
+				FE78D454331A4BE3594B30139B6FA64B /* Frameworks */,
 				A8D04ABB4A889D75F24BECF2020D3F94 /* Pods */,
-				9D73EBA070D9A1A3F84852280FBB3C9F /* Products */,
+				523BCB802B30762806BDC89E44428DA1 /* Products */,
 				2C2BF4CEF6FB15FA2EB2347F850F369B /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		82AF425F5B963E43B32704717D7D8919 /* BaiChuan */ = {
+			isa = PBXGroup;
+			children = (
+				50856CD6F29887AF95ACA21B1CACE055 /* Frameworks */,
+			);
+			name = BaiChuan;
 			sourceTree = "<group>";
 		};
 		921EEE30627021697F84498DA4348296 /* TTTAttributedLabel */ = {
@@ -479,37 +609,6 @@
 			path = SFHFKeychainUtils;
 			sourceTree = "<group>";
 		};
-		9D73EBA070D9A1A3F84852280FBB3C9F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0557E02F9BE12E7AE993AF31E7A45937 /* ALSUniversalAccount.bundle */,
-				52571EFD8E2B1CED487CB5DB4111D157 /* ALSUniversalAccount_ThirdParty.framework */,
-				F59D765C63B4601E8A24A3B7C6DAAE6F /* MBProgressHUD.framework */,
-				7E9FCAEB23A75E91D79AF3BB4F153E1F /* Pods_ALSUniversalAccount_Example.framework */,
-				74654350F9F5AD50A376ABCB75ED0577 /* Pods_ALSUniversalAccount_Tests.framework */,
-				23678053083375EC7DA7352EF7F0F5A3 /* SFHFKeychainUtils.framework */,
-				165A0B80E2619B29A5313615849291EC /* TTTAttributedLabel.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9E85B79DBFE802209EA60ED7FABE7D92 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F37CDAE5FCF1F2257CFB54F0A1E5435C /* ALSUniversalAccount-ThirdParty */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A77C04FCAF4BEA715C90BD31820CD6AF /* Interface */ = {
-			isa = PBXGroup;
-			children = (
-				6C51E3A601D34A753C986F0D89BF24EB /* Frameworks */,
-				CE95CB40D345DF224B3B3A57902D051D /* Resources */,
-			);
-			name = Interface;
-			sourceTree = "<group>";
-		};
 		A7C0589D03E5880F17C0245DCA586C2B /* Pods-ALSUniversalAccount_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -528,6 +627,33 @@
 			path = "Target Support Files/Pods-ALSUniversalAccount_Example";
 			sourceTree = "<group>";
 		};
+		A7C9DCC7E2A533308CDEDC5DFAAF20F5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73955101F40AF9211C810FEA7DA381E6 /* AddressBook.framework */,
+				C60895278C4D81F92374145F840AFE8D /* AddressBookUI.framework */,
+				8CA1DBB712BF2A93B6C0904C86F2B56A /* AssetsLibrary.framework */,
+				1F5C65BE30BAE9559BBAA2BE79E297AE /* AudioToolbox.framework */,
+				292C4E9F24CEC2FBF020CBF8D231AF82 /* AVFoundation.framework */,
+				E240585D3D34BF854174C261A9FED359 /* Contacts.framework */,
+				4CBC238E88C638B3FA9D1BEB4C7CC909 /* ContactsUI.framework */,
+				7E57EAD339AB1CB7B0E48B269A06AB94 /* CoreBluetooth.framework */,
+				A2D1064449F7E028BD07D1D8441BD51E /* CoreGraphics.framework */,
+				3C1153EB659FA4B9ABE242A23676B11C /* CoreLocation.framework */,
+				D45A5149774599EB7DE47576F368F347 /* CoreMotion.framework */,
+				EBD0E99167845FE1B654A820BD5D98D3 /* CoreText.framework */,
+				67AED5143310741489AA199EA51E8384 /* Foundation.framework */,
+				ABC5338D359D02F52828DBCD490CF9C1 /* MessageUI.framework */,
+				CDB7F938B23A3F5AF984D6D1EA29DF3C /* MobileCoreServices.framework */,
+				D21B07DD4ADB6FA2DCB37266F4155899 /* QuartzCore.framework */,
+				7813869D1A2C0314A30790130D9C3A37 /* Security.framework */,
+				4FC3AF5F6F7EEEE825D6CA16936A4349 /* UIKit.framework */,
+				9FF87BD1C4F36160BF0FD62318D937EA /* UserNotifications.framework */,
+				CB8FF236816C7491B93836CF5786E2D2 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		A8D04ABB4A889D75F24BECF2020D3F94 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -538,91 +664,87 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		CDB28D86A3A91943AC5B21F6A2E174F4 /* Public */ = {
+		C139EA1C6D74F3AB19B4D8D1D5F192C1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4461FEA3D6B42B14DE29CDC061104687 /* ALSUABaiChuanPlugInitializationInfo.h */,
-				63858E7AAF90797A5D1BFEBD53E1C3FF /* ALSUABaiChuanPlugInitializationInfo.m */,
-				F80F28A804484EDF86CB22C770B68530 /* ALSUAErrorDefine.h */,
-				FE05A4DCB16674DF481BFA353B00C1F9 /* ALSUAOAuthPlugInitializationInfo.h */,
-				B8BD2DA0CB104008BB7B31F2108B448B /* ALSUAOAuthPlugInitializationInfo.m */,
-				7D637D2511604DF3D91C024BC954EFEE /* ALSUAOperationMode.h */,
-				754D2949D62744F9465DD401E240F61B /* ALSUAOperationMode.m */,
-				F2534313E914EC1D07C7B1002F41EDC8 /* ALSUAPlugMode.h */,
-				4912C66E3F8164FB83AAD5AFDE9E101E /* ALSUAPlugMode.m */,
-				A7A8F1022DCF657750D510069BC88CA0 /* ALSUAPlugProtocal.h */,
-				C9EAF2C97823381D521FE16C09F2BBC2 /* ALSUAResponse.h */,
-				0EEB6A8AB453697FB102BFCA82148ADE /* ALSUAResponse.m */,
-			);
-			name = Public;
-			sourceTree = "<group>";
-		};
-		CE6448BB1BF7109AB7D5A28B5720456F /* BaiChuan */ = {
-			isa = PBXGroup;
-			children = (
-				4E77A3821ED2C06A5744E0280AF3A72E /* Frameworks */,
-			);
-			name = BaiChuan;
-			sourceTree = "<group>";
-		};
-		CE95CB40D345DF224B3B3A57902D051D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				6547753559EE0900DEE971D51DF63E8E /* alsua_icon_eye_off@2x.png */,
-				02FE12E0688F1E499B9D137FAE7FB41E /* alsua_icon_eye_off@3x.png */,
-				F630425C2280130A961978A1D08DC96D /* alsua_icon_list_eye_on@2x.png */,
-				7C3075395AD0E9B72D720D8C771E6F34 /* alsua_icon_list_eye_on@3x.png */,
-				CB6E16A3B9E0072AC4EDD2837425C696 /* alsua_icon_nav_back@2x.png */,
-				45B90D708F23A94F69CE2D8A8945A7F1 /* alsua_icon_nav_back@3x.png */,
-				CFF9A597FA0B7FB373E1F117231C2478 /* alsua_icon_pop_success@2x.png */,
-				118C5A0A82AF3CC454C310A2AADC72A7 /* alsua_icon_pop_success@3x.png */,
-				4B95F167F3DE18BBDE95211089B86750 /* icon_eye_off@2x.png */,
-				E206B2564B1248E93A236E5550B5D08A /* icon_eye_off@3x.png */,
-				E04B4945512DCAED2055CC735D176E74 /* icon_list_eye_on@2x.png */,
-				B45A286A81D984E6837CAF43411BAD3A /* icon_list_eye_on@3x.png */,
-				7DF6FA1A8BAE7758C59883227B16F8FE /* icon_nav_back@2x.png */,
-				2924B9D8DBD7B7290965946A04DE51A5 /* icon_nav_back@3x.png */,
-				9B47C917BFC6E3D65D1F0D4DB7F973F7 /* icon_pop_success@3x.png */,
+				0CD022BF088898818842ABBD839C390F /* alsua_icon_eye_off@2x.png */,
+				043035CC0B471B58DA810BB7E3542CA7 /* alsua_icon_eye_off@3x.png */,
+				A889BD6EE9BCF46C368FCF2E32EE6281 /* alsua_icon_list_eye_on@2x.png */,
+				A35AF5777D9FEF9CAC6D0B264A3E294E /* alsua_icon_list_eye_on@3x.png */,
+				AAC496827E8AE6BD6536C75213BDE4B7 /* alsua_icon_nav_back@2x.png */,
+				112DE14863C23A1A119DC1691515AF47 /* alsua_icon_nav_back@3x.png */,
+				1BE0C65852DCC9B0EC2ECC3C4CB5BBCF /* alsua_icon_pop_success@2x.png */,
+				DB1250936AF50115AA7B09F9561622FD /* alsua_icon_pop_success@3x.png */,
+				A03661CE0569C96BB160CB417324AE23 /* icon_eye_off@2x.png */,
+				085A04C77EF104AC011348998D2FD219 /* icon_eye_off@3x.png */,
+				CDDDC842D950922019DA473584A72258 /* icon_list_eye_on@2x.png */,
+				183D1A76D3854813E7D770C3362EF2B6 /* icon_list_eye_on@3x.png */,
+				C61A532A823A084AE42B671A9340A808 /* icon_nav_back@2x.png */,
+				0D81C5A6E71967302A9FB555785E29CE /* icon_nav_back@3x.png */,
+				D06509F02263692EAEF8B563EF0A3E45 /* icon_pop_success@3x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		EFCAD38B219ABC0A0AC669252E55FA1D /* Support Files */ = {
+		D26BEE61B138F02BF61A595958257CDB /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				DDC91376DC46CC278A09F8BE84A21A0F /* ALSUniversalAccount-ThirdParty.modulemap */,
-				D54CE32FFCF90F22D865F4D9254EA61E /* ALSUniversalAccount-ThirdParty.xcconfig */,
-				7F420B6EF28885DDAF7DB02426C514BA /* ALSUniversalAccount-ThirdParty-dummy.m */,
-				EDA2FF37CF0D290FF5598145D1D755AE /* ALSUniversalAccount-ThirdParty-prefix.pch */,
-				86EBA49BC2DD47573569265C09E779F4 /* ALSUniversalAccount-ThirdParty-umbrella.h */,
-				78BFC51114CDDFA00F4B1FBF07E717E1 /* Info.plist */,
-				D15026CB5B1AC4EE2D3BCA77C12A15A7 /* ResourceBundle-ALSUniversalAccount-Info.plist */,
+				66995D95E1A381A8504E8AF2947A689C /* ALSUABaiChuanPlugInitializationInfo.h */,
+				D880EC9712A3A3C23AA083DE1F541D7A /* ALSUABaiChuanPlugInitializationInfo.m */,
+				34312EE2E52701C4536331055A0F37AA /* ALSUAErrorDefine.h */,
+				F9C8BE990C7A9E9ED1999F3DE84B32BF /* ALSUAOAuthPlugInitializationInfo.h */,
+				9F3C3916EA408C8A69CEB5BB4D13CA82 /* ALSUAOAuthPlugInitializationInfo.m */,
+				E41A9410C5CC2511BC22A7A9F881469D /* ALSUAOperationMode.h */,
+				20CC1F4A08234D78685A6454D29E6199 /* ALSUAOperationMode.m */,
+				561F3B9860735F31414CD977333928AF /* ALSUAPlugMode.h */,
+				7BF082E302A424293B225828620934A4 /* ALSUAPlugMode.m */,
+				217D6C07624845AF1EEC3423C15301D5 /* ALSUAPlugProtocal.h */,
+				D9454733E3167A92B09D0B7F48A8AC10 /* ALSUAResponse.h */,
+				A76BD8FEAD57FBE59BABD92FDA23D08C /* ALSUAResponse.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ALSUniversalAccount-ThirdParty";
+			name = Public;
 			sourceTree = "<group>";
 		};
-		F37CDAE5FCF1F2257CFB54F0A1E5435C /* ALSUniversalAccount-ThirdParty */ = {
+		D746F1197F06A367A201438EC630F4BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CE6448BB1BF7109AB7D5A28B5720456F /* BaiChuan */,
-				A77C04FCAF4BEA715C90BD31820CD6AF /* Interface */,
-				CDB28D86A3A91943AC5B21F6A2E174F4 /* Public */,
-				EFCAD38B219ABC0A0AC669252E55FA1D /* Support Files */,
+				716C4F27D57FDCF1E9FC838BBA04D4C8 /* AlisportsUniversalAccount.framework */,
 			);
-			name = "ALSUniversalAccount-ThirdParty";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E321FC34734EB799D005AF5399FDFC0A /* ALSUniversalAccount-SecondParty */ = {
+			isa = PBXGroup;
+			children = (
+				82AF425F5B963E43B32704717D7D8919 /* BaiChuan */,
+				555956652D4DAFE64C1C7343D479A643 /* Interface */,
+				D26BEE61B138F02BF61A595958257CDB /* Public */,
+				1B02700FA60BD359CA3758ACA1EA8C19 /* Support Files */,
+			);
+			name = "ALSUniversalAccount-SecondParty";
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		FE78D454331A4BE3594B30139B6FA64B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				593291C60C0E3B3E8BFD34C2BC638871 /* MBProgressHUD.framework */,
+				92F49757F333E9F5ABED2C54C5D44709 /* SFHFKeychainUtils.framework */,
+				6BFAD3AE8E46A2BFB43A3625E9FB8982 /* TTTAttributedLabel.framework */,
+				A7C9DCC7E2A533308CDEDC5DFAAF20F5 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0B300BC35CA1C350B7E13F43F93A3085 /* Headers */ = {
+		7D02F8806BFC76C7A328FD46CCF43CED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8858981B4313BEEBBBA4B8611E5B0E02 /* MBProgressHUD-umbrella.h in Headers */,
-				1FD2DAD54CDFE4FC4C90A9D0D55C27BE /* MBProgressHUD.h in Headers */,
+				87AB6BE5CADD2475C40AEB5B33994D93 /* MBProgressHUD-umbrella.h in Headers */,
+				5CECC453F18CD21A2BE80300D4F1ADA1 /* MBProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,44 +756,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6489A8E60EB56C2013FFC68282151C7 /* Headers */ = {
+		AC3E943C8969344DA56A4BB2C33CBD88 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62353172C83DCBBD12E125C13915DCD9 /* ALSUABaiChuanPlugInitializationInfo.h in Headers */,
-				51B8CE8598E35F6A374797F7794F6E53 /* ALSUAErrorDefine.h in Headers */,
-				E10233133C15D5B318D3FE068912DBFA /* ALSUAOAuthPlugInitializationInfo.h in Headers */,
-				7B787918B18992FB369A24D130E20FC7 /* ALSUAOperationMode.h in Headers */,
-				29AC0A1F7AF97E93F9804B1A950429D9 /* ALSUAPlugMode.h in Headers */,
-				3EB608206ECCE792710A025DAF99B43E /* ALSUAPlugProtocal.h in Headers */,
-				7CA36A05224E7402D484CF146F996873 /* ALSUAResponse.h in Headers */,
-				61C1E75C2936323C277E9121C09AF116 /* ALSUniversalAccount-ThirdParty-umbrella.h in Headers */,
+				8D71E1B11708421F9B0594A111F90F7D /* ALSUABaiChuanPlugInitializationInfo.h in Headers */,
+				7AB37C1BA62C81A5F3E677536D15B9ED /* ALSUAErrorDefine.h in Headers */,
+				4C42F34C585F676EFF95AD4FAB444689 /* ALSUAOAuthPlugInitializationInfo.h in Headers */,
+				A9C96E048BFA1ECDD36609E32D10F8A5 /* ALSUAOperationMode.h in Headers */,
+				493B97DFD72729892DD6F63236AB8D25 /* ALSUAPlugMode.h in Headers */,
+				C117E13EB63BF6D1900A5B80433DF50B /* ALSUAPlugProtocal.h in Headers */,
+				7CDA94FB1BDDC827082108C83469B693 /* ALSUAResponse.h in Headers */,
+				830BA741F95E75889DD2146453753744 /* ALSUniversalAccount-SecondParty-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9D96B30FA8A52E84031D90B060C594D /* Headers */ = {
+		ECE3D524DB3C95F8B48CB83C5B310C3F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE4CBE004CB5AA33B340151F1621FB60 /* SFHFKeychainUtils-umbrella.h in Headers */,
-				8060E8F15BC8906DFE640ECDB3272523 /* SFHFKeychainUtils.h in Headers */,
+				761B51F52C424C435096C6D260806AE6 /* SFHFKeychainUtils-umbrella.h in Headers */,
+				EA606084B00168BC3641BEFC478FD98C /* SFHFKeychainUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DABC760601776534FD37043F7B6361E8 /* Headers */ = {
+		F3F0F137B45D9FAD5F1FDF5B7F4C2584 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				541311E77CD1289A8EED2A77501F0D4C /* TTTAttributedLabel-umbrella.h in Headers */,
-				EB11D4A2C4BF01A811CE86E43EAE2ED1 /* TTTAttributedLabel.h in Headers */,
+				24EE0DDABA9B2A647CA0A905C96E8BF3 /* TTTAttributedLabel-umbrella.h in Headers */,
+				79A3F53DF1272E23D29687FDF6FA4AEF /* TTTAttributedLabel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E68CE268D40EB4CF5C7AFF1C50718478 /* Headers */ = {
+		FB84C7F509CACACABF783F069EE50721 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C49FE4538821543CE97114CD070A8013 /* Pods-ALSUniversalAccount_Example-umbrella.h in Headers */,
+				D2F95926E6CD1C73481807263FFF473C /* Pods-ALSUniversalAccount_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,110 +814,76 @@
 			);
 			name = "Pods-ALSUniversalAccount_Tests";
 			productName = "Pods-ALSUniversalAccount_Tests";
-			productReference = 74654350F9F5AD50A376ABCB75ED0577 /* Pods_ALSUniversalAccount_Tests.framework */;
+			productReference = AEB959F9AA83A27545A1A0BC9E460234 /* Pods_ALSUniversalAccount_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4E1223651EBA1D748BFCDD88FF3323A0 /* SFHFKeychainUtils */ = {
+		0F7C3305ADEA92611432B8F9CABB90D4 /* ALSUniversalAccount-SecondParty-ALSUniversalAccount */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 66C2CB3E1ADC706ECBA8CD9C8D64948C /* Build configuration list for PBXNativeTarget "SFHFKeychainUtils" */;
+			buildConfigurationList = D1415D6EE399C717C1B4BEBAB1255401 /* Build configuration list for PBXNativeTarget "ALSUniversalAccount-SecondParty-ALSUniversalAccount" */;
 			buildPhases = (
-				F05CBB8FFAC2701FD8F06F496250AB99 /* Sources */,
-				AE511812C19512E720CD3A254893C9EB /* Frameworks */,
-				B9D96B30FA8A52E84031D90B060C594D /* Headers */,
+				749ADE1DDBC1B286B59AE86DFCA2AE55 /* Sources */,
+				380A5EF9A0F48193DAF9C23F0047437A /* Frameworks */,
+				B217A6B10FF950AD9178732447061F11 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SFHFKeychainUtils;
-			productName = SFHFKeychainUtils;
-			productReference = 23678053083375EC7DA7352EF7F0F5A3 /* SFHFKeychainUtils.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "ALSUniversalAccount-SecondParty-ALSUniversalAccount";
+			productName = "ALSUniversalAccount-SecondParty-ALSUniversalAccount";
+			productReference = C5C4C6D839CCC8EA5835E6C256D78D25 /* ALSUniversalAccount.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
-		52817BEF244837BA0BDAE6BE64B7F000 /* Pods-ALSUniversalAccount_Example */ = {
+		3F154C3435A54FB735780E9A7596C347 /* Pods-ALSUniversalAccount_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2EEDD308DC49DAFD15FEC8D82C01F391 /* Build configuration list for PBXNativeTarget "Pods-ALSUniversalAccount_Example" */;
+			buildConfigurationList = B84D107331E2FBA4A83A13D6C58363C2 /* Build configuration list for PBXNativeTarget "Pods-ALSUniversalAccount_Example" */;
 			buildPhases = (
-				6C2D0B4F2AFA853F51B9FDD0255F73D3 /* Sources */,
-				F9AF938548FEFFFC534D42A6C95A78E1 /* Frameworks */,
-				E68CE268D40EB4CF5C7AFF1C50718478 /* Headers */,
+				EFA2C2F64D208AC879E2B789A5A0D726 /* Sources */,
+				A52886E40D2E517D353E4BD25B70F60F /* Frameworks */,
+				FB84C7F509CACACABF783F069EE50721 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				108A36F45C602A64979E406C23674C8A /* PBXTargetDependency */,
-				E7F77FC1F2FF9DEBB92AEDEC1E4EEFAB /* PBXTargetDependency */,
-				CBFCF16154854C689C1D47177F503BA7 /* PBXTargetDependency */,
-				760116A282B40EBBE9ED27715CD88D4F /* PBXTargetDependency */,
+				DB60C4A713DA7D42D870B3808E2CC0EC /* PBXTargetDependency */,
+				3C137B43A7B6449D5C884FBBB32884DB /* PBXTargetDependency */,
+				D276C5A9BAFBE548B2BE3D09B63B7E32 /* PBXTargetDependency */,
+				C28D60CB924E219ABB30A9EEAC1113BE /* PBXTargetDependency */,
 			);
 			name = "Pods-ALSUniversalAccount_Example";
 			productName = "Pods-ALSUniversalAccount_Example";
-			productReference = 7E9FCAEB23A75E91D79AF3BB4F153E1F /* Pods_ALSUniversalAccount_Example.framework */;
+			productReference = 741DE5724F61DBEBF34513583D708ED3 /* Pods_ALSUniversalAccount_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7810AA9A97719C4F57E132E1ABA722B6 /* ALSUniversalAccount-ThirdParty-ALSUniversalAccount */ = {
+		7346FBE99E6F54576DD94F0A1C692DD3 /* ALSUniversalAccount-SecondParty */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97DE80A835DB7F7ECE84F963E2607599 /* Build configuration list for PBXNativeTarget "ALSUniversalAccount-ThirdParty-ALSUniversalAccount" */;
+			buildConfigurationList = F136D298F7142491EC5DE6BDACFDA3C1 /* Build configuration list for PBXNativeTarget "ALSUniversalAccount-SecondParty" */;
 			buildPhases = (
-				AE383C28F4B625490AB1FBEE0D6EF646 /* Sources */,
-				3A372177CD61A13B65CAF81FCAAFDA01 /* Frameworks */,
-				5FBFE9B648B6821A0782059D5517B8BA /* Resources */,
+				76AEFE7A2330B9AC6B2769E91150CE5A /* Sources */,
+				DF57D16CDA26BD86538E59A639749B73 /* Frameworks */,
+				DD313F82C83279F3E6EF5A2C42D634ED /* Resources */,
+				AC3E943C8969344DA56A4BB2C33CBD88 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FD415EB5A7A6D89D09D1FEB80DA9414E /* PBXTargetDependency */,
+				CB574766188DB619051108101230E2DF /* PBXTargetDependency */,
+				3DBF097D19DD46ADC9D45A6F7C0B733C /* PBXTargetDependency */,
+				D62D43D23B8D872A9D68638DA9548B91 /* PBXTargetDependency */,
 			);
-			name = "ALSUniversalAccount-ThirdParty-ALSUniversalAccount";
-			productName = "ALSUniversalAccount-ThirdParty-ALSUniversalAccount";
-			productReference = 0557E02F9BE12E7AE993AF31E7A45937 /* ALSUniversalAccount.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		869DACB885EC0A6DDE9E7E7393FE8539 /* ALSUniversalAccount-ThirdParty */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D3C99D68653970E7A7BD7A788C5A56C3 /* Build configuration list for PBXNativeTarget "ALSUniversalAccount-ThirdParty" */;
-			buildPhases = (
-				F49456B3BAA46627FEBDE455B6ACC192 /* Sources */,
-				00D6B8DAAF47D1FEED94F45DB0D86A15 /* Frameworks */,
-				88FC927C02E51393182D4E1CBA541A53 /* Resources */,
-				A6489A8E60EB56C2013FFC68282151C7 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				696EDFA9C5CEEF443B907B569DE1ABED /* PBXTargetDependency */,
-				DC4F3BF633FF521161C137E10A38D29E /* PBXTargetDependency */,
-				7473A7C55FE281EB0FD3B1D377B2B962 /* PBXTargetDependency */,
-				9044EDDFCB6CEC83851060B91A61765E /* PBXTargetDependency */,
-			);
-			name = "ALSUniversalAccount-ThirdParty";
-			productName = "ALSUniversalAccount-ThirdParty";
-			productReference = 52571EFD8E2B1CED487CB5DB4111D157 /* ALSUniversalAccount_ThirdParty.framework */;
+			name = "ALSUniversalAccount-SecondParty";
+			productName = "ALSUniversalAccount-SecondParty";
+			productReference = 1DA4F7ADFB4F371EA42E558D456BEF90 /* ALSUniversalAccount_SecondParty.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8B38A9E0D79DFAEA3979D9437CF430E7 /* TTTAttributedLabel */ = {
+		9891E441E54562B2444D8BF4A2B8F168 /* MBProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2C8CEFF238ED4528EBBED6854C1D994 /* Build configuration list for PBXNativeTarget "TTTAttributedLabel" */;
+			buildConfigurationList = E5E58B09CB0AC6DAAAA79B1135A2A6D4 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
 			buildPhases = (
-				05BE3C5FD294BB055B460B44B85F4A53 /* Sources */,
-				4201EA717F54B3C40141A5507F90AAD1 /* Frameworks */,
-				DABC760601776534FD37043F7B6361E8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TTTAttributedLabel;
-			productName = TTTAttributedLabel;
-			productReference = 165A0B80E2619B29A5313615849291EC /* TTTAttributedLabel.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A05EF6FD4DF6F9BC3F6A80B1532215E0 /* MBProgressHUD */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 73A745BC0AAA5B324A1A3EAD3FBB9B21 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
-			buildPhases = (
-				82381A01D6166B1CEE4383B81AB0EF03 /* Sources */,
-				E6745F6918308D4F041C378AFEAC3915 /* Frameworks */,
-				0B300BC35CA1C350B7E13F43F93A3085 /* Headers */,
+				B1E5DA8DEE543CD8AD5B81D64C65A75F /* Sources */,
+				81F5F593CEF65BE9DADF1AEB6B421608 /* Frameworks */,
+				7D02F8806BFC76C7A328FD46CCF43CED /* Headers */,
 			);
 			buildRules = (
 			);
@@ -803,7 +891,41 @@
 			);
 			name = MBProgressHUD;
 			productName = MBProgressHUD;
-			productReference = F59D765C63B4601E8A24A3B7C6DAAE6F /* MBProgressHUD.framework */;
+			productReference = BD3EA8DB124E3BA3124FCBC9B5EAB928 /* MBProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB3980E8D836529ADD6206351697C7F7 /* SFHFKeychainUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797498E639745F1EFCBCCB0ECDE256FC /* Build configuration list for PBXNativeTarget "SFHFKeychainUtils" */;
+			buildPhases = (
+				CB5AA31C82BEB81910A4C50B56D890CC /* Sources */,
+				604DCBBF9FD1491C45292898FA417926 /* Frameworks */,
+				ECE3D524DB3C95F8B48CB83C5B310C3F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFHFKeychainUtils;
+			productName = SFHFKeychainUtils;
+			productReference = 1998A009C5E996C584A382EC3DE69C0E /* SFHFKeychainUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C011BF6330C7C7B21D8F73026E7976D0 /* TTTAttributedLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B95FB1BBFBC83522AE4A8056AC54E5 /* Build configuration list for PBXNativeTarget "TTTAttributedLabel" */;
+			buildPhases = (
+				A1B31CE2655E12FD3F17569DEDA07D34 /* Sources */,
+				C97FB822711F37950E23C72D83614DC7 /* Frameworks */,
+				F3F0F137B45D9FAD5F1FDF5B7F4C2584 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTTAttributedLabel;
+			productName = TTTAttributedLabel;
+			productReference = 2C35DF41B06CE4E2519672671CA665C9 /* TTTAttributedLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -823,78 +945,72 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9D73EBA070D9A1A3F84852280FBB3C9F /* Products */;
+			productRefGroup = 523BCB802B30762806BDC89E44428DA1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				869DACB885EC0A6DDE9E7E7393FE8539 /* ALSUniversalAccount-ThirdParty */,
-				7810AA9A97719C4F57E132E1ABA722B6 /* ALSUniversalAccount-ThirdParty-ALSUniversalAccount */,
-				A05EF6FD4DF6F9BC3F6A80B1532215E0 /* MBProgressHUD */,
-				52817BEF244837BA0BDAE6BE64B7F000 /* Pods-ALSUniversalAccount_Example */,
+				7346FBE99E6F54576DD94F0A1C692DD3 /* ALSUniversalAccount-SecondParty */,
+				0F7C3305ADEA92611432B8F9CABB90D4 /* ALSUniversalAccount-SecondParty-ALSUniversalAccount */,
+				9891E441E54562B2444D8BF4A2B8F168 /* MBProgressHUD */,
+				3F154C3435A54FB735780E9A7596C347 /* Pods-ALSUniversalAccount_Example */,
 				02B7227DE5F567025C0AC7D2E32D6965 /* Pods-ALSUniversalAccount_Tests */,
-				4E1223651EBA1D748BFCDD88FF3323A0 /* SFHFKeychainUtils */,
-				8B38A9E0D79DFAEA3979D9437CF430E7 /* TTTAttributedLabel */,
+				AB3980E8D836529ADD6206351697C7F7 /* SFHFKeychainUtils */,
+				C011BF6330C7C7B21D8F73026E7976D0 /* TTTAttributedLabel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5FBFE9B648B6821A0782059D5517B8BA /* Resources */ = {
+		B217A6B10FF950AD9178732447061F11 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85E302ACBACCE9412B10BDB215BA5D2F /* alsua_icon_eye_off@2x.png in Resources */,
-				02C449A65D0190EF017AF111E403342C /* alsua_icon_eye_off@3x.png in Resources */,
-				CB68E3748AA651926397CA99989BAE6B /* alsua_icon_list_eye_on@2x.png in Resources */,
-				DDC7D32239A5B81032A3A5F6148E078E /* alsua_icon_list_eye_on@3x.png in Resources */,
-				5516EF3B8B9931926C197B2A0389CB8E /* alsua_icon_nav_back@2x.png in Resources */,
-				880AF64A9CC0315FE65F7DD2EC4E998E /* alsua_icon_nav_back@3x.png in Resources */,
-				953B76FF68D291146BB18870B34C6741 /* alsua_icon_pop_success@2x.png in Resources */,
-				47C49EF9B94FED8127AA82CB7BA867C3 /* alsua_icon_pop_success@3x.png in Resources */,
-				ADC5FCE6021F92052E91C4EEAFAC69EB /* icon_eye_off@2x.png in Resources */,
-				CADFA1CA2341D8923ED25567D627AA69 /* icon_eye_off@3x.png in Resources */,
-				19F8ED718B288FF017BFBCFBF9DC72EE /* icon_list_eye_on@2x.png in Resources */,
-				DD9CD740F1472C825D29E3DC477F2F9E /* icon_list_eye_on@3x.png in Resources */,
-				97DEC353BC1929B0A912D187F0B1D562 /* icon_nav_back@2x.png in Resources */,
-				77AFCD31A47BCE610D790B6EC77C68C5 /* icon_nav_back@3x.png in Resources */,
-				9D0FC684E5140CF9E583056339C8BD81 /* icon_pop_success@3x.png in Resources */,
+				995AA375C88C90D8795F9A275BC6BC59 /* alsua_icon_eye_off@2x.png in Resources */,
+				7EBAFDCF4FEF5F2040F9DBB90FB12C12 /* alsua_icon_eye_off@3x.png in Resources */,
+				91574AC28FC56B50C16E9B693EC44617 /* alsua_icon_list_eye_on@2x.png in Resources */,
+				08BAB43812ABE69D71FE7F76189464E5 /* alsua_icon_list_eye_on@3x.png in Resources */,
+				E952BCD09021058BE6E72C4AC8280C95 /* alsua_icon_nav_back@2x.png in Resources */,
+				459D24F03E2FA725EE21D481FEC214D4 /* alsua_icon_nav_back@3x.png in Resources */,
+				00AA0FB315FBAEFD5E24111463BF6367 /* alsua_icon_pop_success@2x.png in Resources */,
+				B360773015FE3E83A7FA455434088D7E /* alsua_icon_pop_success@3x.png in Resources */,
+				6B66B2E57C649C113698EA2126936D78 /* icon_eye_off@2x.png in Resources */,
+				BA9269AD72C2EE6BD0EEAA75C0BD1862 /* icon_eye_off@3x.png in Resources */,
+				39661897A8F23866A07CEF0FBF106950 /* icon_list_eye_on@2x.png in Resources */,
+				34814F4ED635CD10F58767441703D009 /* icon_list_eye_on@3x.png in Resources */,
+				865B0C5A2EA90CA660885863F0895AE9 /* icon_nav_back@2x.png in Resources */,
+				220FCE5A6B6A75F44205C8D4EA4F6126 /* icon_nav_back@3x.png in Resources */,
+				6A3DA39B1EB69FC32C0F978FBAE45957 /* icon_pop_success@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88FC927C02E51393182D4E1CBA541A53 /* Resources */ = {
+		DD313F82C83279F3E6EF5A2C42D634ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9143EE3F4E53AAD262D78506D276E088 /* ALSUniversalAccount.bundle in Resources */,
+				8D3DA0A1381E9F6BB608704EF6835717 /* ALSUniversalAccount.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05BE3C5FD294BB055B460B44B85F4A53 /* Sources */ = {
+		749ADE1DDBC1B286B59AE86DFCA2AE55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5AECA9D573AC070A21BE9E0F8DA757C /* TTTAttributedLabel-dummy.m in Sources */,
-				386D3D0CE60A37649B173A22AE12A973 /* TTTAttributedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C2D0B4F2AFA853F51B9FDD0255F73D3 /* Sources */ = {
+		76AEFE7A2330B9AC6B2769E91150CE5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C3743F255DE6DBAB5C59F477653CCD0 /* Pods-ALSUniversalAccount_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82381A01D6166B1CEE4383B81AB0EF03 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86B45C2FBE19A0DCE382B7CB33D6FD96 /* MBProgressHUD-dummy.m in Sources */,
-				F1A82D9D57E3E9268EBA69163B57A3BE /* MBProgressHUD.m in Sources */,
+				97D4935A6D0CB3BBB8B8629EDC6AAB17 /* ALSUABaiChuanPlugInitializationInfo.m in Sources */,
+				09E9BB40C208B67221F41C2DEECE3E4C /* ALSUAOAuthPlugInitializationInfo.m in Sources */,
+				D21F2E785177DEA64C3659A749DEB580 /* ALSUAOperationMode.m in Sources */,
+				DDF70D524FAA203702093BFDFF8BF060 /* ALSUAPlugMode.m in Sources */,
+				74CAB5BAB37CD1853E50131757016F40 /* ALSUAResponse.m in Sources */,
+				08C9317A77CDC746A7D534EE3F320BB0 /* ALSUniversalAccount-SecondParty-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -906,92 +1022,98 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE383C28F4B625490AB1FBEE0D6EF646 /* Sources */ = {
+		A1B31CE2655E12FD3F17569DEDA07D34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				683F2312FCAB30ABD5AFB0E6174BCCE7 /* TTTAttributedLabel-dummy.m in Sources */,
+				5D7DEDAECC95A7F4AE3F219B52447AEA /* TTTAttributedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F05CBB8FFAC2701FD8F06F496250AB99 /* Sources */ = {
+		B1E5DA8DEE543CD8AD5B81D64C65A75F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8559824346D27CB25510EFE79873EC8 /* SFHFKeychainUtils-dummy.m in Sources */,
-				3F33FAD436904B7E671586D9720B6993 /* SFHFKeychainUtils.m in Sources */,
+				BE8F723B6E575292BC33BA6A185FF2EF /* MBProgressHUD-dummy.m in Sources */,
+				1F4DB51722316A702DD70BF0229393D8 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F49456B3BAA46627FEBDE455B6ACC192 /* Sources */ = {
+		CB5AA31C82BEB81910A4C50B56D890CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09D223C80A18A103FE25A7B1C2371235 /* ALSUABaiChuanPlugInitializationInfo.m in Sources */,
-				87ED2E1BCEAA020B9604721F9E7CAD60 /* ALSUAOAuthPlugInitializationInfo.m in Sources */,
-				A1667CBCC2D3BA56D0741F6C41A7501B /* ALSUAOperationMode.m in Sources */,
-				AC8A65C43B4C168CAC7F381DC20AB34F /* ALSUAPlugMode.m in Sources */,
-				1E84E9AFB34B2FDE720F5ABDF977B831 /* ALSUAResponse.m in Sources */,
-				6D08391790594C31451E663851563E58 /* ALSUniversalAccount-ThirdParty-dummy.m in Sources */,
+				F76829085ED84CDE0075CCBA74024FB6 /* SFHFKeychainUtils-dummy.m in Sources */,
+				331779879F683E27CFF19AB4ABB8EB2A /* SFHFKeychainUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA2C2F64D208AC879E2B789A5A0D726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31A65F03C2D4E61767D32762894C8D8 /* Pods-ALSUniversalAccount_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		108A36F45C602A64979E406C23674C8A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ALSUniversalAccount-ThirdParty";
-			target = 869DACB885EC0A6DDE9E7E7393FE8539 /* ALSUniversalAccount-ThirdParty */;
-			targetProxy = 2488FF15F933CF5DE93E5FA9F6317703 /* PBXContainerItemProxy */;
-		};
-		696EDFA9C5CEEF443B907B569DE1ABED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ALSUniversalAccount-ThirdParty-ALSUniversalAccount";
-			target = 7810AA9A97719C4F57E132E1ABA722B6 /* ALSUniversalAccount-ThirdParty-ALSUniversalAccount */;
-			targetProxy = E91B11A0708733D0E95F3042C0B3B659 /* PBXContainerItemProxy */;
-		};
-		7473A7C55FE281EB0FD3B1D377B2B962 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SFHFKeychainUtils;
-			target = 4E1223651EBA1D748BFCDD88FF3323A0 /* SFHFKeychainUtils */;
-			targetProxy = 5D4AEED73DDEEF1AF5143637DD67651B /* PBXContainerItemProxy */;
-		};
-		760116A282B40EBBE9ED27715CD88D4F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TTTAttributedLabel;
-			target = 8B38A9E0D79DFAEA3979D9437CF430E7 /* TTTAttributedLabel */;
-			targetProxy = D134F10F00D84CC9839752DFD260ACF8 /* PBXContainerItemProxy */;
-		};
-		9044EDDFCB6CEC83851060B91A61765E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TTTAttributedLabel;
-			target = 8B38A9E0D79DFAEA3979D9437CF430E7 /* TTTAttributedLabel */;
-			targetProxy = 537E69EBACF829EE6BF2F90296395293 /* PBXContainerItemProxy */;
-		};
-		CBFCF16154854C689C1D47177F503BA7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SFHFKeychainUtils;
-			target = 4E1223651EBA1D748BFCDD88FF3323A0 /* SFHFKeychainUtils */;
-			targetProxy = F8406462D29329369C69670E9B53E4FB /* PBXContainerItemProxy */;
-		};
-		DC4F3BF633FF521161C137E10A38D29E /* PBXTargetDependency */ = {
+		3C137B43A7B6449D5C884FBBB32884DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
-			target = A05EF6FD4DF6F9BC3F6A80B1532215E0 /* MBProgressHUD */;
-			targetProxy = 70B3D0EB0771E12DD8E7F7A5F619D65C /* PBXContainerItemProxy */;
+			target = 9891E441E54562B2444D8BF4A2B8F168 /* MBProgressHUD */;
+			targetProxy = 6D572C604058D72748730E56B1834405 /* PBXContainerItemProxy */;
 		};
-		E7F77FC1F2FF9DEBB92AEDEC1E4EEFAB /* PBXTargetDependency */ = {
+		3DBF097D19DD46ADC9D45A6F7C0B733C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SFHFKeychainUtils;
+			target = AB3980E8D836529ADD6206351697C7F7 /* SFHFKeychainUtils */;
+			targetProxy = C75BDDD323FB8EC2FB72CC6E30615F3A /* PBXContainerItemProxy */;
+		};
+		C28D60CB924E219ABB30A9EEAC1113BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTTAttributedLabel;
+			target = C011BF6330C7C7B21D8F73026E7976D0 /* TTTAttributedLabel */;
+			targetProxy = 7454524C7471BE5CD6D84494F9F58D4A /* PBXContainerItemProxy */;
+		};
+		CB574766188DB619051108101230E2DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
-			target = A05EF6FD4DF6F9BC3F6A80B1532215E0 /* MBProgressHUD */;
-			targetProxy = 3283D81D55962D33D83805586AF5E648 /* PBXContainerItemProxy */;
+			target = 9891E441E54562B2444D8BF4A2B8F168 /* MBProgressHUD */;
+			targetProxy = F38E74FA3E491462EBC0EFDB476175E0 /* PBXContainerItemProxy */;
+		};
+		D276C5A9BAFBE548B2BE3D09B63B7E32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SFHFKeychainUtils;
+			target = AB3980E8D836529ADD6206351697C7F7 /* SFHFKeychainUtils */;
+			targetProxy = 570A2C50D448F81D8ABAA2D004438AC2 /* PBXContainerItemProxy */;
+		};
+		D62D43D23B8D872A9D68638DA9548B91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTTAttributedLabel;
+			target = C011BF6330C7C7B21D8F73026E7976D0 /* TTTAttributedLabel */;
+			targetProxy = FAAE842C117C5529020F3AFBB93A6E41 /* PBXContainerItemProxy */;
+		};
+		DB60C4A713DA7D42D870B3808E2CC0EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ALSUniversalAccount-SecondParty";
+			target = 7346FBE99E6F54576DD94F0A1C692DD3 /* ALSUniversalAccount-SecondParty */;
+			targetProxy = 58FF1E4823F85B7CF41DC6688DC5BBCC /* PBXContainerItemProxy */;
+		};
+		FD415EB5A7A6D89D09D1FEB80DA9414E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ALSUniversalAccount-SecondParty-ALSUniversalAccount";
+			target = 0F7C3305ADEA92611432B8F9CABB90D4 /* ALSUniversalAccount-SecondParty-ALSUniversalAccount */;
+			targetProxy = CA5F7C995D6C4AB2FB7140387EEA770F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2BB83D1B195EBF386FD9A89CE818E7A3 /* Release */ = {
+		02D42CEF470493F4F7A9FC696E81672B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF31743022FB651D1A9AD90533D2E942 /* TTTAttributedLabel.xcconfig */;
+			baseConfigurationReference = C44F1F06B78703B0324C5EB88057791C /* MBProgressHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1002,13 +1124,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TTTAttributedLabel/TTTAttributedLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TTTAttributedLabel/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TTTAttributedLabel/TTTAttributedLabel.modulemap";
-				PRODUCT_NAME = TTTAttributedLabel;
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_NAME = MBProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1019,9 +1141,9 @@
 			};
 			name = Release;
 		};
-		2E38FBEF85575B392B176221DF75A32C /* Release */ = {
+		0A18CD5DC6F21F3533B00919BB0FBE43 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03BB28034CACC28C3D884D75FAE9EE9F /* Pods-ALSUniversalAccount_Example.release.xcconfig */;
+			baseConfigurationReference = 5DF0E0C074F94480DD403FFC73888512 /* SFHFKeychainUtils.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1032,25 +1154,21 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ALSUniversalAccount_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SFHFKeychainUtils/SFHFKeychainUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFHFKeychainUtils/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ALSUniversalAccount_Example/Pods-ALSUniversalAccount_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ALSUniversalAccount_Example;
+				MODULEMAP_FILE = "Target Support Files/SFHFKeychainUtils/SFHFKeychainUtils.modulemap";
+				PRODUCT_NAME = SFHFKeychainUtils;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1144,9 +1262,9 @@
 			};
 			name = Debug;
 		};
-		4CBE4DD5E98983AEFEE91F167B3EBF96 /* Debug */ = {
+		420B04028EB78EF6727C963640CC1531 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C44F1F06B78703B0324C5EB88057791C /* MBProgressHUD.xcconfig */;
+			baseConfigurationReference = 03BB28034CACC28C3D884D75FAE9EE9F /* Pods-ALSUniversalAccount_Example.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1157,13 +1275,46 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ALSUniversalAccount_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ALSUniversalAccount_Example/Pods-ALSUniversalAccount_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ALSUniversalAccount_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		639561F7F3B618C2EFC19FE720FB0DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF31743022FB651D1A9AD90533D2E942 /* TTTAttributedLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTTAttributedLabel/TTTAttributedLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTTAttributedLabel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
-				PRODUCT_NAME = MBProgressHUD;
+				MODULEMAP_FILE = "Target Support Files/TTTAttributedLabel/TTTAttributedLabel.modulemap";
+				PRODUCT_NAME = TTTAttributedLabel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1172,36 +1323,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		6ED778438EE8BCBC4ADAC3CAB79D16B7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DF0E0C074F94480DD403FFC73888512 /* SFHFKeychainUtils.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SFHFKeychainUtils/SFHFKeychainUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SFHFKeychainUtils/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SFHFKeychainUtils/SFHFKeychainUtils.modulemap";
-				PRODUCT_NAME = SFHFKeychainUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		70CA5FDD5DBA10D5B9BED141D0589B95 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1291,36 +1412,7 @@
 			};
 			name = Release;
 		};
-		76EE63649E16B66D8DCD59CCA5175AF2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D54CE32FFCF90F22D865F4D9254EA61E /* ALSUniversalAccount-ThirdParty.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ALSUniversalAccount-ThirdParty/ALSUniversalAccount-ThirdParty-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ALSUniversalAccount-ThirdParty/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ALSUniversalAccount-ThirdParty/ALSUniversalAccount-ThirdParty.modulemap";
-				PRODUCT_NAME = ALSUniversalAccount_ThirdParty;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		79F1844B39D78B8FEEEA2F9D71162CEA /* Debug */ = {
+		74715A5FA7693C61F70730BB3001375D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF31743022FB651D1A9AD90533D2E942 /* TTTAttributedLabel.xcconfig */;
 			buildSettings = {
@@ -1344,71 +1436,13 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		91C46A40ECF223BC6EA0B226377BFC56 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D54CE32FFCF90F22D865F4D9254EA61E /* ALSUniversalAccount-ThirdParty.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ALSUniversalAccount-ThirdParty/ALSUniversalAccount-ThirdParty-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ALSUniversalAccount-ThirdParty/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ALSUniversalAccount-ThirdParty/ALSUniversalAccount-ThirdParty.modulemap";
-				PRODUCT_NAME = ALSUniversalAccount_ThirdParty;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		C7961B5209BBAF1EFE7F5349B6048715 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DF0E0C074F94480DD403FFC73888512 /* SFHFKeychainUtils.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SFHFKeychainUtils/SFHFKeychainUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SFHFKeychainUtils/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SFHFKeychainUtils/SFHFKeychainUtils.modulemap";
-				PRODUCT_NAME = SFHFKeychainUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D7AA44556F7C98FC21E52F830BDF4F57 /* Debug */ = {
+		796C271872C613B1B0DCE68777EEF3C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 78D9391C48E755730B612BE7E4CB3CE9 /* Pods-ALSUniversalAccount_Example.debug.xcconfig */;
 			buildSettings = {
@@ -1440,7 +1474,7 @@
 			};
 			name = Debug;
 		};
-		DECDC410374D80406465DB22F9B6A442 /* Release */ = {
+		7B96983F09539BF76C66F738326AE2CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C44F1F06B78703B0324C5EB88057791C /* MBProgressHUD.xcconfig */;
 			buildSettings = {
@@ -1464,19 +1498,48 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85B4A48B47067F36530E4D61F00643AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DF0E0C074F94480DD403FFC73888512 /* SFHFKeychainUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SFHFKeychainUtils/SFHFKeychainUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFHFKeychainUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SFHFKeychainUtils/SFHFKeychainUtils.modulemap";
+				PRODUCT_NAME = SFHFKeychainUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		FB67D9C7C5B4886D87FF332F21E5BD89 /* Debug */ = {
+		86773EC2E3E23DF522C9278A257667A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D54CE32FFCF90F22D865F4D9254EA61E /* ALSUniversalAccount-ThirdParty.xcconfig */;
+			baseConfigurationReference = 29FA10C8A4FB38E23A47F6F5BBBBB768 /* ALSUniversalAccount-SecondParty.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ALSUniversalAccount-ThirdParty";
-				INFOPLIST_FILE = "Target Support Files/ALSUniversalAccount-ThirdParty/ResourceBundle-ALSUniversalAccount-Info.plist";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ALSUniversalAccount-SecondParty";
+				INFOPLIST_FILE = "Target Support Files/ALSUniversalAccount-SecondParty/ResourceBundle-ALSUniversalAccount-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = ALSUniversalAccount;
 				SDKROOT = iphoneos;
@@ -1486,13 +1549,13 @@
 			};
 			name = Debug;
 		};
-		FF02F6F89CE521C4E7A878D696400E26 /* Release */ = {
+		C24BAB5022087F73A81858FAA4B6FCBB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D54CE32FFCF90F22D865F4D9254EA61E /* ALSUniversalAccount-ThirdParty.xcconfig */;
+			baseConfigurationReference = 29FA10C8A4FB38E23A47F6F5BBBBB768 /* ALSUniversalAccount-SecondParty.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ALSUniversalAccount-ThirdParty";
-				INFOPLIST_FILE = "Target Support Files/ALSUniversalAccount-ThirdParty/ResourceBundle-ALSUniversalAccount-Info.plist";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ALSUniversalAccount-SecondParty";
+				INFOPLIST_FILE = "Target Support Files/ALSUniversalAccount-SecondParty/ResourceBundle-ALSUniversalAccount-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = ALSUniversalAccount;
 				SDKROOT = iphoneos;
@@ -1501,6 +1564,65 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
+		};
+		CDE4A180BA075533D0C48004A0EC3CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FA10C8A4FB38E23A47F6F5BBBBB768 /* ALSUniversalAccount-SecondParty.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ALSUniversalAccount-SecondParty/ALSUniversalAccount-SecondParty-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALSUniversalAccount-SecondParty/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALSUniversalAccount-SecondParty/ALSUniversalAccount-SecondParty.modulemap";
+				PRODUCT_NAME = ALSUniversalAccount_SecondParty;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2D47FC47BD2DE94090F7BBB0B9AFCA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FA10C8A4FB38E23A47F6F5BBBBB768 /* ALSUniversalAccount-SecondParty.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ALSUniversalAccount-SecondParty/ALSUniversalAccount-SecondParty-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALSUniversalAccount-SecondParty/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALSUniversalAccount-SecondParty/ALSUniversalAccount-SecondParty.modulemap";
+				PRODUCT_NAME = ALSUniversalAccount_SecondParty;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1523,56 +1645,56 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2EEDD308DC49DAFD15FEC8D82C01F391 /* Build configuration list for PBXNativeTarget "Pods-ALSUniversalAccount_Example" */ = {
+		76B95FB1BBFBC83522AE4A8056AC54E5 /* Build configuration list for PBXNativeTarget "TTTAttributedLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7AA44556F7C98FC21E52F830BDF4F57 /* Debug */,
-				2E38FBEF85575B392B176221DF75A32C /* Release */,
+				639561F7F3B618C2EFC19FE720FB0DB3 /* Debug */,
+				74715A5FA7693C61F70730BB3001375D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66C2CB3E1ADC706ECBA8CD9C8D64948C /* Build configuration list for PBXNativeTarget "SFHFKeychainUtils" */ = {
+		797498E639745F1EFCBCCB0ECDE256FC /* Build configuration list for PBXNativeTarget "SFHFKeychainUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7961B5209BBAF1EFE7F5349B6048715 /* Debug */,
-				6ED778438EE8BCBC4ADAC3CAB79D16B7 /* Release */,
+				0A18CD5DC6F21F3533B00919BB0FBE43 /* Debug */,
+				85B4A48B47067F36530E4D61F00643AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73A745BC0AAA5B324A1A3EAD3FBB9B21 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+		B84D107331E2FBA4A83A13D6C58363C2 /* Build configuration list for PBXNativeTarget "Pods-ALSUniversalAccount_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4CBE4DD5E98983AEFEE91F167B3EBF96 /* Debug */,
-				DECDC410374D80406465DB22F9B6A442 /* Release */,
+				796C271872C613B1B0DCE68777EEF3C6 /* Debug */,
+				420B04028EB78EF6727C963640CC1531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97DE80A835DB7F7ECE84F963E2607599 /* Build configuration list for PBXNativeTarget "ALSUniversalAccount-ThirdParty-ALSUniversalAccount" */ = {
+		D1415D6EE399C717C1B4BEBAB1255401 /* Build configuration list for PBXNativeTarget "ALSUniversalAccount-SecondParty-ALSUniversalAccount" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FB67D9C7C5B4886D87FF332F21E5BD89 /* Debug */,
-				FF02F6F89CE521C4E7A878D696400E26 /* Release */,
+				86773EC2E3E23DF522C9278A257667A5 /* Debug */,
+				C24BAB5022087F73A81858FAA4B6FCBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2C8CEFF238ED4528EBBED6854C1D994 /* Build configuration list for PBXNativeTarget "TTTAttributedLabel" */ = {
+		E5E58B09CB0AC6DAAAA79B1135A2A6D4 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79F1844B39D78B8FEEEA2F9D71162CEA /* Debug */,
-				2BB83D1B195EBF386FD9A89CE818E7A3 /* Release */,
+				7B96983F09539BF76C66F738326AE2CA /* Debug */,
+				02D42CEF470493F4F7A9FC696E81672B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3C99D68653970E7A7BD7A788C5A56C3 /* Build configuration list for PBXNativeTarget "ALSUniversalAccount-ThirdParty" */ = {
+		F136D298F7142491EC5DE6BDACFDA3C1 /* Build configuration list for PBXNativeTarget "ALSUniversalAccount-SecondParty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				76EE63649E16B66D8DCD59CCA5175AF2 /* Debug */,
-				91C46A40ECF223BC6EA0B226377BFC56 /* Release */,
+				D2D47FC47BD2DE94090F7BBB0B9AFCA5 /* Debug */,
+				CDE4A180BA075533D0C48004A0EC3CE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

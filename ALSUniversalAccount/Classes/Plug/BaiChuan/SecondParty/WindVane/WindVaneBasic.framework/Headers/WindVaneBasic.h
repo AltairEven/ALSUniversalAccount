@@ -2,7 +2,7 @@
  * WindVaneBasic.h
  * 
  * Created by WindVane.
- * Copyright (c) 2017年 阿里巴巴-淘宝技术部. All rights reserved.
+ * Copyright (c) 2018年 阿里巴巴-淘宝技术部. All rights reserved.
  */
 
 #ifdef __OBJC__
@@ -11,12 +11,10 @@
 #import "UIScrollView+WVInfiniteScrolling.h"
 #import "UIScrollView+WVPullToRefresh.h"
 #import "UIViewController+WVUtility.h"
-#import "WVApiAuthCheckResult.h"
 #import "WVBasic.h"
 #import "WVBasicConstant.h"
 #import "WVCookieUtil.h"
 #import "WVJSBridgeCallbackDelegate.h"
-#import "WVJSBridgeService.h"
 #import "WVJavascriptApplication.h"
 #import "WVNavigation.h"
 #import "WVNotiBar.h"
@@ -30,8 +28,12 @@
 #import "WVRuleResult.h"
 #import "WVRuleWebViewController.h"
 #import "WVStandardEventCenter.h"
+#import "WVUIButtonItem.h"
+#import "WVUIIconFontServiceProtocol.h"
 #import "WVUILoadingBox.h"
 #import "WVUIToast.h"
+#import "WVUIUtil.h"
+#import "WVUIWebViewController+CustomizeUI.h"
 #import "WVUIWebViewController.h"
 #import "WVURLCache.h"
 #import "WVURLInteceptorEngine.h"
@@ -40,13 +42,17 @@
 #import "WVURLInterceptorRuleEngine.h"
 #import "WVURLInterceptorRuleObj.h"
 #import "WVURLInterceptorRuleService.h"
+#import "WVURLProtocolService.h"
 #import "WVUserContentController.h"
+#import "WVViewController.h"
+#import "WVViewControllerProtocol.h"
 #import "WVWKWebView.h"
 #import "WVWeakObjectWrapper.h"
 #import "WVWebView.h"
 #import "WVWebViewController.h"
 #import "WVWebViewControllerBasicProtocol.h"
 #import "WVWebViewControllerProtocol.h"
+#import "WVWebViewControllerUIProtocol.h"
 #import "WVWebViewDelegate.h"
 #import "WVWebViewProtocol.h"
 #import "WVWebViewRecorder.h"

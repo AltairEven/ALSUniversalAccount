@@ -246,22 +246,8 @@ typedef NS_ENUM(NSInteger, WVWebViewVisiblity) {
 @property (nonatomic, assign, readonly, getter=isMainFrame) BOOL mainFrame DEPRECATED_MSG_ATTRIBUTE("请使用 navigation 属性的 mainFrame 属性");
 - (void)registerHandler:(NSString * _Nonnull)name withClassName:(NSString * _Nonnull)className withHandler:(WVPrivateJSBridgeHandler _Nonnull)handler DEPRECATED_MSG_ATTRIBUTE("请使用 registerHandler:withBlock: 方法");
 - (void)registeHandler:(NSString * _Nonnull)name withClassName:(NSString * _Nonnull)className handler:(WVPrivateJSBHandler _Nonnull)_Nonnullhandler DEPRECATED_MSG_ATTRIBUTE("请使用 registerHandler:withBlock: 方法");
-
 - (void)fetchElementValue:(NSArray * _Nonnull)elementIds completionHandler:(void (^_Nonnull)(NSDictionary * _Nonnull))completionHandler DEPRECATED_MSG_ATTRIBUTE("请使用 pageMeta 属性");
-
 @property (nonatomic, assign, getter=isAutoPlayAudio) BOOL autoPlayAudio DEPRECATED_MSG_ATTRIBUTE("请直接设置 allowsInlineMediaPlayback 和 mediaPlaybackRequiresUserAction 属性");
 @property (nonatomic, assign) BOOL isOpenAutoPlayAudio DEPRECATED_MSG_ATTRIBUTE("请直接设置 allowsInlineMediaPlayback 和 mediaPlaybackRequiresUserAction 属性");
-
-- (void)callRegistedHandler:(NSString * _Nonnull)className
-                 withMethod:(NSString * _Nonnull)method
-                   withData:(NSString * _Nullable)data
-            withFatherClass:(NSString * _Nonnull)fClassName
-           withFatherMethod:(NSString * _Nonnull)fMethod DEPRECATED_MSG_ATTRIBUTE("请直接调用 API id<WVBridgeCallbackContext> 参数提供的 redirect:withParams: 方法");
-- (void)callRegistedHandler:(NSString * _Nonnull)className
-                 withMethod:(NSString * _Nonnull)method
-                   withData:(NSString * _Nullable)data
-            withFatherClass:(NSString * _Nonnull)fClassName
-           withFatherMethod:(NSString * _Nonnull)fMethod
-         withResultCallback:(void (^_Nullable)(NSString * _Nonnull code, NSDictionary * _Nullable data))resultCallback DEPRECATED_MSG_ATTRIBUTE("请直接调用 API id<WVBridgeCallbackContext> 参数提供的 redirect:withParams:withResultCallback: 方法");
 
 @end

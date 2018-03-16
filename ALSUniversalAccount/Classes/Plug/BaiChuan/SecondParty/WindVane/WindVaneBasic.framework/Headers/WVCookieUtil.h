@@ -37,6 +37,11 @@ FOUNDATION_EXPORT NSString * _Nonnull const WVHttpCookieHttpOnly;
  */
 + (NSDictionary<NSString *, NSString *> * _Nonnull)readCookies:(NSURL * _Nonnull)url;
 
+/**
+ 按照字符串 key=value 格式，读取指定 URL 下的所有 Cookie。
+ */
++ (NSString * _Nullable)readCookiesAsString:(NSURL * _Nonnull)url;
+
 @end
 
 /**

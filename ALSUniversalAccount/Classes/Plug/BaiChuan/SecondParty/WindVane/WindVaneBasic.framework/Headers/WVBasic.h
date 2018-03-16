@@ -61,17 +61,27 @@
  */
 + (void)setShowsVerticalScrollIndicator:(BOOL)showsVerticalScrollIndicator;
 
-#pragma mark - Sync WKWebView Cookie
+#pragma mark - Fix WKWebView Compatible
 
 /**
- 获取是否尝试同步 WKWebView 的 Cookie，默认为 YES。
+ 获取是否同步 WKWebView 与主线程的 Cookie，默认为 YES。
  */
 + (BOOL)syncWKWebViewCookie;
 
 /**
- 设置是否尝试同步 WKWebView 的 Cookie。
+ 设置是否同步 WKWebView 与主线程的 Cookie。
  */
 + (void)setSyncWKWebViewCookie:(BOOL)syncWKWebViewCookie;
+
+/**
+ 获取开启 WKWebView NSURLProtocol 拦截后，是否修复 WKWebView 发送 POST 请求丢失 body 的问题，默认为 YES。
+ */
++ (BOOL)fixWKWebViewPostBody;
+
+/**
+ 设置开启 WKWebView NSURLProtocol 拦截后，是否修复 WKWebView 发送 POST 请求丢失 body 的问题。
+ */
++ (void)setFixWKWebViewPostBody:(BOOL)fixWKWebViewPostBody;
 
 #pragma mark - JavaScript Log
 
@@ -85,6 +95,18 @@
  * 设置后，只会在新创建的 WebView 生效。
  */
 + (void)setJSLogLevel:(WVLogLevel)logLevel;
+
+#pragma mark - Xcode8 Compatible
+
+/**
+ 在 iOS11 上对 Xcode8 打包的模式做兼容，仍在使用 Xcode8 编译的客户端必须设置。
+ */
++ (void)xcode8Compatible;
+
+/**
+ 获取是否在 iOS11 上对 Xcode8 打包的模式做兼容。
+ */
++ (BOOL)isXcode8Compatible;
 
 #pragma mark - 已废弃，预计于 2018.8.1 删除
 

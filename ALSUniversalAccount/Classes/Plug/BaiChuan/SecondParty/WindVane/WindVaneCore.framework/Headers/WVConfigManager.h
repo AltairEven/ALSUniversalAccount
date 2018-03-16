@@ -14,9 +14,6 @@
  */
 @interface WVConfigManager : NSObject
 
-// 临时开关
-+ (void)setUseTimer:(BOOL)useTimer;
-
 #pragma mark- Update config
 
 /**
@@ -29,12 +26,6 @@
  */
 + (void)updateConfig:(NSString *)configName version:(NSString *)version;
 
-/**
- * 使用指定的消息更新配置。
- *
- * @param message AWP 平台提供的配置消息。
- */
-+ (void)updateWithMessage:(NSString *)message;
 
 #pragma mark- Config
 
@@ -57,5 +48,9 @@
  * 获取 WindVane 默认域名配置。
  */
 + (WVDomainConfigModel *)defaultDomainConfig;
+
+#pragma mark - 已废弃，预计于 2019.1.1 删除
+
++ (void)updateWithMessage:(NSString *)message DEPRECATED_ATTRIBUTE;
 
 @end

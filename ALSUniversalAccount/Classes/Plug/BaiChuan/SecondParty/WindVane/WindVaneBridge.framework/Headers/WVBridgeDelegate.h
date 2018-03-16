@@ -9,6 +9,11 @@
 #import <Foundation/Foundation.h>
 
 /**
+ 一般使用此值作为回调状态码的键。
+ */
+#define MSG_RESULT_CODE_NAME @"ret"
+
+/**
  * WVBridge 调用方需要实现的 Protocol，一般利用 Category 对现有环境进行扩展。
  * 需要做好非主线程调用的保护。
  */

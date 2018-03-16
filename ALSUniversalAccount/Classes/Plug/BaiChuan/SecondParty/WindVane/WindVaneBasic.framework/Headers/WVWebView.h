@@ -52,16 +52,6 @@
  */
 - (void)bindingWebViewService;
 
-/**
- 将当前 WebView 恢复成初始化时的状态，可以之后复用 WebView。
- */
-- (void)recycle;
-
-/**
- 准备重新使用当前 WebView，必须在重新使用前调用。
- */
-- (void)reuse;
-
 #pragma mark - JSBridge
 
 /**
@@ -69,31 +59,12 @@
  */
 @property (nonatomic, assign, getter=isOpenLocalService) BOOL openLocalService;
 
-#pragma mark - URL Interrupted
+#pragma mark - 已废弃，预计于 2019.1.1 删除
 
-/*!
- * 关闭URL拦截解析服务
- */
-+ (void)closeURLInterruptedModule;
-
-/*!
- * 开启URL拦截解析服务
- */
-+ (void)openURLInterruptedModule;
-
-/*!
- * URL拦截解析服务是否开启
- */
-+ (BOOL)isOpenURLInterruptedModule;
-
-/*!
- * 从 Request 中获取 body
- */
-+ (NSString *)getRequestBodyForPost:(NSURLRequest *)request;
-
-/*!
- * 判断是否是 Post 请求
- */
-+ (BOOL)isPostRequest:(NSURLRequest *)request;
++ (void)closeURLInterruptedModule DEPRECATED_ATTRIBUTE;
++ (void)openURLInterruptedModule DEPRECATED_ATTRIBUTE;
++ (BOOL)isOpenURLInterruptedModule DEPRECATED_ATTRIBUTE;
++ (NSString *)getRequestBodyForPost:(NSURLRequest *)request DEPRECATED_ATTRIBUTE;
++ (BOOL)isPostRequest:(NSURLRequest *)request DEPRECATED_ATTRIBUTE;
 
 @end

@@ -107,6 +107,7 @@ typedef struct NAL_addr_t {
 #define SlightSSL_PUBKEY_PSEQ_ADASH 9 //for adash plaintext
 #define SlightSSL_PUBKEY_SEQ_OPEN 10 //for 第三方
 #define SlightSSL_PUBKEY_PSEQ_OPEN 11 //for 第三方 plaintext
+#define SlightSSL_PUBKEY_PSEQ_EMAS 12 // for EMAS
 typedef enum NAL_protocol {
     NAL_HTTP = 0x0001,              //0
     NAL_SPDY = 0x0002,
@@ -150,6 +151,9 @@ typedef struct NAL_request_count_t {
     int    request_body;
     int    response_body;
     int    retry_times;
+    
+    // http origin contect length
+    int    origin_content_length;
 } NAL_request_count_t;
 
 typedef struct NAL_connection_count_t {

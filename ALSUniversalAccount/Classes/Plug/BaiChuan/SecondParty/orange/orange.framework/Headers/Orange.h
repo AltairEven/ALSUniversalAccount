@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define ORANGE_SDK_VERSION @"1.4.5.32"
+#define ORANGE_SDK_VERSION @"1.4.5.66"
 
 typedef NS_ENUM(NSInteger,OrangeUpateMode){
     OrangeUpateModeProbe, // 探针模式更新配置
@@ -60,6 +60,15 @@ typedef NS_ENUM(NSInteger,OrangeUpateMode){
 + (NSDictionary *)getGroupConfigByGroupName:(NSString *)groupName;
 
 /**
+ *  获取整个Custom自定义组配置(和服务端的组对应), 业务方无需调用此接口，为测试使用
+ *
+ *  @param groupName 配置组的名字，区分大小写
+ *
+ *  @return 组的配置，如为空，返回nil
+ */
++ (NSString *)getCustomGroupConfigByGroupName:(NSString *)groupName;
+
+/**
  *  设置自定义域名
  *  依次设置线上、预发、测试环境Host以及所对应的预置IP
  *  例子:
@@ -69,7 +78,7 @@ typedef NS_ENUM(NSInteger,OrangeUpateMode){
  *     ...]
  *
  */
-+ (void)setCustomHosts:(NSArray *)hosts;
++ (void)setCustomHosts:(NSArray *)hosts NS_DEPRECATED_IOS(2_0, 2_1, "已废弃，请使用 New Interface");;
 
 #pragma mark New Interface
 /**
@@ -102,7 +111,7 @@ typedef NS_ENUM(NSInteger,OrangeUpateMode){
 /**
  设置Orange数据中心兜底VIP
 
- @param onelineIPList onelineIPList 线上兜底直连IP列表
+ @param onlineIPList onelineIPList 线上兜底直连IP列表
  @param debugIPList   debugIPList   预发兜底直连IP列表
  @param dailyIPList   dailyIPList   日常兜底直连IP列表
  */
@@ -117,4 +126,21 @@ typedef NS_ENUM(NSInteger,OrangeUpateMode){
  */
 + (void)setOrangeACKOnlineIPList:(NSArray *) onlineIPList debugIPList:(NSArray *) debugIPList dailyIPList:(NSArray *) dailyIPList;
 
+/**
+ 提供业务方设置自定义策略表达式 （策略表达式值必须是应用唯一固定）
+ @param key    表达式对应的key
+ @param value  表达式对应的value
+ */
++ (void)setCustomCandidate:(NSString *)key value:(NSString *)value;
+
+/**
+ 设置ACCS通道域名(依次 线上、预发、日常)，Orange的Beta测试通过ACCS长连通道推送配置到指定手机进行配置验证(二方淘系长连域名已内置可不设置，对于AE、Lazada、优酷这种部署独立Orange服务的APP请联系@岽篱 咨询ACCS域名)
+ */
++ (void)setOrangeBetaModeAccsHost:(NSArray *)host;
+
++ (NSDictionary *)getKeyMap;
+
 @end
+
+FOUNDATION_EXTERN NSString * const indexACKNotification;// Orange 索引更新ACK通知
+FOUNDATION_EXTERN NSString * const groupConfigACKNotification;// Orange 配置更新ACK通知

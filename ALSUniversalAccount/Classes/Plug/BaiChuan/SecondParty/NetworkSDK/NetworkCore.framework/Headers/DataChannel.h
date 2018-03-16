@@ -42,6 +42,7 @@
  */
 + (DataChannel*)dataChannelWithHost:(NSString*)host;
 
++ (DataChannel*)createDataChannelWithHost:(NSString*)host WithEnableLocalDNS:(BOOL)enabled;
 
 /*
  * 设置全局delegate 供accs callback
@@ -54,7 +55,7 @@
  */
 + (void)setAccsVersion:(NSString *)version;
 
-
+ 
 /*
  * 整个数据通道真正run起来，network尽量保证 accs下有可用的tcp链接
  * 建议每次前后台切换以后，都拉起一次

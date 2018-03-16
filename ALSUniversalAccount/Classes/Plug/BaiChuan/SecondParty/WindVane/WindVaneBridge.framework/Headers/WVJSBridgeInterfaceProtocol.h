@@ -30,14 +30,14 @@
 		return;                                       \
 	}
 #define WV_JSB_CALLBACK_PARAM_ERR_RETURN(MSG) WV_JSB_CALLBACK_RETURN(callback, MSG_RET_PARAM_ERR, @{ MSG_RESULT_MSG_NAME : MSG });
-#define WV_JSB_CALLBACK_INVALID_PARAM_RETURN(PARAM_NAME) WV_JSB_CALLBACK_RETURN(callback, MSG_RET_PARAM_ERR, @{ MSG_RESULT_MSG_NAME : @"Invalid parameter " PARAM_NAME "." });
+// #define WV_JSB_CALLBACK_INVALID_PARAM_RETURN(PARAM_NAME) WV_JSB_CALLBACK_RETURN(callback, MSG_RET_PARAM_ERR, @{ MSG_RESULT_MSG_NAME : @"Invalid parameter " PARAM_NAME "." });
 #define WV_JSB_CHECK_PARAMS_RETURN()                            \
 	do {                                                        \
 		if (!params || params.count <= 0) {                     \
 			WV_JSB_CALLBACK_PARAM_ERR_RETURN(@"No parameter."); \
 		}                                                       \
 	} while (0)
-#define WV_JSB_CALLBACK_NOT_SUPPORTED_RETURN(METHOD) WV_JSB_CALLBACK_RETURN(callback, MSG_RET_FAILED, @{ MSG_RESULT_MSG_NAME : METHOD @" is not supported." });
+// #define WV_JSB_CALLBACK_NOT_SUPPORTED_RETURN(METHOD) WV_JSB_CALLBACK_RETURN(callback, MSG_RET_FAILED, @{ MSG_RESULT_MSG_NAME : METHOD @" is not supported." });
 
 /**
  * 动态 JSBridge 的实例作用域，与 WVBridgeScope 完全等价。
@@ -53,5 +53,5 @@ enum {
 typedef WVBridgeCallback WVJSBResponse;
 
 // 命名错误的宏
-#define MSG_USER_DENIED       MSG_RET_USER_DENIED
-#define MSG_USER_CANCELED     MSG_RET_USER_CANCELED
+// #define MSG_USER_DENIED       MSG_RET_USER_DENIED
+// #define MSG_USER_CANCELED     MSG_RET_USER_CANCELED

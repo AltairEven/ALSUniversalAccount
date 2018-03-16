@@ -21,6 +21,7 @@
 #define NW_ORANGE_KEY_SPDY_ERROR_PROCESS_TYPE           @"network_spdy_error_process_type"
 #define NW_ORANGE_KEY_NETWORK_OFF_SWITCH                @"network_off"
 #define NW_ORANGE_KEY_NETWORK_FORCE_USE_CFNETWORK       @"network_force_use_cfnetwork"
+#define NW_ORANGE_KEY_AMDC_FORCE_OLD_TYPE               @"network_amdc_force_old_type"
 
 @interface NWOrangeConfiguration : NSObject
 
@@ -45,6 +46,8 @@
 - (BOOL)isCFNetworkHttpEnabled:(NSString *)host;
 
 - (BOOL)isDispatch2CFNetworkWhenError:(NSError *)error;
+
+- (BOOL)isAmdcForceOldType;
 
 - (NSInteger)policyMaxExpireSeconds;
 

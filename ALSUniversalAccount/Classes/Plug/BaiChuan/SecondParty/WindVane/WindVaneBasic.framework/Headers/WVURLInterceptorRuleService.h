@@ -10,7 +10,8 @@
 #import <UIKit/UIKit.h>
 
 /**
- * 整个 WVURLInterceptor 不再建议使用，请直接在 WindVaneDelegate 的 webView:shouldStartLoadWithRequest:navigationType: 回调中自行处理 URL 拦截。
+ 整个 WVURLInterceptor 不再建议使用，请直接在 WindVaneDelegate 的 webView:shouldStartLoadWithRequest:navigationType: 回调中自行处理 URL 拦截。
+ 预计与 2019.1.1 删除
  */
 
 #pragma mark -WVURLInterceptorRuleHandlerProtocol-
@@ -27,22 +28,12 @@
  *
  * 返回结构类型：see @WVURLInterceptorRuleObj.h
  */
-- (NSArray *)getURLInterceptorRule;
-
-/*
- * 是否需要更新URL拦截规则
- */
-- (BOOL)isNeedUpdateURLInterceptorRule;
-
-/*
- * 更新URL拦截规则
- */
-- (void)updateURLInterceptorRule;
+- (NSArray *)getURLInterceptorRule DEPRECATED_ATTRIBUTE;
 
 /*
  * 是否开启URL拦截规则
  */
-- (BOOL)isOpenURLInterceptor;
+- (BOOL)isOpenURLInterceptor DEPRECATED_ATTRIBUTE;
 
 @end
 
@@ -58,18 +49,18 @@
  *
  * @urlInterceptorRuleHandler:URL拦截规则处理器
  */
-+ (void)registeURLInterceptorRuleHandler:(id<WVURLInterceptorRuleHandlerProtocol>)urlInterceptorRuleHandler;
++ (void)registeURLInterceptorRuleHandler:(id<WVURLInterceptorRuleHandlerProtocol>)urlInterceptorRuleHandler DEPRECATED_ATTRIBUTE;
 
 /*
  * 获取注册的URL拦截解析模块的规则处理器
  *
  * @return:URL拦截解析规则处理器
  */
-+ (id<WVURLInterceptorRuleHandlerProtocol>)registedURLInterceptorRuleHandler;
++ (id<WVURLInterceptorRuleHandlerProtocol>)registedURLInterceptorRuleHandler DEPRECATED_ATTRIBUTE;
 
 /*
  * 是否已经注册过URL拦截解析模块的处理器
  */
-+ (BOOL)isRegistedURLInterceptorRuleHandler;
++ (BOOL)isRegistedURLInterceptorRuleHandler DEPRECATED_ATTRIBUTE;
 
 @end

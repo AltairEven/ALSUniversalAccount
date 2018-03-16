@@ -9,7 +9,8 @@
 #import <Foundation/Foundation.h>
 
 /**
- * 整个 WVURLInterceptor 不再建议使用，请直接在 WindVaneDelegate 的 webView:shouldStartLoadWithRequest:navigationType: 回调中自行处理 URL 拦截。
+ 整个 WVURLInterceptor 不再建议使用，请直接在 WindVaneDelegate 的 webView:shouldStartLoadWithRequest:navigationType: 回调中自行处理 URL 拦截。
+ 预计与 2019.1.1 删除
  */
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -34,17 +35,17 @@ typedef NS_ENUM(int, WVRuleParamFetchType) {
 /*
  * 该参数在 URL 拦截规则通过正则匹配到的参数数组中的下标值
  */
-@property (nonatomic, assign) int indexInParamArray;
+@property (nonatomic, assign) int indexInParamArray DEPRECATED_ATTRIBUTE;
 
 /*
  * 该参数在 URL 请求中的参数名
  */
-@property (nonatomic, copy) NSString * nameInRequest;
+@property (nonatomic, copy) NSString * nameInRequest DEPRECATED_ATTRIBUTE;
 
 /*
  * 该参数提供给URL 拦截后 Native 业务模块使用的标准名称
  */
-@property (nonatomic, copy) NSString * standardName;
+@property (nonatomic, copy) NSString * standardName DEPRECATED_ATTRIBUTE;
 
 @end
 
@@ -59,43 +60,43 @@ typedef NS_ENUM(int, WVRuleParamFetchType) {
 /*
  * URL 拦截规则正则表达式
  */
-@property (nonatomic, strong) NSRegularExpression * pattern;
+@property (nonatomic, strong) NSRegularExpression * pattern DEPRECATED_ATTRIBUTE;
 
 /*
  * URL 拦截规则匹配的目标业务代码
  */
-@property (nonatomic, assign) int target;
+@property (nonatomic, assign) int target DEPRECATED_ATTRIBUTE;
 
 /*
  * URL 拦截规则参数提取类型
  */
-@property (nonatomic, assign) WVRuleParamFetchType ruleType;
+@property (nonatomic, assign) WVRuleParamFetchType ruleType DEPRECATED_ATTRIBUTE;
 
 /*
  * URL 拦截规则正则表达式能匹配到的截取片段的最小个数
  */
-@property (nonatomic, assign) int totalCount;
+@property (nonatomic, assign) int totalCount DEPRECATED_ATTRIBUTE;
 
 /*
  * URL 拦截规则的提取参数的时候具体参数在正则表达式截取片段数组中对应的下标 - see @WVURLInterceptorRuleParamObj
  */
-@property (nonatomic, copy) NSArray * indexInPattern;
+@property (nonatomic, copy) NSArray * indexInPattern DEPRECATED_ATTRIBUTE;
 
 /*
  * URL 拦截规则提取参数的时候具体业务参数在请求中的参数名 - see @WVURLInterceptorRuleParamObj
  */
-@property (nonatomic, copy) NSArray * nameInRequest;
+@property (nonatomic, copy) NSArray * nameInRequest DEPRECATED_ATTRIBUTE;
 
 /*
  * URL 拦截规则提取出来的参数是否需要主动Decode
  */
-@property (nonatomic, assign) BOOL needDecode;
+@property (nonatomic, assign) BOOL needDecode DEPRECATED_ATTRIBUTE;
 
 #pragma mark - Function
 
 /*
  * 判断规则数据是否合法
  */
-- (BOOL)isValidate;
+- (BOOL)isValidate DEPRECATED_ATTRIBUTE;
 
 @end

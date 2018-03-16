@@ -87,15 +87,6 @@
  */
 - (NSInteger)wvInvokeWithIntegerResult:(SEL)selector;
 
-/**
- * 尝试调用指定方法，并得到返回值。
- *
- * @param selector 要调用的方法。
- *
- * @return 方法调用的返回值。
- */
-- (double)wvInvokeWithDoubleResult:(SEL)selector;
-
 #pragma mark - TryInvoke
 
 /**
@@ -234,5 +225,9 @@
  * @return Sizzle 是否成功。
  */
 + (BOOL)wvSwizzleClassMethod:(SEL)originalSelector withClass:(Class)swizzledClass withClassMethod:(SEL)swizzledSelector;
+
+#pragma mark - 已废弃，预计于 2019.1.1 删除
+
+- (double)wvInvokeWithDoubleResult:(SEL)selector DEPRECATED_ATTRIBUTE;
 
 @end
