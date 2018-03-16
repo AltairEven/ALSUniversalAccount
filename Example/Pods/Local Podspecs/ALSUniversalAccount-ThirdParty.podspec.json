@@ -1,6 +1,6 @@
 {
   "name": "ALSUniversalAccount-ThirdParty",
-  "version": "0.0.0.3-THD",
+  "version": "0.0.0.4-THD",
   "summary": "A short description of ALSUniversalAccount.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/AltairEven/ALSUniversalAccount",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/AltairEven/ALSUniversalAccount.git",
-    "tag": "0.0.0.3-THD"
+    "tag": "0.0.0.4-THD"
   },
   "platforms": {
     "ios": "8.0"
@@ -50,20 +50,18 @@
         "ALSUniversalAccount": [
           "ALSUniversalAccount/Assets/**/*.png"
         ]
-      },
-      "subspecs": [
-        {
-          "name": "BaiChuan",
-          "vendored_frameworks": "ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/**/*.framework",
-          "frameworks": "CoreMotion",
-          "ios": {
-            "libraries": [
-              "sqlite3.0",
-              "z.1.2.8"
-            ]
-          }
-        }
-      ]
+      }
+    },
+    {
+      "name": "BaiChuan",
+      "vendored_frameworks": "ALSUniversalAccount/Classes/Plug/BaiChuan/ThirdParty/**/*.framework",
+      "frameworks": "CoreMotion",
+      "ios": {
+        "libraries": [
+          "sqlite3.0",
+          "z.1.2.8"
+        ]
+      }
     }
   ]
 }
