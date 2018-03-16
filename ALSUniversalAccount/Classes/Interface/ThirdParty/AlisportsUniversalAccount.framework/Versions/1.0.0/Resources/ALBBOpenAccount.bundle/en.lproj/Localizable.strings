@@ -1,0 +1,26 @@
+/* 
+  ALBBOpenAccount.strings
+  ALBBOpenAccountUI
+
+  Created by yixiao on 16/8/26.
+  Copyright © 2016年 Alipay. All rights reserved.
+*/
+
+
+
+
+"系统繁忙，请稍后重试" = "System is busy, please try again later";
+"输入不能为空" = "Input can't be empty";
+"手机号格式不正确" = "Phone number format is not correct";
+"手机号不能为空" = "Phone number can't be empty";
+"登录安全验证失败，请稍后再试" = "Security verification failed, Please try again later";
+"热门国家和地区" = "Popular countries and regions";
+"重新获取" = "Resend";
+"%.0f秒后重发" = "Resend(%.0f)";
+"网络不稳定，请稍后重试" = "Network is not stable, please try again later";
+"无法删除本机设备" = "Can't remove local device";
+"会话已过期，请重新登录" = "Session has expired, please log in";
+"该账号已绑定淘宝账号" = "The Account has bind with taobao Account";
+"该账号已绑定微博账号" = "The Account has bind with Weibo Account";
+"该账号已绑定QQ账号" = "The Account has bind with QQ Account";
+"该账号已绑定微信账号" = "The Account has bind with WeChat Account";
