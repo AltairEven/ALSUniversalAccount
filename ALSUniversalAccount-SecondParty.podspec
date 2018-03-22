@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ALSUniversalAccount-SecondParty'
-  s.version          = '0.0.0.2-SND'
+  s.version          = '0.0.0.3-SND'
   s.summary          = 'A short description of ALSUniversalAccount.'
 
 # This description is used to generate tags and improve search results.
@@ -29,21 +29,29 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-    s.pod_target_xcconfig = {
+    
+  s.subspec 'Public' do |pub|
+    pub.vendored_frameworks = 'ALSUniversalAccount/Classes/Public/*.framework'
+
+    pub.pod_target_xcconfig = {
     'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/**',
     'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup',
     'ENABLE_BITCODE'         => 'NO',
     'MACH_O_TYPE'            => 'staticlib'
     }
-    
-  s.subspec 'Public' do |pub|
-    pub.source_files = 'ALSUniversalAccount/Classes/Public/*'
   end
   s.subspec 'Interface' do |int|
     int.dependency 'ALSUniversalAccount-SecondParty/Public'
     int.vendored_frameworks = 'ALSUniversalAccount/Classes/Interface/SecondParty/*.framework'
     int.resource_bundles = {
      	'ALSUniversalAccount' => ['ALSUniversalAccount/Assets/**/*.png']
+    }
+
+    int.pod_target_xcconfig = {
+    'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/**',
+    'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup',
+    'ENABLE_BITCODE'         => 'NO',
+    'MACH_O_TYPE'            => 'staticlib'
     }
 
     # #第三方

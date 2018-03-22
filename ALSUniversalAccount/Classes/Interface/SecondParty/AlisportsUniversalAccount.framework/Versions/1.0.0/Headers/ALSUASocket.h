@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ALSUAPlugProtocal.h"
 
 /**
  账户操作插座

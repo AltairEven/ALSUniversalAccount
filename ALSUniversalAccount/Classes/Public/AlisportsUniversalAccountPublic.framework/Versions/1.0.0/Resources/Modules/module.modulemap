@@ -1,0 +1,6 @@
+framework module AlisportsUniversalAccountPublic {
+  umbrella header "AlisportsUniversalAccountPublic.h"
+
+  export *
+  module * { export * }
+}
