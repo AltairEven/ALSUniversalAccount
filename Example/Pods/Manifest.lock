@@ -11,7 +11,6 @@ PODS:
     - APSecLocalStorage
     - APSecMobileRPC
     - SecurityGuardSDK (>= 4.0)
-  - AliSQLite (1.0.0.2)
   - AliUniversalAccount (3.0.5.7):
     - AliPayAuth
     - AliSecSecuritySDK
@@ -30,30 +29,29 @@ PODS:
     - UserTrack
     - WindVane
   - AliVfsBundle (1.3.0.4)
-  - AliVfsDB (1.6.5.2):
-    - AliSQLite
+  - AliVfsDB (1.6.4.1)
   - AliVfsMonitor (1.3.0.14):
     - AliVfsSDK
     - orange
     - TBAccsSDK
     - UserTrack
-  - AliVfsSDK (2.0.2.8):
-    - AliVfsSDK/AliVfsDBSDK (= 2.0.2.8)
-    - AliVfsSDK/AliVfsMemSDK (= 2.0.2.8)
-    - AliVfsSDK/AliVfsORM (= 2.0.2.8)
-    - AliVfsSDK/AliVfsSDK (= 2.0.2.8)
-  - AliVfsSDK/AliVfsDBSDK (2.0.2.8):
+  - AliVfsSDK (2.0.2.11):
+    - AliVfsSDK/AliVfsDBSDK (= 2.0.2.11)
+    - AliVfsSDK/AliVfsMemSDK (= 2.0.2.11)
+    - AliVfsSDK/AliVfsORM (= 2.0.2.11)
+    - AliVfsSDK/AliVfsSDK (= 2.0.2.11)
+  - AliVfsSDK/AliVfsDBSDK (2.0.2.11):
     - AliVfsDB
-  - AliVfsSDK/AliVfsMemSDK (2.0.2.8)
-  - AliVfsSDK/AliVfsORM (2.0.2.8):
+  - AliVfsSDK/AliVfsMemSDK (2.0.2.11)
+  - AliVfsSDK/AliVfsORM (2.0.2.11):
     - AliVfsSDK/AliVfsDBSDK
-  - AliVfsSDK/AliVfsSDK (2.0.2.8):
+  - AliVfsSDK/AliVfsSDK (2.0.2.11):
     - AliVfsSDK/AliVfsDBSDK
     - AliVfsSDK/AliVfsMemSDK
-  - ALSUniversalAccount-SecondParty (0.0.0.2-SND):
-    - ALSUniversalAccount-SecondParty/Interface (= 0.0.0.2-SND)
-    - ALSUniversalAccount-SecondParty/Public (= 0.0.0.2-SND)
-  - ALSUniversalAccount-SecondParty/Interface (0.0.0.2-SND):
+  - ALSUniversalAccount-SecondParty (0.0.0.5-SND):
+    - ALSUniversalAccount-SecondParty/Interface (= 0.0.0.5-SND)
+    - ALSUniversalAccount-SecondParty/Public (= 0.0.0.5-SND)
+  - ALSUniversalAccount-SecondParty/Interface (0.0.0.5-SND):
     - ALBBOpenAccountSDK (= 2.4.0.19)
     - ALBBOpenAccountSSO (= 2.4.0.19)
     - ALBBOpenAccountUI (= 2.4.0.19)
@@ -72,7 +70,7 @@ PODS:
     - TBSecuritySDK (= 6.3.12)
     - TTTAttributedLabel (~> 2.0.0)
     - UserTrack (= 6.3.0.1)
-  - ALSUniversalAccount-SecondParty/Public (0.0.0.2-SND)
+  - ALSUniversalAccount-SecondParty/Public (0.0.0.5-SND)
   - APSecCrypto (1.0.5.20160106)
   - APSecDeviceInfo (1.0.9.20170314)
   - APSecLocalStorage (1.1.4.20160106)
@@ -99,7 +97,7 @@ PODS:
     - tnet
   - NetworkSDK/NetworkPolicy (10.0.3):
     - NetworkSDK/NetworkCore
-  - orange (1.4.5.71):
+  - orange (1.4.5.72):
     - NetworkSDK (>= 6.2.1.20)
   - SecurityGuardSDK (6.3.38)
   - SFHFKeychainUtils (0.0.1)
@@ -146,42 +144,43 @@ PODS:
     - UTDID
     - WindVane
   - UTDID (1.1.1.3)
-  - WindVane (8.4.0.14):
-    - WindVane/API (= 8.4.0.14)
-    - WindVane/Basic (= 8.4.0.14)
-    - WindVane/Bridge (= 8.4.0.14)
-    - WindVane/Core (= 8.4.0.14)
-    - WindVane/Monitor (= 8.4.0.14)
-    - WindVane/PackageApp (= 8.4.0.14)
-    - WindVane/TBExtension (= 8.4.0.14)
-  - WindVane/API (8.4.0.14):
+  - WindVane (8.4.0.16):
+    - WindVane/API (= 8.4.0.16)
+    - WindVane/Basic (= 8.4.0.16)
+    - WindVane/Bridge (= 8.4.0.16)
+    - WindVane/Core (= 8.4.0.16)
+    - WindVane/Monitor (= 8.4.0.16)
+    - WindVane/PackageApp (= 8.4.0.16)
+    - WindVane/TBExtension (= 8.4.0.16)
+  - WindVane/API (8.4.0.16):
     - NetworkSDK/AliReachability (>= 5.0.6.4)
     - WindVane/Basic
     - WindVane/Core
-  - WindVane/Basic (8.4.0.14):
+  - WindVane/Basic (8.4.0.16):
     - WindVane/Bridge
     - WindVane/Core
-  - WindVane/Bridge (8.4.0.14):
+  - WindVane/Bridge (8.4.0.16):
     - WindVane/Core
-  - WindVane/Core (8.4.0.14):
+  - WindVane/Core (8.4.0.16):
     - NetworkSDK/AliReachability (>= 5.0.6.4)
     - WindVane/WindVane
-  - WindVane/Monitor (8.4.0.14):
+  - WindVane/Monitor (8.4.0.16):
     - WindVane/Core
-  - WindVane/PackageApp (8.4.0.14):
+  - WindVane/PackageApp (8.4.0.16):
     - WindVane/Basic
     - WindVane/Core
     - ZCache (>= 10.0.3.4)
-  - WindVane/TBExtension (8.4.0.14):
+  - WindVane/TBExtension (8.4.0.16):
     - WindVane/API
     - WindVane/Basic
     - WindVane/Core
-  - WindVane/WindVane (8.4.0.14)
+  - WindVane/WindVane (8.4.0.16)
   - ZCache (10.0.3.5):
     - ZipArchive
   - ZipArchive (1.3.1.5)
 
 DEPENDENCIES:
+  - AliVfsDB (= 1.6.4.1)
   - ALSUniversalAccount-SecondParty (from `../`)
 
 EXTERNAL SOURCES:
@@ -194,13 +193,12 @@ SPEC CHECKSUMS:
   ALBBOpenAccountUI: a6996dc67d3b70e202513a7ded650b2935c7dd44
   AliPayAuth: f48d3e4d8e4e9250b2469a10f60671b4b5bb5b3e
   AliSecSecuritySDK: dcaf61bca50be67566308d6751094572a30d3e2b
-  AliSQLite: 4935fc0a997bc382fb28be9927cf69610a21e81d
   AliUniversalAccount: 53eb4d9e859d549d5585fa9e58c0c416d41a0d60
   AliVfsBundle: a327a25b931a2dbf344061e9b5db942738bb5300
-  AliVfsDB: da31d46535333ce73918d02955bf64fac054663a
+  AliVfsDB: bafcc0869ff9bf755cfdda629d3c52332f95afa7
   AliVfsMonitor: 11d07f74f1bde0dc8ffc732b601dffdae0c4be8f
-  AliVfsSDK: 146ece0489e3b78e51b2bc2151ae8535edca003a
-  ALSUniversalAccount-SecondParty: 57aea0b1fd4a236b07acfe4affbdedb5d8b5ada7
+  AliVfsSDK: da655e4691ae193edfc5b6fe7a594640714559d0
+  ALSUniversalAccount-SecondParty: 709a87500b8ff4616fca89197abb1ce943c3a456
   APSecCrypto: b9b7f988903362d053cafd8d9062c3b61c34f6af
   APSecDeviceInfo: a69b57bfb8887253dd5f57b6f02302862c1f4013
   APSecLocalStorage: bda1beba44bca0ce9c50dc340630906538e9e16f
@@ -211,7 +209,7 @@ SPEC CHECKSUMS:
   mtopext: b2623d0975b775cb33f57bb592d22b12b33488b2
   MtopSDK: 9bdc81f84595248833e8273769692a5b34cf009c
   NetworkSDK: 63503af90e05763e23af0e4596c03f7f11e335c8
-  orange: 4b74dcee1944830b145f11bb3658fbb669caf2b3
+  orange: 9bd8129cc7bbafc3fd21467eed92d2ad0321a08f
   SecurityGuardSDK: 48d75a3f942920de7695c8a6a2a71d8a0d07d21d
   SFHFKeychainUtils: ce5d93bad22bd5b0d7df6e8e4d73736bec9d3e32
   SGIndieKit: 7d5d56f8f581f0689a6b8ddeaef4a3ff1d1a408f
@@ -227,10 +225,10 @@ SPEC CHECKSUMS:
   TTTAttributedLabel: 5d9e639864b09d8e4c85a3d2a819509d63346805
   UserTrack: 152c8e4181f525c0f828f2f9a2aa1448337942b0
   UTDID: 575f5d9f8c1bd3c98c8d5ce0ad9dec4ccdb6e30d
-  WindVane: 6532b2c7d509b4cef17081a0391bb0a53837ce63
+  WindVane: a366afa01c535df4825dc8ede323d63658a338c8
   ZCache: deab29103479cc869c07aa7624933b8b6c4a4d1d
   ZipArchive: 187d48798b3de24978242f07f4804661652414dc
 
-PODFILE CHECKSUM: d724085f14e9b73bb7464296d22af06a54f77508
+PODFILE CHECKSUM: 224209094ef1e194b78ea30fed9ea415f71dedc8
 
 COCOAPODS: 1.1.1

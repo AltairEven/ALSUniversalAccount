@@ -1,0 +1,6 @@
+framework module WindVaneTBExtension {
+  umbrella header "WindVaneTBExtension.h"
+
+  export *
+  module * { export * }
+}

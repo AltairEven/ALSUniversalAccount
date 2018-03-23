@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AlisportsUniversalAccountPublic/AlisportsUniversalAccountPublic.h>
 
 typedef enum {
     ALSUAEnvironmentDaily,

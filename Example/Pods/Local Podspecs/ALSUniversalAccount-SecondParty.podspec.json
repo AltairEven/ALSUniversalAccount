@@ -1,6 +1,6 @@
 {
   "name": "ALSUniversalAccount-SecondParty",
-  "version": "0.0.0.2-SND",
+  "version": "0.0.0.5-SND",
   "summary": "A short description of ALSUniversalAccount.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/AltairEven/ALSUniversalAccount",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/AltairEven/ALSUniversalAccount.git",
-    "tag": "0.0.0.2-SND"
+    "tag": "0.0.0.5-SND"
   },
   "platforms": {
     "ios": "8.0"
@@ -27,7 +27,7 @@
   "subspecs": [
     {
       "name": "Public",
-      "source_files": "ALSUniversalAccount/Classes/Public/*"
+      "vendored_frameworks": "ALSUniversalAccount/Classes/Public/*.framework"
     },
     {
       "name": "Interface",

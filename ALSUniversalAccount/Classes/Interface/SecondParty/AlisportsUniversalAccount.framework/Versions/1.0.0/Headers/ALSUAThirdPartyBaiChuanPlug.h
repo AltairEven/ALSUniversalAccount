@@ -7,6 +7,7 @@
 //
 
 #import "ALSUAOperationPlug.h"
+#import <AlisportsUniversalAccountPublic/AlisportsUniversalAccountPublic.h>
 
 @interface ALSUAThirdPartyBaiChuanPlug : ALSUAOperationPlug
 

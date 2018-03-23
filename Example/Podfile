@@ -9,7 +9,7 @@ target 'ALSUniversalAccount_Example' do
 
  pod 'ALSUniversalAccount-SecondParty', :path => '../'
 #  pod 'ALSUniversalAccount-ThirdParty', :path => '../'
-
+pod 'AliVfsDB', '1.6.4.1'
 
   target 'ALSUniversalAccount_Tests' do
     inherit! :search_paths

@@ -1,0 +1,6 @@
+framework module WindVaneAPI {
+  umbrella header "WindVaneAPI.h"
+
+  export *
+  module * { export * }
+}

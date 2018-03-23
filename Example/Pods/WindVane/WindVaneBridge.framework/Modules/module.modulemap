@@ -1,0 +1,6 @@
+framework module WindVaneBridge {
+  umbrella header "WindVaneBridge.h"
+
+  export *
+  module * { export * }
+}

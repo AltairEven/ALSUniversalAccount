@@ -1,0 +1,6 @@
+framework module AliVfsMonitor {
+  umbrella header "AliVfsMonitor.h"
+
+  export *
+  module * { export * }
+}

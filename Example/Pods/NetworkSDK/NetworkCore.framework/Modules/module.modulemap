@@ -1,0 +1,6 @@
+framework module NetworkCore {
+  umbrella header "NetworkCore.h"
+
+  export *
+  module * { export * }
+}
