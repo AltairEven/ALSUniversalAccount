@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ALSUniversalAccount-SecondParty'
-  s.version          = '0.0.0.7-SNAPSHOT'
+  s.version          = '0.0.0.8-SND'
   s.summary          = 'A short description of ALSUniversalAccount.'
 
 # This description is used to generate tags and improve search results.
