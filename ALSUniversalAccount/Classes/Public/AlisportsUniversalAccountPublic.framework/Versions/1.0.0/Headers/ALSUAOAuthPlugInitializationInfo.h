@@ -9,7 +9,8 @@
 #import <Foundation/Foundation.h>
 
 typedef enum {
-    ALSUAOAuthPlatformTypeTaobao = 1,
+    ALSUAOAuthPlatformTypeNone,
+    ALSUAOAuthPlatformTypeTaobao,
     ALSUAOAuthPlatformTypeWechat,
     ALSUAOAuthPlatformTypeSina,
     ALSUAOAuthPlatformTypeQQ

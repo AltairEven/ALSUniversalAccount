@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AlisportsUniversalAccountPublic/AlisportsUniversalAccountPublic.h>
+#import "ALSUAOAuthPlugInitializationInfo.h"
 
 
 /**
@@ -51,7 +51,6 @@ typedef enum {
     ALSUABaiChuanTypeSecondParty,
     ALSUABaiChuanTypeThirdParty
 }ALSUABaiChuanType;
-
 
 typedef enum {
     ALSUAOperationModeTransitionTypePresent,
