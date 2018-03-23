@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AlisportsUniversalAccountPublic/AlisportsUniversalAccountPublic.h>
 
 /**
  账户操作插座
