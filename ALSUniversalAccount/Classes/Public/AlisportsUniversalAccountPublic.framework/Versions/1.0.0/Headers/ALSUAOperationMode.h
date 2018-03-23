@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AlisportsUniversalAccountPublic/AlisportsUniversalAccountPublic.h>
 
 
 /**
@@ -31,17 +32,18 @@ typedef enum {
     ALSUniveraslAccountOperationTypeLogin                     = 1 << 0,           //账号密码登录
     ALSUniveraslAccountOperationTypeNoPWLogin                 = 1 << 1,           //短信验证码登录
     ALSUniveraslAccountOperationTypeRegisterNLogin            = 1 << 2,           //注册并登录
-    ALSUniveraslAccountOperationTypeAutoLogin                 = 1 << 3,           //自动登录
-    ALSUniveraslAccountOperationTypeRefreshSSOToken           = 1 << 4,           //刷新sso token
-    ALSUniveraslAccountOperationTypeBindMobilePhone           = 1 << 5,           //绑定手机号
-    ALSUniveraslAccountOperationTypeChangeBindMobilePhone     = 1 << 6,           //换绑手机号
-    ALSUniveraslAccountOperationTypeSetPassword               = 1 << 7,           //设置登录密码
-    ALSUniveraslAccountOperationTypeModifyPassword            = 1 << 8,           //修改登录密码
-    ALSUniveraslAccountOperationTypeResetPassword             = 1 << 9,           //重置登录密码
-    ALSUniveraslAccountOperationTypeCheckBindTaobao           = 1 << 10,          //查询是否已绑定淘宝账号
-    ALSUniveraslAccountOperationTypeBindTaobao                = 1 << 11,          //绑定淘宝账号
-    ALSUniveraslAccountOperationTypeTaobaoNoLogin             = 1 << 12,          //淘宝免登
-    ALSUniveraslAccountOperationTypeAll                       = (1 << 13) - 1     //全部
+    ALSUniveraslAccountOperationTypeSmoothSSO                 = 1 << 3,           //SSO登录
+    ALSUniveraslAccountOperationTypeAutoLogin                 = 1 << 4,           //自动登录
+    ALSUniveraslAccountOperationTypeRefreshSSOToken           = 1 << 5,           //刷新sso token
+    ALSUniveraslAccountOperationTypeBindMobilePhone           = 1 << 6,           //绑定手机号
+    ALSUniveraslAccountOperationTypeChangeBindMobilePhone     = 1 << 7,           //换绑手机号
+    ALSUniveraslAccountOperationTypeSetPassword               = 1 << 8,           //设置登录密码
+    ALSUniveraslAccountOperationTypeModifyPassword            = 1 << 9,           //修改登录密码
+    ALSUniveraslAccountOperationTypeResetPassword             = 1 << 10,           //重置登录密码
+    ALSUniveraslAccountOperationTypeCheckBindTaobao           = 1 << 11,          //查询是否已绑定淘宝账号
+    ALSUniveraslAccountOperationTypeBindTaobao                = 1 << 12,          //绑定淘宝账号
+    ALSUniveraslAccountOperationTypeTaobaoNoLogin             = 1 << 13,          //淘宝免登
+    ALSUniveraslAccountOperationTypeAll                       = (1 << 14) - 1     //全部
 }ALSUniveraslAccountOperationType;
 
 typedef enum {
@@ -49,6 +51,7 @@ typedef enum {
     ALSUABaiChuanTypeSecondParty,
     ALSUABaiChuanTypeThirdParty
 }ALSUABaiChuanType;
+
 
 typedef enum {
     ALSUAOperationModeTransitionTypePresent,
@@ -66,6 +69,8 @@ typedef enum {
 @property (nonatomic, assign) ALSUABaiChuanType baichuanType;   //百川SDK类型，非百川不用赋值
 
 @property (nonatomic, assign) ALSUAOperationModeTransitionType transitionType; //控制器转场类型，默认为ALSUAOperationModeTransitionTypePresent
+
+@property (nonatomic, assign) ALSUAOAuthPlatformType oauthPlatformType; //oauth平台类型，默认为ALSUAOAuthPlatformType_None，只在ALSUniveraslAccountOperationType为ALSUniveraslAccountOperationTypeSmoothSSO时有效
 
 /**
  便捷实例化方法
