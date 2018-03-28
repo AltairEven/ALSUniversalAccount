@@ -24,6 +24,7 @@ FOUNDATION_EXPORT const unsigned char AlisportsUniversalAccountVersionString[];
 #import "ALSUAPasswordSetter.h"
 #import "ALSUAInfoManager.h"
 #import "ALSUAOperationPlug.h"
+#import "ALSUAAESService.h"
 
 
 #import "ALSUABindMobilePhoneProtocol.h"
