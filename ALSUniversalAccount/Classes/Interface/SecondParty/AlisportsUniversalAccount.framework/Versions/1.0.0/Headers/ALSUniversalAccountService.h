@@ -22,6 +22,8 @@ typedef enum {
 
 @property (nonatomic, assign) ALSUAEnvironment environment; //当前运行环境，默认ALSUAEnvironmentRelease
 
+@property (nonatomic, copy) NSString *customHost;   //自定义host，默认passport.alisports.daily.taobao.net/passport，仅日常环境有效
+
 /**
  全局单例服务
 
