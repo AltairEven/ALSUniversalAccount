@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ALSUniversalAccount-SecondParty'
-  s.version          = '0.0.1.3-SND'
+  s.version          = '0.0.1.4-SND'
   s.summary          = 'A short description of ALSUniversalAccount.'
 
 # This description is used to generate tags and improve search results.
@@ -58,7 +58,7 @@ TODO: Add long description of the pod here.
     int.dependency 'ALBBOpenAccountSSO',    '2.4.0.19'
     int.dependency 'MtopSDK',              '1.8.0.2'
     int.dependency 'mtopext',              '1.7.0.7'
-    int.dependency 'UserTrack',            '6.3.3.12'
+    int.dependency 'UserTrack'#,            '6.3.3.12'
     int.dependency 'SecurityGuardSDK',     '6.3.38'
     int.dependency 'SGMain',               '6.3.38'
     int.dependency 'SGSecurityBody',       '6.3.26'
