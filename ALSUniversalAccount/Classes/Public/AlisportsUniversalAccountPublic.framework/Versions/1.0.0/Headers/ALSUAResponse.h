@@ -53,7 +53,13 @@ extern NSString *const kALSUABaichuanLoginFinishedNotification;
 
 - (instancetype)initWithOriginalMode:(ALSUAOperationMode *)originalMode plugMode:(ALSUALoginPlugMode *)plugMode;
 
-- (NSString *)businessToken;
+/**
+ 获取业务Token
+
+ @param businessCypher 业务加密规则，默认为阿里体育规则，如果为nil，则返回用户token
+ @return 业务Token
+ */
+- (NSString *)businessToken:(NSString *(^)(NSString *originalToken))businessCypher;
 
 @end
 
