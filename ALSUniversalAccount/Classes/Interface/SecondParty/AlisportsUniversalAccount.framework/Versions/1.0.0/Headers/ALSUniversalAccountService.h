@@ -99,5 +99,10 @@ typedef enum {
  */
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options;
 
+/**
+ 是否开启日志
+ */
+- (void)openDebugLog:(BOOL)open;
+
 
 @end
